@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gridlivestockoneRowModel" type="com.mob.app.modules.engeslestirmehayvanlar.data.model.GridlivestockoneRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStacklivestockone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylelight_blue_100">
+        <ImageView android:id="@+id/imageLivestockOne"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_80pxh"
+            android:layout_marginHorizontal="@dimen/_10pxh"
+            android:layout_marginVertical="@dimen/_10pxv"
+            android:layout_width="@dimen/_80pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_livestock1}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_livestock1"/>
+    </FrameLayout>
+</layout>

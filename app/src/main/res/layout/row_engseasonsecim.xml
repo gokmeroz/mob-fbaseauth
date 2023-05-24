@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="engseasonsecimRowModel" type="com.mob.app.modules.engseasonsecim.data.model.EngseasonsecimRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStack48865861"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylebluegray_101">
+        <ImageView android:id="@+id/image48865861"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_150pxh"
+            android:layout_width="@dimen/_150pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_48865861}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_48865861"/>
+    </FrameLayout>
+</layout>

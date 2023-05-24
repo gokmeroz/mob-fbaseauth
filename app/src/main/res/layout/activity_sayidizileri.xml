@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="sayidizileriVM" type="com.mob.app.modules.sayidizileri.data.viewmodel.SayidizileriVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameSayiDizileri"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumnsayanimasyonu"
+            android:layout_gravity="bottom|center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_35pxv"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_marginTop="@dimen/_35pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <View android:background="@color/blue_100"
+                android:id="@+id/viewSayAnimasyonu"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_320pxh"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh" android:layout_width="@dimen/_320pxh"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRoweasterbunnyone"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_51pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackeasterbunnyone"
+                    android:layout_height="@dimen/_81pxv"
+                    android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
+                    <ImageView android:id="@+id/imageEasterbunnyOne"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_81pxh"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="@dimen/_79pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_easterbunny1}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                        android:id="@+id/viewEllipse781"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_marginBottom="@dimen/_35pxv"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                </FrameLayout>
+                <View
+                    android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                    android:id="@+id/viewEllipse780"
+                    android:layout_height="@dimen/_14pxh"
+                    android:layout_marginBottom="@dimen/_41pxv"
+                    android:layout_marginStart="@dimen/_3pxh"
+                    android:layout_marginTop="@dimen/_37pxv" android:layout_width="@dimen/_14pxh"/>
+                <FrameLayout android:id="@+id/frameStackellipse779"
+                    android:layout_height="@dimen/_68pxv"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_208pxh">
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_104"
+                        android:id="@+id/viewEllipse779"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
+                    <TextView android:gravity="top|start"
+                        android:id="@+id/txtYukardagrd"
+                        android:layout_gravity="bottom|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_9pxv"
+                        android:layout_marginEnd="@dimen/_18pxh"
+                        android:layout_marginStart="@dimen/_18pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:text="@{sayidizileriVM.sayidizileriModel.txtYukardagrd}"
+                        style="@style/txtABeeZeeitalic20" tools:text="@string/msg_yukar_da_g_rd"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:hint="@string/lbl_buraya_yaz_n"
+                android:id="@+id/textInputLayMetinyazlacak"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginStart="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_79pxv"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:ellipsize="end"
+                    android:id="@+id/etMetinyazlacak"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@={sayidizileriVM.sayidizileriModel.etMetinyazlacakValue}"
+                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearRowdevam"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_61pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylelight_blue_100cornerRadius">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtDevam"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_11pxv"
+                    android:layout_marginStart="@dimen/_131pxh"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_weight="0.89"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_31pxh"
+                    android:singleLine="true"
+                    android:text="@{sayidizileriVM.sayidizileriModel.txtDevam}"
+                    style="@style/txtAksaraBaliGalangregular18" tools:text="@string/lbl_devam"/>
+                <ImageView android:id="@+id/imageArrowright"
+                    android:layout_height="@dimen/_15pxh"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginEnd="@dimen/_138pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="@dimen/_7pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrowright"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

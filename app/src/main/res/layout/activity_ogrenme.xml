@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="ogrenmeVM" type="com.mob.app.modules.ogrenme.data.viewmodel.OgrenmeVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameOgrenme"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumneasterbunnyone"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_40pxv"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_40pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRoweasterbunnyone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout
+                        android:id="@+id/frameStackeasterbunnyone"
+                        android:layout_height="@dimen/_81pxv"
+                        android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
+                        <ImageView android:id="@+id/imageEasterbunnyOne"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_81pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="@dimen/_79pxh"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_easterbunny1}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                            android:id="@+id/viewK"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_marginBottom="@dimen/_35pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                    </FrameLayout>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                        android:id="@+id/viewL"
+                        android:layout_height="@dimen/_14pxh"
+                        android:layout_marginBottom="@dimen/_41pxv"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_37pxv" android:layout_width="@dimen/_14pxh"/>
+                    <FrameLayout android:id="@+id/frameStackm"
+                        android:layout_height="@dimen/_68pxv"
+                        android:layout_marginBottom="@dimen/_24pxv"
+                        android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_208pxh">
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104"
+                            android:id="@+id/viewM"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtHadirenelim"
+                            android:layout_gravity="top|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_20pxv"
+                            android:layout_marginEnd="@dimen/_36pxh"
+                            android:layout_marginStart="@dimen/_36pxh"
+                            android:layout_marginTop="@dimen/_20pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="true"
+                            android:text="@{ogrenmeVM.ogrenmeModel.txtHadirenelim}"
+                            style="@style/txtABeeZeeitalic20" tools:text="@string/lbl_hadi_renelim"
+                            tools:textSize="@dimen/_17pxh" />
+
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:id="@+id/linearRowellipse777"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7pxh"
+                android:layout_marginTop="@dimen/_5pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackellipse777"
+                    android:layout_height="@dimen/_77pxv" android:layout_width="@dimen/_168pxh">
+
+                    <ImageView
+                        android:id="@+id/imageEllipse777"
+                        android:layout_width="@dimen/_168pxh"
+                        android:layout_height="@dimen/_77pxh"
+                        android:layout_gravity="start"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_ellipse777"
+                        tools:ignore="ContentDescription"
+                        tools:src="@drawable/img_ellipse777" />
+
+                    <TextView
+                        android:id="@+id/txtRENELM"
+                        style="@style/txtABeeZeeitalic30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_9pxh"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:ellipsize="end"
+                        android:gravity="top|start"
+                        android:lineSpacingExtra="@dimen/_6pxh"
+                        android:singleLine="true"
+                        android:text="@{ogrenmeVM.ogrenmeModel.txtRENELM}"
+                        tools:text="@string/lbl_renel_m"
+                        tools:textSize="@dimen/_20pxh" />
+                </FrameLayout>
+                <FrameLayout android:id="@+id/frameStackellipse778"
+                    android:layout_height="@dimen/_77pxv" android:layout_width="@dimen/_174pxh">
+                    <ImageView android:id="@+id/imageEllipse778"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_77pxh"
+                        android:layout_width="@dimen/_174pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_ellipse778"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_ellipse778"/>
+
+                    <TextView
+                        android:id="@+id/txtOYNAYALIM"
+                        style="@style/txtABeeZeeitalic30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_marginTop="@dimen/_14pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginBottom="@dimen/_14pxv"
+                        android:ellipsize="end"
+                        android:gravity="top|start"
+                        android:lineSpacingExtra="@dimen/_6pxh"
+                        android:singleLine="true"
+                        android:text="@{ogrenmeVM.ogrenmeModel.txtOYNAYALIM}"
+                        tools:text="@string/lbl_oynayalim"
+                        tools:textSize="@dimen/_20pxh" />
+
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnrectangle2031"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_7pxh"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylelight_blue_100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/a7"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_90pxv"
+                        android:layout_gravity="start">
+
+                                <ImageView
+                                    android:id="@+id/imageRectangle20371"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/img_clockl_amber_a100"
+                                    tools:ignore="ContentDescription"
+                                    tools:src="@drawable/img_clockl_amber_a100" />
+
+                                <ImageView
+                                    android:id="@+id/imageWallclockOne1"
+                                    imageRes="@{@drawable/img_wallclock1}"
+                                    android:layout_width="@dimen/_60pxh"
+                                    android:layout_height="@dimen/_60pxh"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="@dimen/_36pxh"
+                                    android:layout_marginTop="@dimen/_3pxv"
+                                    android:layout_marginEnd="@dimen/_40pxh"
+                                    android:layout_marginBottom="@dimen/_4pxv"
+                                    android:scaleType="fitXY"
+                                    tools:ignore="ContentDescription"
+                                    tools:src="@drawable/img_wallclock1" />
+
+                    </FrameLayout>
+                    <FrameLayout
+                        android:id="@+id/a8"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_90pxv"
+                        android:layout_marginStart="@dimen/_13pxh">
+
+                        <ImageView
+                            android:id="@+id/a9"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_gravity="start"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_clockl_amber_a100" />
+
+                        <ImageView
+                            android:id="@+id/a10"
+                            imageRes="@{@drawable/img_calendar1}"
+                            android:layout_width="@dimen/_60pxh"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_39pxh"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_calendar1" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/a2032"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/a12"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_80pxv">
+
+                        <ImageView
+                            android:id="@+id/a18"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_90pxh"
+                            android:layout_gravity="start"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_clockl_amber_a100" />
+
+                        <ImageView
+                            android:id="@+id/a19"
+                            imageRes="@{@drawable/img_7days1}"
+                            android:layout_width="@dimen/_60pxh"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_36pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_7days1" />
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/a20"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_80pxv"
+                        android:layout_marginStart="@dimen/_13pxh">
+
+                        <ImageView
+                            android:id="@+id/a21"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_gravity="start"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_clockl_amber_a100" />
+
+                        <ImageView
+                            android:id="@+id/a22"
+                            imageRes="@{@drawable/img_season1}"
+                            android:layout_width="@dimen/_60pxh"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_39pxh"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_season1" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/a2033"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/a23"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_80pxv">
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2033"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_80pxv"
+                            android:layout_gravity="start">
+
+                            <ImageView
+                                android:id="@+id/imageRectangle2033"
+                                android:layout_width="@dimen/_150pxh"
+                                android:layout_height="@dimen/_80pxh"
+                                android:layout_gravity="start"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_rectangle2031"
+                                tools:ignore="ContentDescription"
+                                tools:src="@drawable/img_rectangle2031" />
+
+                            <FrameLayout
+                                android:id="@+id/frameStackrectangle2034"
+                                android:layout_width="@dimen/_150pxh"
+                                android:layout_height="@dimen/_80pxv"
+                                android:layout_gravity="start">
+
+                                <ImageView
+                                    android:id="@+id/imageRectangle2034"
+                                    android:layout_width="@dimen/_150pxh"
+                                    android:layout_height="@dimen/_80pxh"
+                                    android:layout_gravity="start"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/img_rectangle2031"
+                                    tools:ignore="ContentDescription"
+                                    tools:src="@drawable/img_rectangle2031" />
+
+                                <FrameLayout
+                                    android:id="@+id/frameStackrectangle2035"
+                                    android:layout_width="@dimen/_150pxh"
+                                    android:layout_height="@dimen/_80pxv"
+                                    android:layout_gravity="start">
+
+                                    <FrameLayout
+                                        android:id="@+id/frameStackrectangle20361"
+                                        android:layout_width="@dimen/_150pxh"
+                                        android:layout_height="@dimen/_80pxv"
+                                        android:layout_gravity="start">
+
+                                        <FrameLayout
+                                            android:id="@+id/frameStackrectangle2037"
+                                            android:layout_width="@dimen/_150pxh"
+                                            android:layout_height="@dimen/_80pxv"
+                                            android:layout_gravity="start">
+
+                                            <ImageView
+                                                android:id="@+id/imageRectangle2037"
+                                                android:layout_width="@dimen/_150pxh"
+                                                android:layout_height="@dimen/_80pxh"
+                                                android:layout_gravity="start"
+                                                android:scaleType="fitXY"
+                                                android:src="@drawable/img_clockl_amber_a100"
+                                                tools:ignore="ContentDescription"
+                                                tools:src="@drawable/img_clockl_amber_a100" />
+
+                                            <ImageView
+                                                android:id="@+id/imageWallclockOne"
+                                                imageRes="@{@drawable/img_directions1}"
+                                                android:layout_width="@dimen/_60pxh"
+                                                android:layout_height="@dimen/_60pxh"
+                                                android:layout_gravity="center"
+                                                android:layout_marginStart="@dimen/_36pxh"
+                                                android:layout_marginTop="@dimen/_3pxv"
+                                                android:layout_marginEnd="@dimen/_40pxh"
+                                                android:layout_marginBottom="@dimen/_4pxv"
+                                                android:scaleType="fitXY"
+                                                tools:ignore="ContentDescription"
+                                                tools:src="@drawable/img_directions1" />
+                                        </FrameLayout>
+                                    </FrameLayout>
+                                </FrameLayout>
+                            </FrameLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/a24"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_80pxv"
+                        android:layout_marginStart="@dimen/_13pxh">
+
+                        <ImageView
+                            android:id="@+id/a25"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_gravity="start"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_clockl_amber_a100" />
+
+                        <ImageView
+                            android:id="@+id/a26"
+                            imageRes="@{@drawable/img_medicineball1}"
+                            android:layout_width="@dimen/_60pxh"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_39pxh"
+                            android:layout_marginTop="@dimen/_5pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_medicineball1" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/recyclerOgrenme"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:orientation="horizontal">
+
+                    <FrameLayout
+                        android:id="@+id/frameStackrectangle2031"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_80pxv">
+
+                        <FrameLayout
+                            android:id="@+id/a29"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_80pxv"
+                            android:layout_gravity="start">
+
+                            <FrameLayout
+                                android:id="@+id/a30"
+                                android:layout_width="@dimen/_150pxh"
+                                android:layout_height="@dimen/_80pxv"
+                                android:layout_gravity="start">
+
+                                <FrameLayout
+                                    android:id="@+id/a31"
+                                    android:layout_width="@dimen/_150pxh"
+                                    android:layout_height="@dimen/_80pxv"
+                                    android:layout_gravity="start">
+
+                                    <FrameLayout
+                                        android:id="@+id/a32"
+                                        android:layout_width="@dimen/_150pxh"
+                                        android:layout_height="@dimen/_80pxv"
+                                        android:layout_gravity="start">
+
+                                        <FrameLayout
+                                            android:id="@+id/a33"
+                                            android:layout_width="@dimen/_150pxh"
+                                            android:layout_height="@dimen/_80pxv"
+                                            android:layout_gravity="start">
+
+                                            <ImageView
+                                                android:id="@+id/a35"
+                                                android:layout_width="@dimen/_150pxh"
+                                                android:layout_height="@dimen/_80pxh"
+                                                android:layout_gravity="start"
+                                                android:scaleType="fitXY"
+                                                android:src="@drawable/img_clockl_amber_a100"
+                                                tools:ignore="ContentDescription"
+                                                tools:src="@drawable/img_clockl_amber_a100" />
+
+                                            <ImageView
+                                                android:id="@+id/a355"
+                                                imageRes="@{@drawable/img_steps2}"
+                                                android:layout_width="@dimen/_60pxh"
+                                                android:layout_height="@dimen/_40pxh"
+                                                android:layout_gravity="top|center"
+                                                android:layout_marginStart="@dimen/_36pxh"
+                                                android:layout_marginTop="@dimen/_3pxv"
+                                                android:layout_marginEnd="@dimen/_40pxh"
+                                                android:layout_marginBottom="@dimen/_4pxv"
+                                                android:scaleType="fitXY"
+                                                tools:ignore="ContentDescription"
+                                                tools:src="@drawable/img_steps2" />
+
+                                            <ImageView
+                                                android:id="@+id/a3555"
+                                                imageRes="@{@drawable/img_arrow8}"
+                                                android:layout_width="@dimen/_73pxh"
+                                                android:layout_height="@dimen/_20pxh"
+                                                android:layout_gravity="bottom"
+                                                android:layout_marginStart="@dimen/_36pxh"
+                                                android:layout_marginTop="@dimen/_3pxv"
+                                                android:layout_marginEnd="@dimen/_40pxh"
+                                                android:layout_marginBottom="@dimen/_4pxv"
+                                                android:scaleType="fitXY"
+                                                tools:ignore="ContentDescription"
+                                                tools:src="@drawable/img_arrow8" />
+                                        </FrameLayout>
+                                    </FrameLayout>
+                                </FrameLayout>
+                            </FrameLayout>
+                        </FrameLayout>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:id="@+id/frameStackrectangle2032"
+                        android:layout_width="@dimen/_150pxh"
+                        android:layout_height="@dimen/_80pxv"
+                        android:layout_marginStart="@dimen/_13pxh">
+
+                        <ImageView
+                            android:id="@+id/imageRectangle2032"
+                            android:layout_width="@dimen/_150pxh"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_gravity="start"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_clockl_amber_a100" />
+
+                        <ImageView
+                            android:id="@+id/a34"
+                            imageRes="@{@drawable/img_steps2}"
+                            android:layout_width="@dimen/_60pxh"
+                            android:layout_height="@dimen/_40pxh"
+                            android:layout_gravity="top|center"
+                            android:layout_marginStart="@dimen/_36pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_steps2" />
+
+                        <ImageView
+                            android:id="@+id/a344"
+                            imageRes="@{@drawable/img_arrow6}"
+                            android:layout_width="@dimen/_73pxh"
+                            android:layout_height="@dimen/_20pxh"
+                            android:layout_gravity="bottom"
+                            android:layout_marginStart="@dimen/_36pxh"
+                            android:layout_marginTop="@dimen/_3pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_4pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_arrow6" />
+                    </FrameLayout>
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/linearRowrectangle2048"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_45pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_22pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout
+                        android:id="@+id/frameStackrectangle2048"
+                        android:layout_height="@dimen/_80pxv" android:layout_width="@dimen/_150pxh">
+                        <ImageView android:id="@+id/imageRectangle2048"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_width="@dimen/_150pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+
+                        <ImageView
+                            android:id="@+id/imageMultiplyOne"
+                            imageRes="@{@drawable/img_multiply1}"
+                            android:layout_width="@dimen/_60pxh"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_40pxh"
+                            android:layout_marginTop="@dimen/_6pxv"
+                            android:layout_marginEnd="@dimen/_40pxh"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:scaleType="fitXY"
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_multiply1" />
+                    </FrameLayout>
+                    <FrameLayout
+                        android:id="@+id/frameStackrectangle2047"
+                        android:layout_height="@dimen/_80pxv"
+                        android:layout_marginStart="@dimen/_13pxh" android:layout_width="@dimen/_150pxh">
+                        <ImageView android:id="@+id/imageRectangle2047"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_80pxh"
+                            android:layout_width="@dimen/_150pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl_amber_a100"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                        <LinearLayout android:id="@+id/linearRowten"
+                            android:layout_gravity="top|end"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_10pxv"
+                            android:layout_marginEnd="@dimen/_7pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_7pxv"
+                            android:layout_width="match_parent" android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/txtTen"
+                                style="@style/txt_1"
+                                android:layout_width="84dp"
+                                android:layout_height="@dimen/_60pxh"
+                                android:layout_marginStart="@dimen/_3pxh"
+                                android:layout_weight="0.46"
+                                android:ellipsize="end"
+                                android:lineSpacingExtra="@dimen/_1pxh"
+                                android:singleLine="true"
+                                android:text="@{ogrenmeVM.ogrenmeModel.txtTen}"
+                                tools:text="@string/lbl_10" />
+
+                            <ImageView android:id="@+id/imageMoneyOne"
+                                android:layout_height="@dimen/_60pxh"
+                                android:layout_marginStart="@dimen/_3pxh"
+                                android:layout_width="@dimen/_65pxh"
+                                android:scaleType="fitXY"
+                                imageRes="@{@drawable/img_money2}"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_money2"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

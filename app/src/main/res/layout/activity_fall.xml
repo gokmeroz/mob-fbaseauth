@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="fallVM" type="com.mob.app.modules.fall.data.viewmodel.FallVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameFall"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumnmapleleafone"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_40pxv"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_25pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:id="@+id/linearRowmapleleafone"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageMapleleafOne"
+                    android:layout_height="@dimen/_151pxh"
+                    android:layout_marginBottom="@dimen/_4pxv"
+                    android:layout_width="@dimen/_158pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_mapleleaf1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_mapleleaf1"/>
+                <ImageView android:id="@+id/imagePumpkinOne"
+                    android:layout_height="@dimen/_132pxh"
+                    android:layout_marginStart="@dimen/_50pxh"
+                    android:layout_marginTop="@dimen/_23pxv"
+                    android:layout_width="@dimen/_143pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_pumpkin1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_pumpkin1"/>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/frameStackellipse779"
+                android:layout_height="@dimen/_248pxv"
+                android:layout_marginTop="@dimen/_4pxv" android:layout_width="@dimen/_379pxh">
+                <View
+                    android:background="@drawable/rectangle_bg_blue_100_radius_189_5"
+                    android:id="@+id/viewEllipse779"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_248pxv" android:layout_width="@dimen/_379pxh"/>
+                <TextView android:gravity="top|center"
+                    android:id="@+id/txtDescription"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_40pxh"
+                    android:layout_marginStart="@dimen/_40pxh"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@{fallVM.fallModel.txtDescription}"
+                    style="@style/txtABeeZeeitalic20" tools:text="@string/msg_hello_welcome3"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearRowellipse780"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearColumnellipse780"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_8pxv"
+                    android:layout_weight="0.52"
+                    android:layout_width="0dp" android:orientation="vertical">
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_30"
+                        android:id="@+id/viewEllipse780"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_59pxh"
+                        android:layout_marginEnd="@dimen/_9pxh"
+                        android:layout_marginStart="@dimen/_118pxh" android:layout_width="@dimen/_60pxh"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_19"
+                        android:id="@+id/viewEllipse781"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_38pxh"
+                        android:layout_marginEnd="@dimen/_43pxh"
+                        android:layout_marginStart="@dimen/_43pxh"
+                        android:layout_marginTop="@dimen/_17pxv" android:layout_width="@dimen/_38pxh"/>
+                    <ImageView android:gravity="start"
+                        android:id="@+id/imageEasterbunnyOne"
+                        android:layout_height="@dimen/_224pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_easterbunny1}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linearColumnhotchocolateone"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8pxv"
+                    android:layout_weight="0.48"
+                    android:layout_width="0dp" android:orientation="vertical">
+                    <ImageView android:gravity="end"
+                        android:id="@+id/imageHotchocolateOne"
+                        android:layout_height="@dimen/_135pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_hotchocolate1}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_hotchocolate1"/>
+                    <ImageView android:gravity="center_horizontal"
+                        android:id="@+id/imageUmbrellaTwo"
+                        android:layout_height="@dimen/_170pxh"
+                        android:layout_marginEnd="@dimen/_6pxh"
+                        android:layout_marginTop="@dimen/_33pxv"
+                        android:layout_width="match_parent"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_umbrella2}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_umbrella2"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

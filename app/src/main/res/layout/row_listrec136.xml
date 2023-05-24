@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrec136RowModel" type="com.mob.app.modules.enggunleregzersiz.data.model.Listrec136RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrec136"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/frameStackrec136"
+            android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_150pxh">
+            <ImageView android:id="@+id/imageRec138"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_width="@dimen/_150pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clockl_amber_a100"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtWeekday"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_11pxv"
+                android:layout_marginEnd="@dimen/_38pxh"
+                android:layout_marginStart="@dimen/_38pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{listrec136RowModel.txtWeekday}"
+                style="@style/txtBubblegumSansregular20" tools:text="@string/lbl_sunday"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameWeapon"
+            android:layout_height="@dimen/_50pxv"
+            android:layout_marginStart="@dimen/_22pxh"
+            android:layout_width="@dimen/_150pxh" style="@style/groupStylecornerRadius_3">
+            <ImageView android:id="@+id/imageRec137"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_width="@dimen/_150pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clockl_amber_a100"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+            <FrameLayout android:id="@+id/frameStackrec134"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_150pxh">
+                <ImageView android:id="@+id/imageRec134"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_50pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_clockl_amber_a100"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtDayCounter"
+                    android:layout_gravity="bottom|center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_11pxv"
+                    android:layout_marginEnd="@dimen/_51pxh"
+                    android:layout_marginStart="@dimen/_51pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:singleLine="true"
+                    android:text="@{listrec136RowModel.txtDayCounter}"
+                    style="@style/txtBubblegumSansregular20_1" tools:text="@string/lbl_day_1"/>
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="eslestirmemeyvetwoVM" type="com.mob.app.modules.eslestirmemeyvetwo.data.viewmodel.EslestirmemeyvetwoVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackellipse780"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumneasterbunnyone"
+            android:layout_gravity="top|center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_57pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_57pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRoweasterbunnyone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout
+                        android:id="@+id/frameStackeasterbunnyone"
+                        android:layout_height="@dimen/_81pxv"
+                        android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
+                        <ImageView android:id="@+id/imageEasterbunnyOne"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_81pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="@dimen/_79pxh"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_easterbunny1}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                            android:id="@+id/viewEllipse781"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_marginBottom="@dimen/_35pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                    </FrameLayout>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                        android:id="@+id/viewEllipse780"
+                        android:layout_height="@dimen/_14pxh"
+                        android:layout_marginBottom="@dimen/_41pxv"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_37pxv" android:layout_width="@dimen/_14pxh"/>
+                    <FrameLayout android:id="@+id/frameStackellipse779"
+                        android:layout_height="@dimen/_68pxv"
+                        android:layout_marginBottom="@dimen/_24pxv"
+                        android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_208pxh">
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104"
+                            android:id="@+id/viewEllipse779"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtHadieletirel"
+                            android:layout_gravity="bottom|start"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_17pxv"
+                            android:layout_marginEnd="@dimen/_26pxh"
+                            android:layout_marginStart="@dimen/_26pxh"
+                            android:layout_marginTop="@dimen/_17pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="true"
+                            android:text="@{eslestirmemeyvetwoVM.eslestirmemeyvetwoModel.txtHadieletirel}"
+                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_hadi_e_le_tirel"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:id="@+id/linearRowzm"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_112pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnzm"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_22pxh"
+                    android:paddingStart="@dimen/_23pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_z_m"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_z_m"/>
+                <FrameLayout android:id="@+id/frameStacklemon"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageLemon"
+                        android:layout_gravity="top|center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_3pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_lemon}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_lemon"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnilek"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_20pxh"
+                    android:paddingStart="@dimen/_22pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_lek"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_lek"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowbanana"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackbanana"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageBanana"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginHorizontal="@dimen/_10pxh"
+                        android:layout_marginVertical="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_banana}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_banana"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btneftali"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_11pxh"
+                    android:paddingStart="@dimen/_12pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_eftal"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_eftal"/>
+                <FrameLayout android:id="@+id/frameStackpineapple"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imagePineapple"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_9pxh"
+                        android:layout_marginStart="@dimen/_11pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_pineapple}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_pineapple"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowlimon"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnLimon"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_18pxh"
+                    android:paddingStart="@dimen/_19pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_l_mon"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_l_mon"/>
+                <FrameLayout android:id="@+id/frameStackpeach"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imagePeach"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_peach}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_peach"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnMuz"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_28pxh"
+                    android:paddingStart="@dimen/_30pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_muz"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_muz"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowstrawberry"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackstrawberry"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageStrawberry"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_strawberry}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_strawberry"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnAnanas"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_10pxh"
+                    android:paddingStart="@dimen/_11pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_ananas"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_ananas"/>
+                <FrameLayout android:id="@+id/frameStackgrapes"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageGrapes"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_grapes}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_grapes"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

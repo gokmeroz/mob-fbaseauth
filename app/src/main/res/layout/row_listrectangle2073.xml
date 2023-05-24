@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectangle2073RowModel" type="com.mob.app.modules.engcarpmaone.data.model.Listrectangle2073RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrectangle2073"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/frameStackrectangle2073"
+            android:layout_height="@dimen/_47pxv"
+            android:layout_width="@dimen/_192pxh" style="@style/groupStylecornerRadius_5">
+            <ImageView android:id="@+id/imageRectangle2073"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_38pxh"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_192pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clockl_amber_a100"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+            <TextView android:ellipsize="end"
+                android:gravity="top|start" android:id="@+id/txt1X0"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_43pxh"
+                android:layout_marginStart="@dimen/_43pxh"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:singleLine="true"
+                android:text="@{listrectangle2073RowModel.txt1X0}"
+                style="@style/txtBubblegumSansregular40" tools:text="@string/lbl_1_x_0"/>
+        </FrameLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="@string/msg2"
+            android:id="@+id/textInputLayRectangle2075"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_3pxv"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_weight="0.41" android:layout_width="0dp"
+            android:textColorHint="@color/black_900" style="@style/txtRounded">
+            <com.google.android.material.textfield.TextInputEditText
+                android:ellipsize="end"
+                android:id="@+id/textInputLayRectangle2074"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:singleLine="true"
+                android:text="@={listrectangle2073RowModel.textInputLayRectangle2074Value}"
+                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</layout>

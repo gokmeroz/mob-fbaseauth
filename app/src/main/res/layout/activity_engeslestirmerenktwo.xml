@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="engeslestirmerenktwoVM" type="com.mob.app.modules.engeslestirmerenktwo.data.viewmodel.EngeslestirmerenktwoVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackellipse780"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumneasterbunnyone"
+            android:layout_gravity="top|center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_57pxv"
+            android:layout_marginEnd="@dimen/_20pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_57pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRoweasterbunnyone"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout
+                        android:id="@+id/frameStackeasterbunnyone"
+                        android:layout_height="@dimen/_81pxv"
+                        android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
+                        <ImageView android:id="@+id/imageEasterbunnyOne"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_81pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="@dimen/_79pxh"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_easterbunny1}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                            android:id="@+id/viewEllipse781"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_marginBottom="@dimen/_35pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                    </FrameLayout>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                        android:id="@+id/viewEllipse780"
+                        android:layout_height="@dimen/_14pxh"
+                        android:layout_marginBottom="@dimen/_41pxv"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_37pxv" android:layout_width="@dimen/_14pxh"/>
+                    <FrameLayout android:id="@+id/frameStackellipse779"
+                        android:layout_height="@dimen/_68pxv"
+                        android:layout_marginBottom="@dimen/_24pxv"
+                        android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_208pxh">
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104"
+                            android:id="@+id/viewEllipse779"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtLetsmatchthe"
+                            android:layout_gravity="bottom|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_20pxv"
+                            android:layout_marginEnd="@dimen/_13pxh"
+                            android:layout_marginStart="@dimen/_13pxh"
+                            android:layout_marginTop="@dimen/_20pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="true"
+                            android:text="@{engeslestirmerenktwoVM.engeslestirmerenktwoModel.txtLetsmatchthe}"
+                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_let_s_match_the"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:id="@+id/linearRoworange"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_112pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackorange"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageOrange"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_orange}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_orange"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnRed"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingHorizontal="@dimen/_30pxh"
+                    android:paddingVertical="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_red"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_red"/>
+                <FrameLayout android:id="@+id/frameStacksubmarine"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageSubmarine"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_submarine}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_submarine"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowgreen"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnGreen"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_18pxh"
+                    android:paddingStart="@dimen/_18pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_green"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_green"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnBlue"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_24pxh"
+                    android:paddingStart="@dimen/_26pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_blue"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_blue"/>
+                <FrameLayout android:id="@+id/frameStackpink"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imagePink"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginHorizontal="@dimen/_10pxh"
+                        android:layout_marginVertical="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_pink}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_pink"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRownewdocument"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStacknewdocument"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageNewdocument"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginEnd="@dimen/_11pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_newdocument}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_newdocument"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnOrangeOne"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_9pxh"
+                    android:paddingStart="@dimen/_10pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_orange"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_orange"/>
+                <FrameLayout android:id="@+id/frameStackcircle"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageCircle"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginHorizontal="@dimen/_10pxh"
+                        android:layout_marginVertical="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_circle}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_circle"/>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowpinkOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_11pxh"
+                android:layout_marginTop="@dimen/_11pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnPinkOne"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_26pxh"
+                    android:paddingStart="@dimen/_28pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_pink"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_pink"/>
+                <FrameLayout android:id="@+id/frameStackleaf"
+                    android:layout_height="@dimen/_100pxv"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
+                    <ImageView android:id="@+id/imageLeaf"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_80pxh"
+                        android:layout_marginHorizontal="@dimen/_10pxh"
+                        android:layout_marginVertical="@dimen/_10pxv"
+                        android:layout_width="@dimen/_80pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_leaf}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_leaf"/>
+                </FrameLayout>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:ellipsize="end" android:gravity="center"
+                    android:id="@+id/btnWhite"
+                    android:layout_height="@dimen/_100pxh"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="@dimen/_100pxh"
+                    android:letterSpacing="0.05"
+                    android:lineSpacingExtra="@dimen/_4pxh"
+                    android:paddingBottom="@dimen/_30pxv"
+                    android:paddingEnd="@dimen/_19pxh"
+                    android:paddingStart="@dimen/_20pxh"
+                    android:paddingTop="@dimen/_30pxv"
+                    android:singleLine="true"
+                    android:text="@string/lbl_white"
+                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_white"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

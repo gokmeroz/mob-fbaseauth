@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectangle2080RowModel" type="com.mob.app.modules.gunlerozet.data.model.Listrectangle2080RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackrectangle2080"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylecornerRadius_3">
+        <ImageView android:id="@+id/imageRectangle2080"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_50pxh"
+            android:layout_width="@dimen/_150pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_clockl_amber_a100"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+        <FrameLayout android:id="@+id/frameStackrectangle2081"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_150pxh">
+            <ImageView android:id="@+id/imageRectangle2081"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_width="@dimen/_150pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clockl_amber_a100"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+            <TextView android:ellipsize="end" android:id="@+id/txt1GN"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_12pxv"
+                android:layout_marginEnd="@dimen/_40pxh"
+                android:layout_marginStart="@dimen/_40pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="wrap_content"
+                android:lineSpacingExtra="@dimen/_4pxh"
+                android:singleLine="true"
+                android:text="@{listrectangle2080RowModel.txt1GN}"
+                style="@style/txtBubblegumSansregular20_1" tools:text="@string/lbl_1_g_n"/>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

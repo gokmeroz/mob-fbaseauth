@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="engeslestirmetanitimVM" type="com.mob.app.modules.engeslestirmetanitim.data.viewmodel.EngeslestirmetanitimVM"/>
+    </data>
+    <LinearLayout android:id="@+id/linearColumnellipse779"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleyellow_100">
+        <FrameLayout android:id="@+id/frameStackellipse779"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_248pxv"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_184pxv" android:layout_width="@dimen/_379pxh">
+            <View
+                android:background="@drawable/rectangle_bg_blue_100_radius_189_5"
+                android:id="@+id/viewEllipse779"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_248pxv" android:layout_width="@dimen/_379pxh"/>
+            <TextView android:gravity="top|center"
+                android:id="@+id/txtDescription"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginEnd="@dimen/_42pxh"
+                android:layout_marginStart="@dimen/_42pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_1pxh"
+                android:text="@{engeslestirmetanitimVM.engeslestirmetanitimModel.txtDescription}"
+                style="@style/txtABeeZeeitalic20" tools:text="@string/msg_hello_with_the"/>
+        </FrameLayout>
+        <View
+            android:background="@drawable/rectangle_bg_blue_100_radius_30"
+            android:id="@+id/viewEllipse780"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_59pxh"
+            android:layout_marginEnd="@dimen/_139pxh"
+            android:layout_marginStart="@dimen/_139pxh"
+            android:layout_marginTop="@dimen/_8pxv" android:layout_width="@dimen/_60pxh"/>
+        <View
+            android:background="@drawable/rectangle_bg_blue_100_radius_19"
+            android:id="@+id/viewEllipse781"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_38pxh"
+            android:layout_marginEnd="@dimen/_127pxh"
+            android:layout_marginStart="@dimen/_127pxh"
+            android:layout_marginTop="@dimen/_17pxv" android:layout_width="@dimen/_38pxh"/>
+        <ImageView android:id="@+id/imageEasterbunnyOne"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_224pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_21pxh"
+            android:layout_marginStart="@dimen/_21pxh"
+            android:layout_width="@dimen/_187pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_easterbunny1}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">mob</string>
+    <string name="lbl_continue">Continue</string>
+<string name="lbl_fifty_one">FIFTY
+ONE</string>
+<string name="lbl_peach">PEACH</string>
+<string name="lbl_haz_ran">HAZİRAN</string>
+<string name="lbl_ye_l">YEŞİL</string>
+<string name="lbl_sunday">SUNDAY</string>
+<string name="lbl_march">MARCH</string>
+    <string name="lbl_wednesday">WEDNESDAY</string>
+<string name="lbl_score">SCORE</string>
+<string name="lbl_password2">password</string>
+<string name="lbl_ifre2">şifre</string>
+<string name="lbl_ifre">Şifre</string>
+<string name="lbl_altinda">...ALTINDA.</string>
+    <string name="lbl_ho_geldiniz">Hoşgeldiniz!</string>
+<string name="lbl_ananas">ANANAS</string>
+<string name="msg_hadi_rendikle">Hadi öğrendiklerimizi pekiştirelim!</string>
+    <string name="msg_arpma_i_lemler">Çarpma işlemlerinin cevaplarını yanına yaz!</string>
+<string name="lbl_6_g_n">6.GÜN</string>
+<string name="lbl_5_x_0">5 X 0 =</string>
+<string name="msg_sepette_bulunan">SEPETTE BULUNAN
+ ELMA SAYISI</string>
+<string name="msg_a_a_daki_video2">Aşağıdaki videoyu kafamızı hareket ettirmeden izleyelim!</string>
+<string name="msg_oynamak_istedi">Oynamak istediğin kategoriyi seç!</string>
+<string name="lbl_october">OCTOBER</string>
+<string name="msg_let_s_fill_in_t">"Let's fill in the blanks!"</string>
+<string name="lbl_5_x_9">5 X 9 =</string>
+<string name="lbl_5_x_8">5 X 8 =</string>
+<string name="lbl_5_x_7">5 X 7 =</string>
+<string name="lbl_5_x_6">5 X 6 =</string>
+<string name="lbl_5_x_5">5 X 5 =</string>
+<string name="lbl_5_x_4">5 X 4 =</string>
+    <string name="lbl_elindeki_alt_n">Elindeki altın:</string>
+    <string name="lbl_d_l_n_z_se_n">DİLİNİZİ
+SEÇİN</string>
+    <string name="msg_a_a_daki_video">Aşağıdaki videoyu izleyelim!</string>
+<string name="msg_in_which_one_is4">In which one is the ball near the table?</string>
+<string name="msg_in_which_one_is3">In which one is the ball in front of the table?</string>
+<string name="msg_in_which_one_is2">In which one is the ball on the table?</string>
+<string name="lbl_altmi_dokuz">ALTMIŞ 
+DOKUZ</string>
+<string name="msg_select_your_l">SELECT
+ YOUR 
+LANGUAGE</string>
+<string name="lbl_frog">FROG</string>
+<string name="msg_merhaba_sonba">Merhaba! 
+Sonbahar mevsimine hoş geldin!
+ Bu mevsimde yapraklar renk değiştirir ve havalar serinler. Ayrıca, sonbahar mevsiminde üzüm, elma, balkabağı gibi lezzetli meyveler de ortaya çıkar. Bu mevsimde evde sıcak çikolata veya çay içmek harika bir seçenek olabilir.</string>
+    <string name="lbl_password">Password</string>
+<string name="lbl_banana">BANANA</string>
+<string name="lbl_isim">isim</string>
+<string name="lbl_pazar">PAZAR</string>
+<string name="lbl_4_x_4">4 X 4 =</string>
+    <string name="lbl_4_x_6">4 X 6 =</string>
+<string name="lbl_4_x_5">4 X 5 =</string>
+    <string name="lbl_4_x_0">4 X 0 =</string>
+    <string name="lbl_06_45">06.45</string>
+<string name="lbl_yaninda">...YANINDA.</string>
+    <string name="lbl_12">1.</string>
+<string name="lbl_13">+1</string>
+<string name="lbl_10">10</string>
+<string name="lbl_sign_up">Sign up</string>
+<string name="lbl_turuncu">TURUNCU</string>
+<string name="lbl_sim">İsim</string>
+<string name="lbl_ubat">ŞUBAT</string>
+<string name="msg_4_sepette_topla">4 sepette toplam 12 elma bulunurmuş.</string>
+<string name="msg_merhaba_yaz_m">Merhaba!
+ Yaz mevsimine hoş geldin! 
+Bu mevsimde günler daha uzun ve havalar daha sıcak. Sıcak havalarda serinlemek için yüzme havuzlarına veya denize gitmek harika bir seçenek olabilir. Ayrıca piknik yapabilir, buzlu içecekler içebilir veya evde veya dışarıda tatil yapabilirsin.</string>
+<string name="lbl_fox">FOX</string>
+<string name="lbl_s_ncap">SİNCAP</string>
+<string name="lbl_december">DECEMBER</string>
+<string name="msg_merhaba_ben_mob">MERHABA BEN MOB!
+
+    ÖĞRENME SÜRECİNDE YANINDA OLACAK EN İYİ ARKADAŞINIM.BIRLIKTE SAATLERİ, MEVSİMLERİ, GÜNLERİ  VE DAHA BIRÇOK BİLGİYİ ÖĞRENECEĞİZ.
+
+    HAZIRSAN HADİ BAŞLAYALIM!</string>
+
+    <string name="lbl_n_nde">...ÖNÜNDE.</string>
+<string name="msg_choose_the_numb">Choose the number you want to work with!</string>
+<string name="msg3">..................</string>
+<string name="msg2">................</string>
+<string name="msg_rne_in_s">Örneğin...
+...sırtımız vücudumuzun arkasındadır.</string>
+<string name="lbl_otuz">OTUZ ÜÇ</string>
+<string name="lbl_on">...ON...</string>
+<string name="msg_merhaba_bu_b10">Merhaba! 
+Bu bölümde duyduğunu yazma yeteneğini geliştireceksin. Duyduğun kelimeleri ses kaydının altındaki kutucuğa yazman gerekiyor.
+Hadi başlayalım!</string>
+<string name="msg_merhaba_bu_b11">Merhaba! 
+Bu bölümde kazandığın altınları görebilir ve skor tablosuna bakar arkadaşlarınla yarışabilirsin.
+Hadi bi göz atalım!</string>
+<string name="msg_hello_in_this4">Hello!
+
+In this section we will learn how to multiply.
+
+Let\u2019s start!</string>
+<string name="msg_hello_in_this3">Hello! 
+In this section we will learn how to read an analog clock. Clocks are very important for planning our daily lives. It allows us to keep track of when we wake up and go to school and when we have breaks. 
+Let\u2019s learn!</string>
+<string name="msg_there_are_a_tot">There are a total of 12 apples in 4 baskets.</string>
+<string name="lbl_red">RED</string>
+<string name="msg_hello_in_this2">Hello! 
+In this section we will learn the months. There are 12 months in total in a year; 3 months of spring, 3 months of summer, 3 months of autumn and 3 months of winter. 
+So what are these? 
+Let\u2019s learn!</string>
+<string name="lbl_ell_b_r">ELLİ BİR</string>
+<string name="lbl_saturday">SATURDAY</string>
+<string name="msg_hello_in_this7">Hello!
+
+In this section you can see the gold you earned and compete with your friends on the scoreboard.
+
+Let\u2019s take a look!</string>
+<string name="msg_hello_in_this6">Hello!
+In this section you will improve your ability to write what you hear.
+You need to write the words you hear in the box under the sound recording.
+Let\u2019s start!</string>
+<string name="msg_hello_in_this5">Hello!
+
+In this section we will learn how to improve our reading speed by exercising our eye muscles.
+All you have to do is follow the visuals with your head fixed.
+
+Let\u2019s start!</string>
+<string name="lbl_let_s_check2">Let\u2019s check</string>
+<string name="lbl_let_s_check3">"Let's check!"</string>
+<string name="lbl_puan">PUAN</string>
+<string name="lbl_november">NOVEMBER</string>
+<string name="lbl_green">GREEN</string>
+<string name="lbl_on_sek_z">ON SEKİZ</string>
+<string name="msg_merhaba_k_m">Merhaba!
+ Kış mevsimine hoş geldin! 
+Bu mevsimde kar yağar ve dışarıda yapacak birçok aktivite vardır. Kızak kayabilir, kardan adam yapabilir veya kar topu oynayabilirsin. Yılbaşı kutlamaları ve Noel tatili ile birlikte aile ve arkadaşlarla güzel zamanlar geçirebilirsin.</string>
+<string name="lbl_a_ustos">AĞUSTOS</string>
+<string name="lbl_sepetler">SEPETLER</string>
+<string name="lbl_per_embe">PERŞEMBE</string>
+<string name="lbl_mav">MAVİ</string>
+<string name="lbl_may">MAY</string>
+<string name="msg_hello_welcome2">"Hello!\u2028Welcome to the spring season! During this season, nature comes back to life, trees become greener, and flowers bloom. The temperatures rise, and the sun is seen more often. It's a perfect time for great activities like hiking, cycling, and having picnics in nature."</string>
+<string name="msg_hello_welcome3">Hello!\u2028Welcome to the fall season!\u2028During this season, the leaves change colors, and the weather cools down. Also, delicious fruits like grapes, apples, and pumpkins emerge during the fall season. Drinking hot chocolate or tea at home can be a great option during this season.</string>
+<string name="msg_inde_3_tane_e">İçinde 3 tane elma bulunan bu sepetten 4 tane alırsak kaç elmamız olur?</string>
+<string name="msg_hello_welcome4">"Hello!\u2028Welcome to the winter season!\u2028During this season, it snows, and there are many outdoor activities to do. You can go sledding, build a snowman, or have a snowball fight. You can also spend quality time with family and friends during the Christmas holidays and New Year's celebrations."</string>
+<string name="lbl_kontrol_edelim">Kontrol edelim!</string>
+<string name="msg_if_you_watch_th">If you watch the video once a day, you will start reading much faster!</string>
+<string name="lbl_devam">Devam</string>
+<string name="lbl_pembe">PEMBE</string>
+<string name="lbl_ocak">OCAK</string>
+    <string name="lbl_giri_yap">Giriş yap</string>
+<string name="lbl_st_nde">...ÜSTÜNDE.</string>
+<string name="lbl_lemon">LEMON</string>
+<string name="lbl_august">AUGUST</string>
+<string name="lbl_kontrol_edelim2">Kontrol edelim</string>
+<string name="lbl_aralik">ARALIK</string>
+<string name="msg_your_total_gold">Your total gold:</string>
+<string name="lbl_day_6">DAY 6</string>
+    <string name="lbl_day_2">DAY 2</string>
+<string name="lbl_day_3">DAY 3</string>
+<string name="lbl_behind">...BEHIND...</string>
+<string name="lbl_day_1">DAY 1</string>
+<string name="lbl_top_masan_n">Top masanın...</string>
+<string name="msg_a_a_daki_g_rse">Aşağıdaki görseller hangi mevsime aittir?</string>
+<string name="msg_merhaba_bu_b4">Merhaba! 
+Bu bölümde sayı dizileri hafızanı test etmek için kullanılacaktır. 
+Sayı dizisi animasyonunu izle.
+Dizideki sayıları mümkün olduğunca hatırlamaya çalış.
+Daha sonra, bir metin kutusunda sayıları TERS ÇEVİREREK doğru bir şekilde yaz.
+Doğru yanıt verirsen, bir sonraki seviyeye geçebilirsin.
+Hadi başlayalım!</string>
+<string name="msg_merhaba_bu_b3">Merhaba! 
+Bu bölümde sayı dizileri hafızanı test etmek için kullanılacaktır. 
+Sayı dizisi animasyonunu izle.
+Dizideki sayıları mümkün olduğunca hatırlamaya çalış.
+Daha sonra, bir metin kutusunda sayıları doğru bir şekilde yaz.
+Doğru yanıt verirsen, bir sonraki seviyeye geçebilirsin.
+Hadi başlayalım!</string>
+<string name="msg_merhaba_bu_b2">Merhaba!
+ Bu bölüm senin mevsimleri öğrenmeni sağlayacak. Mevsimler, yılın farklı zamanlarında yaşanan doğal değişimlerdir. Bu uygulama ile mevsimleri öğrenirken eğleneceksin. 
+Hadi başlayalım!</string>
+<string name="lbl_aslan">ASLAN</string>
+<string name="msg_merhaba_bu_b8">Merhaba! 
+
+Bu bölümde çarpma işlemi yapmayı öğreneceğiz. 
+
+Hadi başlayalım!</string>
+<string name="msg_merhaba_bu_b7">Merhaba! 
+Bu bölümde analog saat okumayı öğreneceğiz. Saatler günlük yaşantımızı planlamamız için çok önemlidir. Ne zaman uyanıp okula gideceğimizi ve ne zaman teneffüs olacağını takip etmemizi sağlar.
+Hadi öğrenelim!</string>
+<string name="msg_merhaba_bu_b6">Merhaba! 
+Bu bölümde ayları öğreneceğiz. 
+1 yılda 3 ay ilkbahar, 3 ay yaz, 3 yaz sonbahar, 3 ay kış olmak üzere toplam 12 ay vardır.
+Peki bunlar nedir?
+Hadi öğrenelim!</string>
+<string name="msg_merhaba_bu_b5">Merhaba! 
+Bu bölümde haftanın günlerini öğreneceğiz. 
+1 haftada 5 gün hafta içi, 2 gün hafta sonu olmak üzere toplam 7 gün vardır. 
+Peki bu günlerin adları nedir?
+Hadi öğrenelim!</string>
+<string name="msg_let_s_reinforce">"Let's reinforce what we have learned!"</string>
+<string name="msg_merhaba_bu_b9">Merhaba! 
+Bu bölümde göz kaslarımızı çalıştırarak daha hızlı okuma yeteneği kazanacağız. 
+Tek yapmanız gereken görselleri kafanız sabit bir şekilde takip etmek
+Hadi başlayalım!</string>
+<string name="msg_haftan_n_g_nler">Haftanın günlerini sıralayalım!</string>
+<string name="lbl_temmuz">TEMMUZ</string>
+<string name="lbl_september">SEPTEMBER</string>
+    <string name="lbl_blue">BLUE</string>
+<string name="lbl_kasim">KASIM</string>
+<string name="lbl_eftal">ŞEFTALİ</string>
+<string name="msg_aylara_bir_de_b">Aylara bir de bu
+ şekilde bakalım!</string>
+<string name="lbl_6_x_0">6 X 0 =</string>
+<string name="msg_yukar_da_g_rd2">Yukarıda gördüğün 
+sayıyı ters çevirerek 
+aşağıya yaz!</string>
+<string name="lbl_z_m">ÜZÜM</string>
+<string name="lbl_6_x_6">6 X 6 =</string>
+<string name="lbl_thirty_three">THIRTY
+THREE</string>
+<string name="lbl_6_x_5">6 X 5 =</string>
+    <string name="lbl_orange">ORANGE</string>
+    <string name="lbl_6_x_4">6 X 4 =</string>
+    <string name="lbl_name2">name</string>
+<string name="msg_bo_luklar_tama">Boşlukları tamamlayalım!</string>
+<string name="lbl">...............</string>
+<string name="msg_login_or_sign_u">Login or Sign up</string>
+<string name="lbl_email">Email</string>
+<string name="msg_tebrikler_tekr">Tebrikler!
+Tekrar bi gözden geçirelim!</string>
+<string name="lbl_1">1</string>
+    <string name="msg_write_the_answe">Write the answers to the multiplication problems next to them!</string>
+<string name="lbl_near">...NEAR...</string>
+    <string name="lbl_4">4</string>
+    <string name="lbl_7">7</string>
+    <string name="msg_hello_this_se">Hello!
+This section will help you learn on, near, under and behind positions. These positions will help you determine where you need to go at all times. 
+Let\u2019s get started!</string>
+<string name="lbl_login">Login</string>
+<string name="lbl_july">JULY</string>
+    <string name="lbl_7_x_0">7 X 0 =</string>
+<string name="lbl_7_x_7">7 X 7 =</string>
+<string name="lbl_7_x_6">7 X 6 =</string>
+<string name="lbl_7_x_5">7 X 5 =</string>
+<string name="lbl_lion">LION</string>
+<string name="lbl_7_x_4">7 X 4 =</string>
+<string name="msg_for_example">For example...
+... the pen is on the table.
+...cars travel on the road.</string>
+<string name="lbl_7_x_9">7 X 9 =</string>
+<string name="msg_ifrenizi_mi_un">Şifrenizi mi unuttunuz?</string>
+<string name="lbl_7_x_8">7 X 8 =</string>
+<string name="lbl_sali">SALI</string>
+<string name="lbl_pazartes">PAZARTESİ</string>
+<string name="lbl_june">JUNE</string>
+<string name="msg_let_s_learn_som">Let\u2019s learn something!</string>
+<string name="lbl_under">...UNDER...</string>
+<string name="lbl_operation">OPERATION</string>
+<string name="lbl_3_x_1_3">3 X 1 = 3</string>
+<string name="lbl_k">KİŞİ</string>
+<string name="lbl_ar_amba">ÇARŞAMBA</string>
+<string name="msg_hello_i_m_mob">"HELLO, I'M MOB!
+
+I'M YOUR BEST FRIEND WHO WILL BE BY YOUR SIDE DURING THE LEARNING PROCESS. WE WILL LEARN HOURS, SEASONS, DAYS, AND MANY MORE THINGS TOGETHER.
+
+IF YOU'RE READY, LET'S GET STARTED!"</string>
+<string name="msg_merhaba_lkba">Merhaba! 
+İlkbahar mevsimine hoş geldin! Bu mevsimde doğa yeniden canlanır, ağaçlar yeşillenir ve çiçekler açar. Hava sıcaklıkları artar ve güneş daha fazla görünür. Doğada yürüyüş yapmak,bisiklete binmek ve piknik yapmak gibi harika aktiviteler için mükemmel bir zamandır.</string>
+<string name="msg_let_s_take_a_lo">"Let's take a look at the months in this way too!"</string>
+<string name="lbl_kirk_yed">KIRK 
+YEDİ</string>
+<string name="msg_let_s_watch_the2">"Let's watch the video below without moving our heads!"</string>
+<string name="msg_rne_in">Örneğin...
+... kalem masanın üstünde durur.
+...arabalar yolun üzerinde seyahat eder.</string>
+<string name="lbl_friday">FRIDAY</string>
+<string name="msg_hello_with_the">"Hello!\u2028With the matching game, you can have fun while also learning new things by matching colors, animals, fruits, or numbers. You can also develop your focus, problem-solving, and memory skills. Each matching game has two cards, and you need to think quickly to find the right cards.\u2028Let's get started!"</string>
+<string name="msg_write_it_in_the">Write it in the box below</string>
+<string name="lbl_ahtapot">AHTAPOT</string>
+<string name="msg_let_s_match_the2">"Let's match the following analog clocks with the time they show!"</string>
+<string name="lbl_ifre_olu_turun">Şifre oluşturun</string>
+<string name="lbl_playing">PLAYING</string>
+<string name="msg_congratulations2">CONGRATULATIONS!
+
+YOU ANSWERED CORRECTLY,
+
+YOU EARNED 1 GOLD!
+
+YOU CAN MOVE ON TO THE NEXT SECTION</string>
+<string name="msg_hello_welcome">Hello!\u2028Welcome to the summer season!\u2028During this season, the days are longer and the weather is hotter. Swimming pools or the beach can be a great option to cool off on hot days. You can also have picnics, drink cold beverages, or go on vacation either at home or outdoors.</string>
+<string name="msg_write_the_numbe2">Write the number you saw above in reverse order below!</string>
+<string name="lbl_3_x_2_6">3 X 2 = 6</string>
+<string name="lbl_8_x_0">8 X 0 =</string>
+<string name="msg_maalesef_hatali">MAALESEF HATALI YANIT VERDİN :(
+
+HADİ TEKRAR DENEYELİM!</string>
+    <string name="lbl_eyl_l">EYLÜL</string>
+    <string name="lbl_n_san">NİSAN</string>
+<string name="lbl_8_x_4">8 X 4 =</string>
+<string name="msg_let_s_have_some">Let\u2019s have some fun!</string>
+    <string name="lbl_8_x_6">8 X 6 =</string>
+<string name="lbl_8_x_5">8 X 5 =</string>
+<string name="lbl_y_z">YÜZ</string>
+<string name="lbl_chicken">CHICKEN</string>
+<string name="lbl_monday">MONDAY</string>
+<string name="lbl_arkasinda">...ARKASINDA.</string>
+<string name="msg_the_ball_is">The ball is ... the table</string>
+<string name="lbl_welcome">Welcome!</string>
+<string name="msg_let_s_watch_the">"Let's watch the video below!"</string>
+<string name="lbl_beyaz">BEYAZ</string>
+<string name="msg_write_the_numbe">Write the number you see above below!</string>
+    <string name="msg_hello_this_se4">Hello!
+This section will use number sequences to test your memory. 
+1.Watch the number sequence animation. 
+2.Try to remember the numbers in the sequence as much as possible. 
+3.Then write the numbers correctly in a text box by REVERSING them. 
+4.If you give the correct answer, you can move on to the next level. 
+Let\u2019s get started!</string>
+    <string name="lbl_lem">İŞLEM</string>
+<string name="msg_giri_yap_n_vey">Giriş yapın veya kaydolun</string>
+<string name="lbl_lek">ÇİLEK</string>
+    <string name="msg_hello_this_se3">Hello!
+ This section will use number sequences to test your memory.
+1.Watch the number sequence animation. 
+2.Try to remember the numbers in the sequence as much as possible. 3.Then write the numbers correctly in a text box. 
+4.If you give the correct answer, you can move on to the next level. 
+Let\u2019s get started!</string>
+<string name="lbl_1_x_6">1 X 6 =</string>
+<string name="msg_hello_this_se2">Hello! 
+This section will help you learn about the seasons. Seasons are natural changes that occur at different times of the year. You will have fun learning about the seasons with this application. 
+Let\u2019s get started!</string>
+    <string name="lbl_1_x_4">1 X 4 =</string>
+<string name="lbl_1_x_5">1 X 5 =</string>
+    <string name="lbl_1_x_0">1 X 0 =</string>
+    <string name="msg_yukar_da_sorula">Yukarıda sorulan soru 3x4 çarpma işlemidir. Hadi görsel olarak bakalım!</string>
+<string name="lbl_pink">PINK</string>
+<string name="msg_unfortunately_y">UNFORTUNATELY YOU GAVE THE WRONG ANSWER :(
+
+LET\u2019S TRY AGAIN!</string>
+<string name="lbl_mob">MOB</string>
+<string name="lbl_1_g_n">1.GÜN</string>
+<string name="msg_in_front_of">...IN FRONT OF...</string>
+<string name="msg_which_season_do">Which season does the following images belong to?</string>
+<string name="lbl_3_x_3_9">3 X 3 = 9</string>
+<string name="lbl_email2">email</string>
+<string name="lbl_l_mon">LİMON</string>
+<string name="msg_press_the_start">Press the start button, listen to the audio, and then write in the box below</string>
+<string name="lbl_octopus">OCTOPUS</string>
+<string name="lbl_cuma">CUMA</string>
+<string name="msg_hadi_e_le_tirel">Hadi eşleştirelim!</string>
+<string name="lbl_9_x_5">9 X 5 =</string>
+<string name="lbl_9_x_4">9 X 4 =</string>
+    <string name="lbl_9_x_0">9 X 0 =</string>
+<string name="msg_renmek_istedi">Öğrenmek istediğin mevsimin üstüne tıkla</string>
+<string name="lbl_strawberry">STRAWBERRY</string>
+<string name="msg_let_s_start_by">"Let's start by learning what multiplication is"</string>
+<string name="lbl_t_lk">TİLKİ</string>
+<string name="lbl_let_s_check">Let\u2019s check!</string>
+<string name="lbl_thursday">THURSDAY</string>
+<string name="lbl_sonu">SONUÇ</string>
+<string name="msg_a_a_daki_analo">Aşağıdaki analog saatleri gösterdikleri saat ile eşleştirelim!</string>
+<string name="lbl_kaydol">Kaydol</string>
+<string name="lbl_cumartes">CUMARTESİ</string>
+<string name="lbl_tavuk">TAVUK</string>
+<string name="msg_create_a_passwo">Create a password</string>
+<string name="lbl_02_30">02.30</string>
+<string name="lbl_9_x_9">9 X 9 =</string>
+<string name="lbl_9_x_8">9 X 8 =</string>
+<string name="lbl_kirmizi">KIRMIZI</string>
+<string name="lbl_9_x_7">9 X 7 =</string>
+<string name="lbl_03_00">03.00</string>
+<string name="lbl_9_x_6">9 X 6 =</string>
+<string name="msg_choose_the_cate">Choose the category you want to play!</string>
+<string name="lbl_tuesday">TUESDAY</string>
+<string name="msg_did_you_forget">Did you forget your password?</string>
+<string name="lbl_3_x_7">3 X 7 =</string>
+<string name="lbl_3_x_6">3 X 6 =</string>
+<string name="lbl_3_x_5">3 X 5 =</string>
+<string name="lbl_one_hundred">ONE
+HUNDRED</string>
+<string name="lbl_3_x_4">3 X 4 =</string>
+<string name="lbl_buraya_yaz_n">Buraya yazın</string>
+<string name="msg_if_there_are_3">If there are 3 apples in each basket and there are 4 baskets, how many apples are there in total?</string>
+<string name="lbl_3_x_9">3 X 9 =</string>
+<string name="lbl_3_x_8">3 X 8 =</string>
+    <string name="lbl_3_x_0">3 X 0 =</string>
+<string name="lbl_ek_m">EKİM</string>
+<string name="lbl_oynayalim">OYNAYALIM</string>
+<string name="lbl_result">RESULT</string>
+<string name="lbl_3_x_4_12">3 X 4 =12</string>
+<string name="lbl_february">FEBRUARY</string>
+<string name="lbl_learning">LEARNING</string>
+<string name="msg_rne_in2">Örneğin...
+... lamba masanın yanındadır.</string>
+<string name="msg_rne_in4">Örneğin...
+... arabada öndeki koltuğa anne ve baba oturur.</string>
+<string name="msg_rne_in3">Örneğin...
+... kediler masanın altında uyur.
+...havuçlar yerin altında büyür.</string>
+<string name="msg_in_which_one_is">In which one is the ball behind the table?</string>
+<string name="msg_number_of_apple">NUMBER OF APPLES IN THE BASKET</string>
+<string name="lbl_renel_m">ÖĞRENELİM</string>
+<string name="msg_al_mak_istedi">Çalışmak istediğin sayıyı seç!</string>
+<string name="lbl_buraya_yaz">Buraya yaz</string>
+<string name="lbl_sixty_nine">SIXTY
+NINE</string>
+<string name="msg_ok_butonuna_bas">Ok butonuna basıp sesi dinle ardından alttaki kutuya yaz</string>
+<string name="lbl_mart">MART</string>
+<string name="lbl_april">APRIL</string>
+<string name="lbl_white">WHITE</string>
+<string name="msg_tebr_kler_do">TEBRİKLER!
+
+DOĞRU YANITLADIN,
+
+1 ALTIN KAZANDIN!
+
+BİR SONRAKİ BÖLÜME GEÇEBİLİRSİN</string>
+<string name="msg_click_on_the_se">Click on the season you want to learn about</string>
+<string name="msg_let_s_list_the">"Let's list the days of the week!"</string>
+<string name="lbl_kurba_a">KURBAĞA</string>
+<string name="lbl_person">PERSON</string>
+<string name="msg">.................</string>
+<string name="lbl_pineapple">PINEAPPLE</string>
+<string name="msg_hangisinde_top2">Hangisinde top masanın üstünde?</string>
+<string name="msg_hangisinde_top3">Hangisinde top masanın önünde?</string>
+<string name="msg_hangisinde_top4">Hangisinde top masanın yanında?</string>
+<string name="lbl_squirrel">SQUIRREL</string>
+<string name="msg_merhaba_bu_b">Merhaba! 
+Bu bölüm senin alt, üst, yan, arka pozisyonlarını öğrenmeni sağlayacak. Bu pozisyonlar senin her zaman nereye gitmen gerektiğini belirlemene yardımcı olacak.
+Hadi başlayalım!</string>
+<string name="lbl_3_g_n">3.GÜN</string>
+<string name="msg_merhaba_e_le">Merhaba! 
+Eşleştirme oyunu ile renkleri, hayvanları, meyveleri veya sayıları eşleştirerek hem eğlenceli vakit geçirebilir hem de yeni şeyler öğrenebilir; odaklanma, problem çözme ve hafıza becerilerini geliştirebilirsin Her eşleştirme oyununda iki kart bulunur ve sen doğru kartları bulmak için hızlı düşünmen gerekiyor.
+Hadi başlayalım!</string>
+<string name="lbl_eighteen">EIGHTEEN</string>
+    <string name="lbl_hadi_e_lenelim">Hadi eğlenelim!</string>
+<string name="msg_yukar_da_g_rd">Yukarıda gördüğün 
+sayıyı aşağıya yaz!</string>
+<string name="lbl_name">Name</string>
+<string name="msg_for_example5">For example...
+... mother and father sit in the front seat of the car.</string>
+<string name="msg_for_example4">For example...
+...Our back is behind our body.</string>
+<string name="msg_for_example3">For example...
+... cats sleep under the table.
+...carrots grow under the ground.</string>
+<string name="lbl_grape">GRAPE</string>
+<string name="msg_for_example2">For example...
+... the lamp is near the table</string>
+<string name="lbl_muz">MUZ</string>
+<string name="msg_the_question_as">"The question asked above is a multiplication problem of 3x4. Let's take a look at it visually!"</string>
+<string name="msg_congratulations">"Congratulations!\u2028Let's review it again!"</string>
+<string name="msg_hangisinde_top">Hangisinde top masanın arkasında?</string>
+<string name="msg_videoyu_her_g_n">Videoyu her gün 1 defa izlersen çok daha hızlı okumaya başlayacaksın!</string>
+    <string name="lbl_11_15">11.15</string>
+<string name="msg_a_a_daki_kutuy">Aşağıdaki kutuya yazalım</string>
+<string name="lbl_january">JANUARY</string>
+<string name="msg_hello_in_this">Hello! 
+In this section we will learn the days of the week. There are 7 days in total in a week; 5 weekdays and 2 weekends. So what are the names of these days? 
+Let\u2019s learn!</string>
+<string name="lbl_fourty_seven">FOURTY
+ SEVEN</string>
+<string name="msg_let_s_match_the">"Let's match them up!"</string>
+<string name="lbl_baskets">BASKETS</string>
+<string name="lbl_write_here">Write here</string>
+<string name="lbl_2_x_9">2 X 9 =</string>
+<string name="lbl_2_x_5">2 X 5 =</string>
+<string name="lbl_2_x_6">2 X 6 =</string>
+<string name="msg_arpma_i_lemini">Çarpma işleminin ne olduğunu öğrenmekle başlayalım</string>
+<string name="lbl_2_x_7">2 X 7 =</string>
+    <string name="lbl_2_x_8">2 X 8 =</string>
+    <string name="lbl_2_x_4">2 X 4 =</string>
+<string name="lbl_2_x_0">2 X 0 =</string>
+<string name="lbl_hadi_renelim">Hadi öğrenelim!</string>
+<string name="lbl_mayis">MAYIS</string>
+<string name="msg_please_enter_valid_pa">Please enter valid password</string>
+<string name="msg_please_enter_valid_email">Please enter valid email</string>
+<string name="msg_please_enter_valid_text">Please enter valid text</string>
+<string name="msg_devam_etmek_i_in_bir_se_i">Devam etmek için bir seçeneği işaretlemesin</string>
+<string name="msg_hadi_tekrar_deneyeli_m">HADİ TEKRAR DENEYELİM!</string>
+<string name="msg_maalesef_hatal_yan_t_ve_te_de">Maalesef hatalı yanıt verdin :(\nHadi tekrar deneyelim</string>
+<string name="msg_you_need_to_se_an_op_be_co">You need to select an option before continuing</string>
+<string name="msg_let_s_try_again">LET’S TRY AGAIN!</string>
+<string name="msg_unfortunately_you_gave_the_wrong_an_n_try_again">Unfortunately you gave the wrong answer :( \nLet\'s try again</string>
+<string name="msg_unfortunately_you_gave_the_wrong_an_n_try_ag">Unfortunately you gave the wrong answer :( \nLet\'s try again\n</string>
+</resources>

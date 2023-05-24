@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <FrameLayout android:id="@+id/frameStackapplethreeTwo"
+        android:layout_height="wrap_content" android:layout_width="@dimen/_39pxh">
+        <ImageView android:id="@+id/imageAppleThreeTwo"
+            android:layout_gravity="top|end"
+            android:layout_height="@dimen/_17pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_1pxh"
+            android:layout_marginStart="@dimen/_10pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_apple3"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_apple3"/>
+        <ImageView android:id="@+id/imageAppleTwoTwo"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_17pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_2pxh"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_apple3"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_apple3"/>
+        <ImageView android:id="@+id/imageAppleOneTwo"
+            android:layout_gravity="top|start"
+            android:layout_height="@dimen/_17pxh"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:layout_marginEnd="@dimen/_10pxh"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="@dimen/_15pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_apple3"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_apple3"/>
+        <ImageView android:id="@+id/imageBasketOneTwo"
+            android:layout_gravity="bottom|start"
+            android:layout_height="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_10pxv"
+            android:layout_width="@dimen/_39pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_basket1"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_basket1"/>
+    </FrameLayout>
+</layout>

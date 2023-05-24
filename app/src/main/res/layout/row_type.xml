@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="typeRowModel" type="com.mob.app.modules.engsaategzersiz.data.model.TypeRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStacktree"
+        android:layout_height="wrap_content" android:layout_width="match_parent">
+        <ImageView android:id="@+id/imageTree"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_50pxh"
+            android:layout_width="@dimen/_150pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_rectangle2037"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle2037"/>
+        <FrameLayout android:id="@+id/frameStacktrip"
+            android:layout_gravity="start"
+            android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_150pxh">
+            <ImageView android:id="@+id/imageTrip"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_50pxh"
+                android:layout_width="@dimen/_150pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_rectangle2037"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle2037"/>
+            <TextView android:ellipsize="end"
+                android:gravity="top|start" android:id="@+id/txt0300"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_1pxv"
+                android:layout_marginEnd="@dimen/_28pxh"
+                android:layout_marginStart="@dimen/_34pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_9pxh"
+                android:singleLine="true"
+                android:text="@{typeRowModel.txt0300}"
+                style="@style/txtFiraSansregular40" tools:text="@string/lbl_03_00"/>
+        </FrameLayout>
+    </FrameLayout>
+</layout>

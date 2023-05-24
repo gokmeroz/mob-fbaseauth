@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectangle2077RowModel" type="com.mob.app.modules.engcarpmaeight.data.model.Listrectangle2077RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrectangle2073"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/frameStackrectangle2073"
+            android:layout_height="@dimen/_47pxv"
+            android:layout_width="@dimen/_192pxh" style="@style/groupStylecornerRadius_5">
+            <ImageView android:id="@+id/imageRectangle2073"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_38pxh"
+                android:layout_marginBottom="@dimen/_3pxv"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="@dimen/_192pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_clockl_amber_a100"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+            <TextView android:ellipsize="end"
+                android:gravity="top|start" android:id="@+id/txt8X0"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_33pxh"
+                android:layout_marginStart="@dimen/_33pxh"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:singleLine="true"
+                android:text="@{listrectangle2077RowModel.txt8X0}"
+                style="@style/txtBubblegumSansregular40" tools:text="@string/lbl_8_x_0"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/imageRectangle2074"
+            android:layout_height="@dimen/_38pxh"
+            android:layout_marginBottom="@dimen/_3pxv"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="@dimen/_134pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_clockl_amber_a100"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="engskortabloVM" type="com.mob.app.modules.engskortablo.data.viewmodel.EngskortabloVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameEngSkorTablo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumnstudent"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_40pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRowstudent"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout android:id="@+id/frameStackstudent"
+                        android:layout_height="@dimen/_81pxv"
+                        android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
+                        <ImageView android:id="@+id/imageStudent"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_81pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="@dimen/_79pxh"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_easterbunny1}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                            android:id="@+id/viewStyle"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_marginBottom="@dimen/_35pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                    </FrameLayout>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                        android:id="@+id/viewStuff"
+                        android:layout_height="@dimen/_14pxh"
+                        android:layout_marginBottom="@dimen/_41pxv"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_37pxv" android:layout_width="@dimen/_14pxh"/>
+                    <FrameLayout android:id="@+id/frameStackstudy"
+                        android:layout_height="@dimen/_68pxv"
+                        android:layout_marginBottom="@dimen/_24pxv"
+                        android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_208pxh">
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104"
+                            android:id="@+id/viewStudy"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
+                        <FrameLayout
+                            android:id="@+id/frameStackyourtotalgold"
+                            android:layout_gravity="center"
+                            android:layout_height="@dimen/_55pxv"
+                            android:layout_marginBottom="@dimen/_6pxv"
+                            android:layout_marginEnd="@dimen/_37pxh"
+                            android:layout_marginStart="@dimen/_37pxh"
+                            android:layout_marginTop="@dimen/_6pxv" android:layout_width="@dimen/_133pxh">
+                            <TextView android:ellipsize="end"
+                                android:gravity="top|start"
+                                android:id="@+id/txtYourtotalgold"
+                                android:layout_gravity="top|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_10pxv"
+                                android:layout_width="match_parent"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{engskortabloVM.engskortabloModel.txtYourtotalgold}"
+                                style="@style/txtABeeZeeitalic20" tools:text="@string/msg_your_total_gold"/>
+                            <ImageView android:id="@+id/imageMoneyTwo"
+                                android:layout_gravity="bottom|end"
+                                android:layout_height="@dimen/_35pxh"
+                                android:layout_marginEnd="@dimen/_32pxh"
+                                android:layout_marginStart="@dimen/_32pxh"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="@dimen/_36pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_money2"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_money2"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtTen"
+                                android:layout_gravity="bottom|start"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_33pxh"
+                                android:layout_marginStart="@dimen/_33pxh"
+                                android:layout_marginTop="@dimen/_10pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_1pxh"
+                                android:singleLine="true"
+                                android:text="@{engskortabloVM.engskortabloModel.txtTen}"
+                                style="@style/txt_2" tools:text="@string/lbl_10"/>
+                        </FrameLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <LinearLayout android:id="@+id/linearColumnvideocamera"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4pxh"
+                android:layout_marginTop="@dimen/_41pxv"
+                android:layout_width="match_parent"
+                android:orientation="vertical" style="@style/groupStylelight_blue_100">
+                <LinearLayout android:gravity="end"
+                    android:id="@+id/linearRowvideocamera"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_35pxh"
+                    android:layout_marginStart="@dimen/_35pxh"
+                    android:layout_marginTop="@dimen/_13pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout android:id="@+id/frameTeam"
+                        android:layout_height="@dimen/_39pxv"
+                        android:layout_width="@dimen/_89pxh" style="@style/groupStylecornerRadius_4">
+                        <ImageView android:id="@+id/imageVideocamera"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_39pxh"
+                            android:layout_width="@dimen/_89pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtPERSON"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_7pxv"
+                            android:layout_marginEnd="@dimen/_8pxh"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="true"
+                            android:text="@{engskortabloVM.engskortabloModel.txtPERSON}"
+                            style="@style/txtABeeZeeitalic20_1" tools:text="@string/lbl_person"/>
+                    </FrameLayout>
+                    <FrameLayout android:id="@+id/frameTax"
+                        android:layout_height="@dimen/_39pxv"
+                        android:layout_marginStart="@dimen/_98pxh"
+                        android:layout_width="@dimen/_70pxh" style="@style/groupStylecornerRadius_4">
+                        <ImageView android:id="@+id/imageVideocameraOne"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_39pxh"
+                            android:layout_width="@dimen/_70pxh"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/img_clockl"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl"/>
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtSCORE"
+                            android:layout_gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_7pxv"
+                            android:layout_marginEnd="@dimen/_5pxh"
+                            android:layout_marginStart="@dimen/_8pxh"
+                            android:layout_marginTop="@dimen/_8pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="true"
+                            android:text="@{engskortabloVM.engskortabloModel.txtSCORE}"
+                            style="@style/txtABeeZeeitalic20_1" tools:text="@string/lbl_score"/>
+                    </FrameLayout>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:gravity="center_horizontal"
+                    android:id="@+id/recyclerEngskortablo"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_11pxh"
+                    android:layout_marginTop="@dimen/_11pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_11pxh}" tools:itemCount="10" tools:listitem="@layout/row_engskortablo"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

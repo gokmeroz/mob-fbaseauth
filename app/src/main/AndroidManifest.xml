@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.mob.app" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.mob.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.mob.app.modules.sayidizileri.ui.SayidizileriActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engseasonsplayingthree.ui.EngseasonsplayingthreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.ilkbahar.ui.IlkbaharActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmanine.ui.EngcarpmanineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engaylaregzersiz.ui.EngaylaregzersizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.learning.ui.LearningActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionsplayingtwo.ui.PositionsplayingtwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.fall.ui.FallActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.write.ui.WriteActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionsalt.ui.EngpositionsaltActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engdogruyanit.ui.EngdogruyanitActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmatwo.ui.CarpmatwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.kaydol.ui.KaydolActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionssag.ui.PositionssagActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.mob.app.modules.kis.ui.KisActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionsust.ui.EngpositionsustActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.mob.app.modules.splashscreen.ui.SplashscreenActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mob.app.modules.eslestirmerenk.ui.EslestirmerenkActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enghizliokuma.ui.EnghizliokumaActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.aylarozet.ui.AylarozetActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmasecim.ui.CarpmasecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.aylarvideo.ui.AylarvideoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionsalt.ui.PositionsaltActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmasix.ui.EngcarpmasixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmakonuanlatim.ui.EngcarpmakonuanlatimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engwrite.ui.EngwriteActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.introduction.ui.IntroductionActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engskortablo.ui.EngskortabloActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmemeyvetwo.ui.EslestirmemeyvetwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionsplaying.ui.EngpositionsplayingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.score.ui.ScoreActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.playing.ui.PlayingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.seasonsplayingthree.ui.SeasonsplayingthreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmatanitim.ui.CarpmatanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionstanitim.ui.EngpositionstanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.winter.ui.WinterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionssol.ui.EngpositionssolActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.sayidizileritanitim.ui.SayidizileritanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmehayvanlartwo.ui.EngeslestirmehayvanlartwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engsaategzersiz.ui.EngsaategzersizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.ogrenme.ui.OgrenmeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmesayilar.ui.EslestirmesayilarActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmehayvanlar.ui.EngeslestirmehayvanlarActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmathree.ui.CarpmathreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.gunlerozet.ui.GunlerozetActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.hizliokuma.ui.HizliokumaActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.tanitim.ui.TanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enggunlerozet.ui.EnggunlerozetActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionsplayingfour.ui.PositionsplayingfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.saategzersiz.ui.SaategzersizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engsayidizileri.ui.EngsayidizileriActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.seasonsplaying.ui.SeasonsplayingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.saatvideo.ui.SaatvideoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmerenktwo.ui.EslestirmerenktwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.gunlertanitim.ui.GunlertanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmesayilar.ui.EngeslestirmesayilarActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engterssayi.ui.EngterssayiActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.terssayi.ui.TerssayiActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enggunlervideo.ui.EnggunlervideoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.signup.ui.SignupActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmaone.ui.EngcarpmaoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmafour.ui.EngcarpmafourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.summer.ui.SummerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engwritetanitim.ui.EngwritetanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engsaattanitim.ui.EngsaattanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.aylaregzersiz.ui.AylaregzersizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmerenktwo.ui.EngeslestirmerenktwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engaylarozet.ui.EngaylarozetActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.dilsecim.ui.DilsecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.hizliokumatanitim.ui.HizliokumatanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionsplayingthree.ui.PositionsplayingthreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmaseven.ui.EngcarpmasevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionsust.ui.PositionsustActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engseasonsecim.ui.EngseasonsecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionsplayintwo.ui.EngpositionsplayintwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.seasonsecim.ui.SeasonsecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionstanitim.ui.PositionstanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engseasonsplayingfour.ui.EngseasonsplayingfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engterssayitanitim.ui.EngterssayitanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.spring.ui.SpringActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmetanitim.ui.EngeslestirmetanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmakonuanlatim.ui.CarpmakonuanlatimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.seasonsplayingfour.ui.SeasonsplayingfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionssag.ui.EngpositionssagActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.seasonsplayingtwo.ui.SeasonsplayingtwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionsplayingthree.ui.EngpositionsplayingthreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engseasonsplaying.ui.EngseasonsplayingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionsplayingfour.ui.EngpositionsplayingfourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmemeyvetwo.ui.EngeslestirmemeyvetwoActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.mob.app.modules.yaz.ui.YazActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.sonbahar.ui.SonbaharActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.aylartanitim.ui.AylartanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engaylarvideo.ui.EngaylarvideoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmafour.ui.CarpmafourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engsaatvideo.ui.EngsaatvideoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionson.ui.PositionsonActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.gunleregzersiz.ui.GunleregzersizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engaylartanitim.ui.EngaylartanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.saattanitim.ui.SaattanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engsayidizileritanitim.ui.EngsayidizileritanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.girisyap.ui.GirisyapActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enghizliokumatanitim.ui.EnghizliokumatanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmaseven.ui.CarpmasevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmehayvanlar.ui.EslestirmehayvanlarActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.terssayitanitim.ui.TerssayitanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enggunleregzersiz.ui.EnggunleregzersizActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmesecim.ui.EngeslestirmesecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmaeight.ui.EngcarpmaeightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmesecim.ui.EslestirmesecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmesayilartwo.ui.EslestirmesayilartwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmesayilartwo.ui.EngeslestirmesayilartwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmaone.ui.CarpmaoneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmemeyve.ui.EngeslestirmemeyveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.puan.ui.PuanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.skortablo.ui.SkortabloActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmasix.ui.CarpmasixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engpositionson.ui.EngpositionsonActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engeslestirmerenk.ui.EngeslestirmerenkActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.writetanitim.ui.WritetanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmanine.ui.CarpmanineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionssol.ui.PositionssolActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmehayvanlartwo.ui.EslestirmehayvanlartwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.oyun.ui.OyunActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engseasonstanitim.ui.EngseasonstanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmafive.ui.CarpmafiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmatanitim.ui.EngcarpmatanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmasecim.ui.EngcarpmasecimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmemeyve.ui.EslestirmemeyveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.positionsplaying.ui.PositionsplayingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enggunlertanitim.ui.EnggunlertanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.gunlervideo.ui.GunlervideoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmatwo.ui.EngcarpmatwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.hataliyanit.ui.HataliyanitActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.eslestirmetanitim.ui.EslestirmetanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmafive.ui.EngcarpmafiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.enghataliyanit.ui.EnghataliyanitActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engcarpmathree.ui.EngcarpmathreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.dogruyanit.ui.DogruyanitActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.seasonstanitim.ui.SeasonstanitimActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.engseasonsplayingtwo.ui.EngseasonsplayingtwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mob.app.modules.carpmaeight.ui.CarpmaeightActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

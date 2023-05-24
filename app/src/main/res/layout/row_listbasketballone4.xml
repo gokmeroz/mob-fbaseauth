@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listbasketballone4RowModel" type="com.mob.app.modules.positionsplayingtwo.data.model.Listbasketballone4RowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowbasketballone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <FrameLayout android:id="@+id/frameStackbasketballone"
+            android:layout_height="@dimen/_150pxv"
+            android:layout_width="@dimen/_150pxh" style="@style/groupStylelight_blue_101">
+            <ImageView android:id="@+id/imageBasketballOne"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_34pxh"
+                android:layout_marginBottom="@dimen/_25pxv"
+                android:layout_marginEnd="@dimen/_55pxh"
+                android:layout_marginStart="@dimen/_55pxh"
+                android:layout_marginTop="@dimen/_25pxv"
+                android:layout_width="@dimen/_34pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_basketball1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_basketball1"/>
+            <ImageView android:id="@+id/imageGroupFiftyTwo"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_100pxh"
+                android:layout_marginBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="@dimen/_126pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_group52"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_group52"/>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/frameStackbasketballthree"
+            android:layout_height="@dimen/_150pxv"
+            android:layout_marginStart="@dimen/_7pxh"
+            android:layout_width="@dimen/_150pxh" style="@style/groupStylelight_blue_101">
+            <ImageView android:id="@+id/imageBasketballThree"
+                android:layout_gravity="bottom|end"
+                android:layout_height="@dimen/_34pxh"
+                android:layout_marginBottom="@dimen/_32pxv"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_32pxv"
+                android:layout_width="@dimen/_34pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_basketball1"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_basketball1"/>
+            <ImageView android:id="@+id/imageGroupFiftyThree"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_100pxh"
+                android:layout_marginBottom="@dimen/_16pxv"
+                android:layout_marginEnd="@dimen/_12pxh"
+                android:layout_marginStart="@dimen/_12pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="@dimen/_126pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_group52"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_group52"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="engseasonsplayingfourVM" type="com.mob.app.modules.engseasonsplayingfour.data.viewmodel.EngseasonsplayingfourVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStackaddress"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumnbunnyspfour"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_35pxv"
+            android:layout_marginEnd="@dimen/_12pxh"
+            android:layout_marginStart="@dimen/_20pxh"
+            android:layout_marginTop="@dimen/_40pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <androidx.appcompat.widget.Toolbar android:gravity="start"
+                android:id="@+id/toolbarToolbar"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent" app:contentInsetStart="0dp">
+                <LinearLayout android:id="@+id/linearRowbunnyspfour"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <FrameLayout android:id="@+id/frameStackbunnyspfour"
+                        android:layout_height="@dimen/_81pxv"
+                        android:layout_marginTop="@dimen/_22pxv" android:layout_width="@dimen/_84pxh">
+                        <ImageView android:id="@+id/imageBunnySpFour"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_81pxh"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_width="@dimen/_79pxh"
+                            android:scaleType="fitXY"
+                            imageRes="@{@drawable/img_easterbunny1}"
+                            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                            android:id="@+id/viewAdd"
+                            android:layout_gravity="end"
+                            android:layout_height="@dimen/_10pxh"
+                            android:layout_marginBottom="@dimen/_35pxv"
+                            android:layout_marginStart="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                    </FrameLayout>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                        android:id="@+id/viewAddress"
+                        android:layout_height="@dimen/_14pxh"
+                        android:layout_marginBottom="@dimen/_41pxv"
+                        android:layout_marginStart="@dimen/_3pxh"
+                        android:layout_marginTop="@dimen/_48pxv" android:layout_width="@dimen/_14pxh"/>
+                    <FrameLayout
+                        android:id="@+id/frameStackadministration"
+                        android:layout_height="@dimen/_81pxv"
+                        android:layout_marginBottom="@dimen/_21pxv"
+                        android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_237pxh">
+                        <View
+                            android:background="@drawable/rectangle_bg_blue_100_radius_118_5"
+                            android:id="@+id/viewAdministration"
+                            android:layout_gravity="start"
+                            android:layout_height="@dimen/_79pxv"
+                            android:layout_marginBottom="@dimen/_2pxv" android:layout_width="@dimen/_237pxh"/>
+                        <TextView android:gravity="top|center"
+                            android:id="@+id/txtWhichseasondo"
+                            android:layout_gravity="bottom|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_21pxh"
+                            android:layout_marginStart="@dimen/_21pxh"
+                            android:layout_marginTop="@dimen/_10pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_1pxh"
+                            android:text="@{engseasonsplayingfourVM.engseasonsplayingfourModel.txtWhichseasondo}"
+                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_which_season_do"/>
+                    </FrameLayout>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+            <ImageView android:id="@+id/imageSnowmanOne"
+                android:layout_gravity="end"
+                android:layout_height="@dimen/_167pxh"
+                android:layout_marginEnd="@dimen/_16pxh"
+                android:layout_marginStart="@dimen/_16pxh"
+                android:layout_marginTop="@dimen/_18pxv"
+                android:layout_width="@dimen/_156pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_snowman1}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_snowman1"/>
+            <ImageView android:id="@+id/imageAngelOne"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_167pxh"
+                android:layout_marginEnd="@dimen/_45pxh"
+                android:layout_marginStart="@dimen/_45pxh"
+                android:layout_width="@dimen/_143pxh"
+                android:scaleType="fitXY"
+                imageRes="@{@drawable/img_angel1}"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_angel1"/>
+            <LinearLayout android:gravity="end"
+                android:id="@+id/linearRowaffect"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_16pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackaffect"
+                    android:layout_height="@dimen/_71pxv"
+                    android:layout_marginBottom="@dimen/_24pxv" android:layout_width="@dimen/_242pxh">
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_121"
+                        android:id="@+id/viewAffect"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_71pxv" android:layout_width="@dimen/_242pxh"/>
+                    <TextView android:gravity="top|center"
+                        android:id="@+id/txtWriteitinthe"
+                        android:layout_gravity="center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_15pxv"
+                        android:layout_marginEnd="@dimen/_40pxh"
+                        android:layout_marginStart="@dimen/_40pxh"
+                        android:layout_marginTop="@dimen/_15pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:text="@{engseasonsplayingfourVM.engseasonsplayingfourModel.txtWriteitinthe}"
+                        style="@style/txtABeeZeeitalic19" tools:text="@string/msg_write_it_in_the"/>
+                </FrameLayout>
+                <View
+                    android:background="@drawable/rectangle_bg_blue_100_radius_7"
+                    android:id="@+id/viewAdult"
+                    android:layout_height="@dimen/_14pxh"
+                    android:layout_marginBottom="@dimen/_41pxv"
+                    android:layout_marginTop="@dimen/_40pxv" android:layout_width="@dimen/_14pxh"/>
+                <FrameLayout android:id="@+id/frameStackbunntspfortytwo"
+                    android:layout_height="@dimen/_81pxv"
+                    android:layout_marginStart="@dimen/_3pxh"
+                    android:layout_marginTop="@dimen/_14pxv" android:layout_width="@dimen/_84pxh">
+                    <ImageView android:id="@+id/imageBunntSpFortyTwo"
+                        android:layout_gravity="end"
+                        android:layout_height="@dimen/_81pxh"
+                        android:layout_marginStart="@dimen/_10pxh"
+                        android:layout_width="@dimen/_79pxh"
+                        android:scaleType="fitXY"
+                        imageRes="@{@drawable/img_easterbunny2}"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny2"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_blue_100_radius_5"
+                        android:id="@+id/viewAdmit"
+                        android:layout_gravity="start"
+                        android:layout_height="@dimen/_10pxh"
+                        android:layout_marginBottom="@dimen/_35pxv"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                </FrameLayout>
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:hint="@string/lbl_write_here"
+                android:id="@+id/textInputLayMetinyazlacak"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_15pxh"
+                android:layout_marginStart="@dimen/_15pxh"
+                android:layout_marginTop="@dimen/_13pxv"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:ellipsize="end"
+                    android:id="@+id/etMetinyazlacak"
+                    android:inputType="text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@={engseasonsplayingfourVM.engseasonsplayingfourModel.etMetinyazlacakValue}"
+                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout android:gravity="center_vertical"
+                android:id="@+id/linearYear"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_marginTop="@dimen/_61pxv"
+                android:layout_width="match_parent"
+                android:orientation="horizontal" style="@style/groupStylelight_blue_100cornerRadius">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtLetscheck"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_12pxv"
+                    android:layout_marginStart="@dimen/_112pxh"
+                    android:layout_marginTop="@dimen/_2pxv"
+                    android:layout_weight="0.93"
+                    android:layout_width="0dp"
+                    android:lineSpacingExtra="@dimen/_31pxh"
+                    android:singleLine="true"
+                    android:text="@{engseasonsplayingfourVM.engseasonsplayingfourModel.txtLetscheck}"
+                    style="@style/txtAksaraBaliGalangregular18" tools:text="@string/lbl_let_s_check"/>
+                <ImageView android:id="@+id/imageArrowright"
+                    android:layout_height="@dimen/_15pxh"
+                    android:layout_marginBottom="@dimen/_24pxv"
+                    android:layout_marginEnd="@dimen/_120pxh"
+                    android:layout_marginStart="@dimen/_10pxh"
+                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_width="@dimen/_7pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_arrowright"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrowright"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>

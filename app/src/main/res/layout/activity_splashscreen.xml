@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashscreenVM" type="com.mob.app.modules.splashscreen.data.viewmodel.SplashscreenVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearSplashScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleyellow_100">
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal" android:id="@+id/txtMOB"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_65pxh"
+            android:layout_marginStart="@dimen/_65pxh"
+            android:layout_marginTop="@dimen/_181pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:singleLine="true"
+            android:text="@{splashscreenVM.splashscreenModel.txtMOB}"
+            style="@style/txt" tools:text="@string/lbl_mob"/>
+        <ImageView android:id="@+id/imageEasterbunnyOne"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_287pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_65pxh"
+            android:layout_marginStart="@dimen/_65pxh"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:layout_width="@dimen/_260pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_easterbunny1}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+    </LinearLayout>
+</layout>

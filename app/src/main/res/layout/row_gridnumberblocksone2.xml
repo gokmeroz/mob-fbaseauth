@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="gridnumberblocksone2RowModel" type="com.mob.app.modules.eslestirmesecim.data.model.Gridnumberblocksone2RowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameStacknumberblocksone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" style="@style/groupStylelight_blue_101">
+        <ImageView android:id="@+id/imageNumberblocksOne"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_120pxh"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:layout_marginEnd="@dimen/_16pxh"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="@dimen/_120pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_numberblocks1}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_numberblocks1"/>
+    </FrameLayout>
+</layout>

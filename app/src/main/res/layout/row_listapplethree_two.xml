@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listapplethreeTwoRowModel" type="com.mob.app.modules.engcarpmakonuanlatim.data.model.ListapplethreeTwoRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowapplethree"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerListapplethree"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52" android:layout_width="0dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            itemSpace="@{@dimen/_10pxh}" tools:itemCount="2" tools:listitem="@layout/row_listapplethree"/>
+        <View android:background="@color/bluegray_900"
+            android:id="@+id/lineArrowEleven"
+            android:layout_height="@dimen/_1pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginStart="@dimen/_6pxh"
+            android:layout_marginTop="@dimen/_19pxv"
+            android:layout_weight="0.48" android:layout_width="0dp"/>
+    </LinearLayout>
+</layout>

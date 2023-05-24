@@ -1,0 +1,64 @@
+package com.mob.app.modules.engeslestirmesecim.ui
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.mob.app.R
+import com.mob.app.databinding.RowGridnumberblocksoneBinding
+import com.mob.app.modules.engeslestirmesecim.`data`.model.GridnumberblocksoneRowModel
+import kotlin.Int
+import kotlin.collections.List
+
+class GridnumberblocksoneAdapter(
+  var list: List<GridnumberblocksoneRowModel>
+) : RecyclerView.Adapter<GridnumberblocksoneAdapter.RowGridnumberblocksoneVH>() {
+  private var clickListener: OnItemClickListener? = null
+
+  override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RowGridnumberblocksoneVH {
+    val
+        view=LayoutInflater.from(parent.context).inflate(R.layout.row_gridnumberblocksone,parent,false)
+    return RowGridnumberblocksoneVH(view)
+  }
+
+  override fun onBindViewHolder(holder: RowGridnumberblocksoneVH, position: Int) {
+    val gridnumberblocksoneRowModel = GridnumberblocksoneRowModel()
+    // TODO uncomment following line after integration with data source
+    // val gridnumberblocksoneRowModel = list[position]
+    holder.binding.gridnumberblocksoneRowModel = gridnumberblocksoneRowModel
+  }
+
+  override fun getItemCount(): Int = 4
+  // TODO uncomment following line after integration with data source
+  // return list.size
+
+  public fun updateData(newData: List<GridnumberblocksoneRowModel>) {
+    list = newData
+    notifyDataSetChanged()
+  }
+
+  fun setOnItemClickListener(clickListener: OnItemClickListener) {
+    this.clickListener = clickListener
+  }
+
+  interface OnItemClickListener {
+    fun onItemClick(
+      view: View,
+      position: Int,
+      item: GridnumberblocksoneRowModel
+    ) {
+    }
+  }
+
+  inner class RowGridnumberblocksoneVH(
+    view: View
+  ) : RecyclerView.ViewHolder(view) {
+    val binding: RowGridnumberblocksoneBinding = RowGridnumberblocksoneBinding.bind(itemView)
+    init {
+      binding.frameStacknumberblocksone.setOnClickListener {
+        // TODO replace with value from datasource
+        clickListener?.onItemClick(it, adapterPosition, GridnumberblocksoneRowModel())
+      }
+    }
+  }
+}

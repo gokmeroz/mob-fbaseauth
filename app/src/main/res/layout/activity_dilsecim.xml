@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="dilsecimVM" type="com.mob.app.modules.dilsecim.data.viewmodel.DilsecimVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameDilSecim"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyleyellow_100">
+        <LinearLayout android:id="@+id/linearColumnrecninetyfive"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_38pxh"
+            android:layout_marginStart="@dimen/_37pxh"
+            android:layout_marginTop="@dimen/_40pxv"
+            android:layout_width="match_parent" android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/frameWhom"
+                style="@style/groupStylecornerRadius"
+                android:layout_width="@dimen/_315pxh"
+                android:layout_height="201dp">
+
+                <ImageView
+                    android:id="@+id/imageRectangletr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_rectangle2037"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_rectangle2037" />
+
+                <TextView
+                    android:id="@+id/txtPrice"
+                    style="@style/txtABeeZeeitalic50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="190dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="@dimen/_27pxh"
+                    android:layout_marginTop="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_27pxh"
+                    android:layout_marginBottom="@dimen/_14pxv"
+                    android:gravity="top|center"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@{dilsecimVM.dilsecimModel.txtPrice}"
+                    tools:text="@string/msg_select_your_l"
+                    tools:textSize="@dimen/_50pxh" />
+            </FrameLayout>
+            <LinearLayout android:id="@+id/linearRowturkeyone"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_92pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageTurkeyOne"
+                    android:layout_height="@dimen/_91pxh"
+                    android:layout_width="@dimen/_141pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_turkey1}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_turkey1"/>
+                <ImageView android:id="@+id/imageUnitedkingdom"
+                    android:layout_height="@dimen/_91pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_129pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_unitedkingdom}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_unitedkingdom"/>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/frameWhole"
+                style="@style/groupStylecornerRadius"
+                android:layout_width="@dimen/_315pxh"
+                android:layout_height="201dp"
+                android:layout_marginTop="@dimen/_93pxv">
+
+                <ImageView
+                    android:id="@+id/imageId"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_193pxh"
+                    android:layout_gravity="start"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_rectangle2037"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_rectangle2037" />
+
+                <TextView
+                    android:id="@+id/txtDLNZSEN"
+                    style="@style/txtABeeZeeitalic50"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:layout_marginStart="@dimen/_76pxh"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_marginEnd="@dimen/_76pxh"
+                    android:layout_marginBottom="@dimen/_30pxv"
+                    android:gravity="top|center"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+
+                    android:text="@{dilsecimVM.dilsecimModel.txtDLNZSEN}"
+                    tools:text="@string/lbl_d_l_n_z_se_n"
+                    tools:textSize="@dimen/_50pxh" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</layout>
