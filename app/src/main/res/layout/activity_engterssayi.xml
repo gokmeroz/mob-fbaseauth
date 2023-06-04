@@ -15,7 +15,7 @@
             android:layout_marginTop="@dimen/_35pxv"
             android:layout_width="match_parent" android:orientation="vertical">
             <View android:background="@color/blue_100"
-                android:id="@+id/viewSayAnimasyonu"
+                android:id="@+id/sayigosterici"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="@dimen/_320pxh"
                 android:layout_marginEnd="@dimen/_14pxh"

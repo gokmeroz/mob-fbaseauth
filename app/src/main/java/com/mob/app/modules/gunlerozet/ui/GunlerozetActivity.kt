@@ -26,7 +26,7 @@ class GunlerozetActivity : BaseActivity<ActivityGunlerozetBinding>(R.layout.acti
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listrectangle2080Adapter =
     Listrectangle2080Adapter(viewModel.listrectangle2080List.value?:mutableListOf())
-    binding.recyclerListrectangle2080.adapter = listrectangle2080Adapter
+   // binding.recyclerListrectangle2080.adapter = listrectangle2080Adapter
     listrectangle2080Adapter.setOnItemClickListener(
     object : Listrectangle2080Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2080RowModel) {
@@ -39,7 +39,7 @@ class GunlerozetActivity : BaseActivity<ActivityGunlerozetBinding>(R.layout.acti
     }
     val listrectangle2080TwoAdapter =
     Listrectangle2080TwoAdapter(viewModel.listrectangle2080TwoList.value?:mutableListOf())
-    binding.recyclerListrectangle2080Two.adapter = listrectangle2080TwoAdapter
+  //  binding.recyclerListrectangle2080Two.adapter = listrectangle2080TwoAdapter
     listrectangle2080TwoAdapter.setOnItemClickListener(
     object : Listrectangle2080TwoAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2080TwoRowModel) {

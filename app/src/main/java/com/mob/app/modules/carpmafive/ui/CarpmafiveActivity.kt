@@ -1,5 +1,8 @@
 package com.mob.app.modules.carpmafive.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import com.mob.app.R
@@ -15,12 +18,13 @@ import kotlin.Unit
 class CarpmafiveActivity : BaseActivity<ActivityCarpmafiveBinding>(R.layout.activity_carpmafive) {
   private val viewModel: CarpmafiveVM by viewModels<CarpmafiveVM>()
 
-  private val REQUEST_CODE_DOGRUYANIT_ACTIVITY: Int = 610
+  private val REQUEST_CODE_DOGRUYANIT_ACTIVITY: Int = 185
 
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
-    val carpmafiveAdapter = CarpmafiveAdapter(viewModel.carpmafiveList.value?:mutableListOf())
-    binding.recyclerCarpmafive.adapter = carpmafiveAdapter
+    val carpmafiveAdapter =
+      CarpmafiveAdapter(viewModel.carpmafiveList.value?:mutableListOf())
+    //binding.recyclerCarpmafive.adapter = carpmafiveAdapter
     carpmafiveAdapter.setOnItemClickListener(
     object : CarpmafiveAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : CarpmafiveRowModel) {
@@ -52,6 +56,11 @@ class CarpmafiveActivity : BaseActivity<ActivityCarpmafiveBinding>(R.layout.acti
 
   companion object {
     const val TAG: String = "CARPMAFIVE_ACTIVITY"
-
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, CarpmafiveActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
   }
+
 }

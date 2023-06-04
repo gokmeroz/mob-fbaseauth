@@ -8,6 +8,8 @@ data class EngeslestirmerenktwoModel(
   /**
    * TODO Replace with dynamic value
    */
+  var etMetinyazlacakValue: String? = null,
+
   var txtLetsmatchthe: String? =
       MyApp.getInstance().resources.getString(R.string.msg_let_s_match_the)
 

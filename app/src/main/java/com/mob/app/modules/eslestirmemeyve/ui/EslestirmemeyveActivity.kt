@@ -22,7 +22,7 @@ class EslestirmemeyveActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val gridhealthyfoodoneAdapter =
     GridhealthyfoodoneAdapter(viewModel.gridhealthyfoodoneList.value?:mutableListOf())
-    binding.recyclerGridhealthyfoodone.adapter = gridhealthyfoodoneAdapter
+  //  binding.recyclerGridhealthyfoodone.adapter = gridhealthyfoodoneAdapter
     gridhealthyfoodoneAdapter.setOnItemClickListener(
     object : GridhealthyfoodoneAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Gridhealthyfoodone1RowModel) {

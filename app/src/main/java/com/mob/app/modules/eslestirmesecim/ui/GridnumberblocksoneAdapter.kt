@@ -21,6 +21,7 @@ class GridnumberblocksoneAdapter(
     return RowGridnumberblocksone2VH(view)
   }
 
+
   override fun onBindViewHolder(holder: RowGridnumberblocksone2VH, position: Int) {
     val gridnumberblocksone2RowModel = Gridnumberblocksone2RowModel()
     // TODO uncomment following line after integration with data source

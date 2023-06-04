@@ -25,7 +25,7 @@ class CarpmakonuanlatimActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listapplethreeTwoAdapter =
     ListapplethreeTwoAdapter(viewModel.listapplethreeTwoList.value?:mutableListOf())
-    binding.recyclerListapplethreeTwo.adapter = listapplethreeTwoAdapter
+   // binding.recyclerListapplethreeTwo.adapter = listapplethreeTwoAdapter
     listapplethreeTwoAdapter.setOnItemClickListener(
     object : ListapplethreeTwoAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : ListapplethreeTwo1RowModel) {

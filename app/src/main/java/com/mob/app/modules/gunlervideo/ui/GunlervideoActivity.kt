@@ -2,7 +2,9 @@ package com.mob.app.modules.gunlervideo.ui
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.VideoView
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
@@ -14,7 +16,7 @@ import kotlin.String
 import kotlin.Unit
 
 class GunlervideoActivity : BaseActivity<ActivityGunlervideoBinding>(R.layout.activity_gunlervideo)
-    {
+{
   private val viewModel: GunlervideoVM by viewModels<GunlervideoVM>()
 
   private val REQUEST_CODE_GUNLEREGZERSIZ_ACTIVITY: Int = 143
@@ -22,6 +24,11 @@ class GunlervideoActivity : BaseActivity<ActivityGunlervideoBinding>(R.layout.ac
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.gunlervideoVM = viewModel
+
+    val videoView = findViewById<VideoView>(R.id.viewgunlervideo) // VideoView'ı layout dosyanızda tanımladığınız id ile değiştirin
+    val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.gunlervideo)
+    videoView.setVideoURI(videoUri)
+    videoView.start()
   }
 
   override fun setUpClicks(): Unit {

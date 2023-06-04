@@ -14,8 +14,10 @@
             android:layout_marginStart="@dimen/_21pxh"
             android:layout_marginTop="@dimen/_35pxv"
             android:layout_width="match_parent" android:orientation="vertical">
-            <View android:background="@color/blue_100"
-                android:id="@+id/viewSayAnimasyonu"
+            <TextView android:background="@color/blue_100"
+                android:id="@+id/sayigostericieng"
+                android:textSize="@dimen/_176pxh"
+                android:gravity="center"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="@dimen/_320pxh"
                 android:layout_marginEnd="@dimen/_14pxh"

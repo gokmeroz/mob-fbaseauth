@@ -14,13 +14,13 @@ data class EngcarpmakonuanlatimModel(
    * TODO Replace with dynamic value
    */
   var txtIfthereareThree: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_if_there_are_3)
+    MyApp.getInstance().resources.getString(R.string.msg_if_there_are_3)
   ,
   /**
    * TODO Replace with dynamic value
    */
   var txtThequestionas: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_the_question_as)
+    MyApp.getInstance().resources.getString(R.string.msg_the_question_as)
   ,
   /**
    * TODO Replace with dynamic value
@@ -31,7 +31,7 @@ data class EngcarpmakonuanlatimModel(
    * TODO Replace with dynamic value
    */
   var txtNUMBEROFAPPLE: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_number_of_apple)
+    MyApp.getInstance().resources.getString(R.string.msg_number_of_apple)
   ,
   /**
    * TODO Replace with dynamic value
@@ -57,12 +57,12 @@ data class EngcarpmakonuanlatimModel(
    * TODO Replace with dynamic value
    */
   var txtThereareatot: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_there_are_a_tot)
+    MyApp.getInstance().resources.getString(R.string.msg_there_are_a_tot)
   ,
   /**
    * TODO Replace with dynamic value
    */
   var txtLetsreinforce: String? =
-      MyApp.getInstance().resources.getString(R.string.msg_let_s_reinforce)
+    MyApp.getInstance().resources.getString(R.string.msg_let_s_reinforce)
 
 )

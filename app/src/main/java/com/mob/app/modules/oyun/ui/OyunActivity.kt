@@ -12,6 +12,7 @@ import com.mob.app.modules.aylaregzersiz.ui.AylaregzersizActivity
 import com.mob.app.modules.eslestirmesecim.ui.EslestirmesecimActivity
 import com.mob.app.modules.gunleregzersiz.ui.GunleregzersizActivity
 import com.mob.app.modules.hizliokuma.ui.HizliokumaActivity
+import com.mob.app.modules.memorygame.models.MemoryGame
 import com.mob.app.modules.ogrenme.ui.OgrenmeActivity
 import com.mob.app.modules.oyun.`data`.model.OyunRowModel
 import com.mob.app.modules.oyun.`data`.viewmodel.OyunVM
@@ -76,7 +77,7 @@ class OyunActivity : BaseActivity<ActivityOyunBinding>(R.layout.activity_oyun) {
     }
     binding.eslestirmeOyun.setOnClickListener {
       val destIntent = EslestirmesecimActivity.getIntent(this, null)
-      startActivityForResult(destIntent, REQUEST_CODE_ESLESTIRMESECIM_ACTIVITY)
+      startActivityForResult(destIntent,REQUEST_CODE_ESLESTIRMESECIM_ACTIVITY)
     }
     binding.yonlerOyun.setOnClickListener {
       val destIntent = PositionsplayingActivity.getIntent(this, null)

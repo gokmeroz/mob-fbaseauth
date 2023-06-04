@@ -21,6 +21,7 @@ import com.mob.app.modules.saattanitim.ui.SaattanitimActivity
 import com.mob.app.modules.sayidizileritanitim.ui.SayidizileritanitimActivity
 import com.mob.app.modules.seasonstanitim.ui.SeasonstanitimActivity
 import com.mob.app.modules.terssayitanitim.ui.TerssayitanitimActivity
+import com.mob.app.modules.writetanitim.ui.WritetanitimActivity
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
@@ -81,7 +82,7 @@ class OgrenmeActivity : BaseActivity<ActivityOgrenmeBinding>(R.layout.activity_o
       startActivityForResult(destIntent, REQUEST_CODE_SAATTANITIM_ACTIVITY)
     }
     binding.frameStackrectangle2032.setOnClickListener {
-      val destIntent = TerssayitanitimActivity.getIntent(this, null)
+      val destIntent = WritetanitimActivity.getIntent(this, null)
       startActivityForResult(destIntent, REQUEST_CODE_SAATTANITIM_ACTIVITY)
     }
     binding.a12.setOnClickListener {

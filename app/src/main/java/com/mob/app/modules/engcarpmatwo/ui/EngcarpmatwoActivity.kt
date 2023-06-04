@@ -1,10 +1,14 @@
 package com.mob.app.modules.engcarpmatwo.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
 import com.mob.app.databinding.ActivityEngcarpmatwoBinding
+import com.mob.app.modules.engcarpmaseven.ui.EngcarpmasevenActivity
 import com.mob.app.modules.engcarpmatwo.`data`.model.EngcarpmatwoRowModel
 import com.mob.app.modules.engcarpmatwo.`data`.viewmodel.EngcarpmatwoVM
 import com.mob.app.modules.engdogruyanit.ui.EngdogruyanitActivity
@@ -22,7 +26,7 @@ class EngcarpmatwoActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val engcarpmatwoAdapter =
     EngcarpmatwoAdapter(viewModel.engcarpmatwoList.value?:mutableListOf())
-    binding.recyclerEngcarpmatwo.adapter = engcarpmatwoAdapter
+   // binding.recyclerEngcarpmatwo.adapter = engcarpmatwoAdapter
     engcarpmatwoAdapter.setOnItemClickListener(
     object : EngcarpmatwoAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : EngcarpmatwoRowModel) {
@@ -54,6 +58,10 @@ class EngcarpmatwoActivity :
 
   companion object {
     const val TAG: String = "ENGCARPMATWO_ACTIVITY"
-
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, EngcarpmatwoActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
   }
 }

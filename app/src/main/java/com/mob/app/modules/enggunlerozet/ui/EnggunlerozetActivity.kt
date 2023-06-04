@@ -26,7 +26,7 @@ class EnggunlerozetActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val enggunlerozetAdapter =
     EnggunlerozetAdapter(viewModel.enggunlerozetList.value?:mutableListOf())
-    binding.recyclerEnggunlerozet.adapter = enggunlerozetAdapter
+   // binding.recyclerEnggunlerozet.adapter = enggunlerozetAdapter
     enggunlerozetAdapter.setOnItemClickListener(
     object : EnggunlerozetAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : EnggunlerozetRowModel) {

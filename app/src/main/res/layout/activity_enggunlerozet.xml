@@ -28,9 +28,9 @@
                         android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
                         <ImageView android:id="@+id/imageBunnyego"
                             android:layout_gravity="start"
-                            android:layout_height="@dimen/_81pxh"
+                            android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/_10pxh"
-                            android:layout_width="@dimen/_79pxh"
+                            android:layout_width="wrap_content"
                             android:scaleType="fitXY"
                             imageRes="@{@drawable/img_easterbunny1}"
                             tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
@@ -70,37 +70,40 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_1pxh"
                             android:text="@{enggunlerozetVM.enggunlerozetModel.txtCongratulationsOne}"
-                            style="@style/txtABeeZeeitalic19_1" tools:text="@string/msg_congratulations"/>
+                            style="@style/txtABeeZeeitalic19_1"
+                            tools:textSize="@dimen/_15pxh"
+                            tools:text="@string/msg_congratulations"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <LinearLayout android:id="@+id/linearRowrec104"
+            <LinearLayout android:gravity="center_horizontal"
+                android:id="@+id/linearColumnrectangle2062"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_marginEnd="@dimen/_3pxh"
+                android:layout_marginStart="@dimen/_3pxh"
+                android:layout_marginTop="@dimen/_10pxv"
                 android:layout_width="match_parent"
-                android:orientation="horizontal" style="@style/groupStylelight_blue_100">
+                android:orientation="vertical" style="@style/groupStylelight_blue_100">
                 <LinearLayout android:gravity="start"
-                    android:id="@+id/linearColumnrec104"
+                    android:id="@+id/linearRowrectangle2078"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_81pxv"
-                    android:layout_marginStart="@dimen/_4pxh"
-                    android:layout_marginTop="@dimen/_44pxv"
-                    android:layout_weight="0.48"
-                    android:layout_width="0dp" android:orientation="vertical">
-                    <FrameLayout android:id="@+id/frameWhich"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_width="@dimen/_150pxh" style="@style/groupStylecornerRadius_3">
-                        <ImageView android:id="@+id/imageRec104"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <FrameLayout android:id="@+id/frameStackrec103"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_150pxh">
-                            <ImageView android:id="@+id/imageRec103"
+                    android:layout_marginBottom="@dimen/_46pxv"
+                    android:layout_marginEnd="@dimen/_12pxh"
+                    android:layout_marginStart="@dimen/_8pxh"
+                    android:layout_marginTop="@dimen/_30pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumnrectangle2078"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.53"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799"
                                 android:layout_gravity="start"
                                 android:layout_height="@dimen/_50pxh"
                                 android:layout_width="@dimen/_150pxh"
@@ -108,250 +111,415 @@
                                 android:src="@drawable/img_clockl_amber_a100"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
                             <TextView android:ellipsize="end"
-                                android:id="@+id/txtDayCounter"
-                                android:layout_gravity="bottom|center"
+                                android:id="@+id/txtPricee"
+                                android:layout_gravity="top|center"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="@dimen/_11pxv"
-                                android:layout_marginEnd="@dimen/_51pxh"
-                                android:layout_marginStart="@dimen/_51pxh"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
                                 android:layout_marginTop="@dimen/_11pxv"
                                 android:layout_width="wrap_content"
                                 android:lineSpacingExtra="@dimen/_4pxh"
                                 android:singleLine="true"
-                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtDayCounter}"
-                                style="@style/txtBubblegumSansregular20_1" tools:text="@string/lbl_day_1"/>
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceOne}"
+                                style="@style/txtBubblegumSansregular20"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_sunday"/>
                         </FrameLayout>
-                    </FrameLayout>
-                    <FrameLayout android:id="@+id/frameWhile"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv"
-                        android:layout_width="@dimen/_150pxh" style="@style/groupStylecornerRadius_3">
-                        <ImageView android:id="@+id/imageRec102"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:id="@+id/txtDayCounterOne"
-                            android:layout_gravity="bottom|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_50pxh"
-                            android:layout_marginStart="@dimen/_50pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="wrap_content"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtDayCounterOne}"
-                            style="@style/txtBubblegumSansregular20_1" tools:text="@string/lbl_day_2"/>
-                    </FrameLayout>
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/recyclerEnggunlerozet"
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799a"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799a"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceea"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceTwo}"
+                                style="@style/txtBubblegumSansregular20_2"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_monday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799b"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799b"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceeb"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceThree}"
+                                style="@style/txtBubblegumSansregular20_3"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_tuesday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799c"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799c"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceec"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceFour}"
+                                style="@style/txtBubblegumSansregular20_4"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_wednesday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799d"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799d"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceed"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceFive}"
+                                style="@style/txtBubblegumSansregular20_5"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_thursday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079e"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079e"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPricer"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceSix}"
+                                style="@style/txtBubblegumSansregular20_6"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_friday"/>
+                        </FrameLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPrice"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPriceSeven}"
+                                style="@style/txtBubblegumSansregular20_2"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_saturday"/>
+                        </FrameLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumnrectangle2078z"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_24pxv"
-                        android:layout_width="match_parent"
-                        android:orientation="vertical"
-                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                        itemSpace="@{@dimen/_24pxh}" tools:itemCount="5" tools:listitem="@layout/row_enggunlerozet"/>
-                </LinearLayout>
-                <ImageView android:id="@+id/imageArrowOne"
-                    android:layout_height="@dimen/_589pxh"
-                    android:layout_marginBottom="@dimen/_15pxv"
-                    android:layout_marginStart="@dimen/_11pxh"
-                    android:layout_marginTop="@dimen/_15pxv"
-                    android:layout_width="@dimen/_10pxh"
-                    android:scaleType="fitXY"
-                    android:src="@drawable/img_arrow1"
-                    tools:ignore="ContentDescription" tools:src="@drawable/img_arrow1"/>
-                <LinearLayout android:gravity="start"
-                    android:id="@+id/linearColumnrec101"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="@dimen/_86pxv"
-                    android:layout_marginEnd="@dimen/_10pxh"
-                    android:layout_marginStart="@dimen/_7pxh"
-                    android:layout_marginTop="@dimen/_39pxv"
-                    android:layout_weight="0.48"
-                    android:layout_width="0dp" android:orientation="vertical">
-                    <FrameLayout android:id="@+id/frameStackrec101"
-                        android:layout_height="@dimen/_50pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRec101"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:id="@+id/txtWeekday"
-                            android:layout_gravity="bottom|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_41pxh"
-                            android:layout_marginStart="@dimen/_41pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="wrap_content"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtWeekday}"
-                            style="@style/txtBubblegumSansregular20" tools:text="@string/lbl_sunday"/>
-                    </FrameLayout>
-                    <FrameLayout android:id="@+id/frameStackrec100"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRec100"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:id="@+id/txtWeekdayOne"
-                            android:layout_gravity="bottom|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_9pxv"
-                            android:layout_marginEnd="@dimen/_38pxh"
-                            android:layout_marginStart="@dimen/_38pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_width="wrap_content"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtWeekdayOne}"
-                            style="@style/txtBubblegumSansregular20_2" tools:text="@string/lbl_monday"/>
-                    </FrameLayout>
-                    <FrameLayout
-                        android:id="@+id/frameStackrecninetynine"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRecNinetyNine"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:id="@+id/txtWeekdayTwo"
-                            android:layout_gravity="bottom|start"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_33pxh"
-                            android:layout_marginStart="@dimen/_33pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="match_parent"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtWeekdayTwo}"
-                            style="@style/txtBubblegumSansregular20_3" tools:text="@string/lbl_tuesday"/>
-                    </FrameLayout>
-                    <FrameLayout
-                        android:id="@+id/frameStackrecninetyeight"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRecNinetyEight"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:id="@+id/txtWeekdayThree"
-                            android:layout_gravity="top|start"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_18pxh"
-                            android:layout_marginStart="@dimen/_18pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="match_parent"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtWeekdayThree}"
-                            style="@style/txtBubblegumSansregular20_4" tools:text="@string/lbl_wednesday"/>
-                    </FrameLayout>
-                    <FrameLayout
-                        android:id="@+id/frameStackrecninetyseven"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRecNinetySeven"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:id="@+id/txtPrice"
-                            android:layout_gravity="top|end"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_26pxh"
-                            android:layout_marginStart="@dimen/_26pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="match_parent"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice}"
-                            style="@style/txtBubblegumSansregular20_5" tools:text="@string/lbl_thursday"/>
-                    </FrameLayout>
-                    <FrameLayout
-                        android:id="@+id/frameStackrecninetysix"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRecNinetySix"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:id="@+id/txtWeekdayFour"
-                            android:layout_gravity="top|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_44pxh"
-                            android:layout_marginStart="@dimen/_44pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="wrap_content"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtWeekdayFour}"
-                            style="@style/txtBubblegumSansregular20_6" tools:text="@string/lbl_friday"/>
-                    </FrameLayout>
-                    <FrameLayout
-                        android:id="@+id/frameStackrecninetyfive"
-                        android:layout_height="@dimen/_50pxv"
-                        android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                        <ImageView android:id="@+id/imageRecNinetyFive"
-                            android:layout_gravity="start"
-                            android:layout_height="@dimen/_50pxh"
-                            android:layout_width="@dimen/_150pxh"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_clockl_amber_a100"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
-                        <TextView android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:id="@+id/txtWeekdayFive"
-                            android:layout_gravity="top|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_11pxv"
-                            android:layout_marginEnd="@dimen/_29pxh"
-                            android:layout_marginStart="@dimen/_29pxh"
-                            android:layout_marginTop="@dimen/_11pxv"
-                            android:layout_width="match_parent"
-                            android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
-                            android:text="@{enggunlerozetVM.enggunlerozetModel.txtWeekdayFive}"
-                            style="@style/txtBubblegumSansregular20_2" tools:text="@string/lbl_saturday"/>
-                    </FrameLayout>
+                        android:layout_weight="0.53"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799z"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799z"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceez"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice1}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_1"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799ax"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799ax"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceeax"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice2}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_2"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799bd"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799bd"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceebd"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice3}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_3"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799cr"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799cr"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceecr"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice4}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_4"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799df"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799df"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceedf"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice5}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_5"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079eh"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079eh"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPricerh"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice6}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_6"/>
+                        </FrameLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079u"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079u"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceu"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunlerozetVM.enggunlerozetModel.txtPrice7}"
+                                style="@style/txtBubblegumSansregular20_1"
+                                tools:textSize="@dimen/_20pxh"
+                                tools:text="@string/lbl_day_7"/>
+                        </FrameLayout>
+                    </LinearLayout>
+
+
                 </LinearLayout>
             </LinearLayout>
+
+
         </LinearLayout>
     </FrameLayout>
 </layout>

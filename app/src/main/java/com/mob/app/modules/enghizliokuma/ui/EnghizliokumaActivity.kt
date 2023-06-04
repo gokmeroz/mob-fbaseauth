@@ -26,24 +26,6 @@ class EnghizliokumaActivity :
     BaseActivity<ActivityEnghizliokumaBinding>(R.layout.activity_enghizliokuma) {
   private val viewModel: EnghizliokumaVM by viewModels<EnghizliokumaVM>()
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    setContentView(R.layout.activity_enghizliokuma)
-
-    val videoView = findViewById<VideoView>(R.id.viewenghizlivideo)
-    //Creating MediaController
-    val mediaController = MediaController(this)
-    mediaController.setAnchorView(videoView)
-    //specify the location of media file
-    val uri:Uri = parse(Environment.getExternalStorageDirectory().getPath()  +
-            "/Users/mertozdogan/Desktop/mob-master/app/src/main/res/raw/hizliokumavideo.mp4")
-    //Setting MediaController and URI, then starting the videoView
-    videoView.setMediaController(mediaController)
-    videoView.setVideoURI(uri)
-    videoView.requestFocus()
-    videoView.start()
-  }
-
   private val REQUEST_CODE_LEARNING_ACTIVITY: Int = 505
 
 
@@ -51,6 +33,12 @@ class EnghizliokumaActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.enghizliokumaVM = viewModel
 
+
+
+    val videoView = findViewById<VideoView>(R.id.viewenghizlivideo) // VideoView'ı layout dosyanızda tanımladığınız id ile değiştirin
+    val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.enghizliokuma)
+    videoView.setVideoURI(videoUri)
+    videoView.start()
   }
 
   override fun setUpClicks(): Unit {

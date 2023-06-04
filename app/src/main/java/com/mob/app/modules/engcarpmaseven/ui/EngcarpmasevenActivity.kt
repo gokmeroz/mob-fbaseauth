@@ -26,7 +26,7 @@ class EngcarpmasevenActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val engcarpmasevenAdapter =
     EngcarpmasevenAdapter(viewModel.engcarpmasevenList.value?:mutableListOf())
-    binding.recyclerEngcarpmaseven.adapter = engcarpmasevenAdapter
+    //binding.recyclerEngcarpmaseven.adapter = engcarpmasevenAdapter
     engcarpmasevenAdapter.setOnItemClickListener(
     object : EngcarpmasevenAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : EngcarpmasevenRowModel) {

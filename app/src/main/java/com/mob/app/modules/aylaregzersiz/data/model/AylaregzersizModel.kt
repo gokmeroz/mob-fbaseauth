@@ -31,6 +31,8 @@ data class AylaregzersizModel(
    */
   var txtEYLL: String? = MyApp.getInstance().resources.getString(R.string.lbl_eyl_l)
   ,
+  var etMetinyazlacakValue: String? = null
+,
   /**
    * TODO Replace with dynamic value
    */

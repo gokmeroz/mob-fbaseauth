@@ -30,25 +30,25 @@ class EngpositionsplayingthreeActivity :
   }
 
   override fun setUpClicks(): Unit {
-    binding.frameStackwork.setOnClickListener {
+    binding.optionone.setOnClickListener {
       val destIntent = EngpositionsplayingfourActivity.getIntent(this, null)
       startActivityForResult(destIntent, REQUEST_CODE_ENGPOSITIONSPLAYINGFOUR_ACTIVITY)
     }
-    binding.frameStackbasketballthree.setOnClickListener {
+    binding.optiontwo.setOnClickListener {
       this@EngpositionsplayingthreeActivity.alert(MyApp.getInstance().getString(R.string.msg_let_s_try_again),
       MyApp.getInstance().getString(R.string.msg_unfortunately_you_gave_the_wrong_an_n_try_again)) {
         neutralButton {
         }
       }
     }
-    binding.frameStackbasketballone.setOnClickListener {
+    binding.optionthree.setOnClickListener {
       this@EngpositionsplayingthreeActivity.alert(MyApp.getInstance().getString(R.string.msg_let_s_try_again),
       MyApp.getInstance().getString(R.string.msg_unfortunately_you_gave_the_wrong_an_n_try_again)) {
         neutralButton {
         }
       }
     }
-    binding.linearColumnbasketballfour.setOnClickListener {
+    binding.optionfour.setOnClickListener {
       this@EngpositionsplayingthreeActivity.alert(MyApp.getInstance().getString(R.string.msg_let_s_try_again),
       MyApp.getInstance().getString(R.string.msg_unfortunately_you_gave_the_wrong_an_n_try_again)) {
         neutralButton {

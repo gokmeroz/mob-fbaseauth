@@ -22,7 +22,7 @@ class EngeslestirmerenkActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val gridcolorpaletteoneAdapter =
     GridcolorpaletteoneAdapter(viewModel.gridcolorpaletteoneList.value?:mutableListOf())
-    binding.recyclerGridcolorpaletteone.adapter = gridcolorpaletteoneAdapter
+   // binding.recyclerGridcolorpaletteone.adapter = gridcolorpaletteoneAdapter
     gridcolorpaletteoneAdapter.setOnItemClickListener(
     object : GridcolorpaletteoneAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : GridcolorpaletteoneRowModel) {

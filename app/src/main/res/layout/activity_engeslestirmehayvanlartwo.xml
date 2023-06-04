@@ -29,9 +29,9 @@
                         android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
                         <ImageView android:id="@+id/imageEasterbunnyOne"
                             android:layout_gravity="start"
-                            android:layout_height="@dimen/_81pxh"
+                            android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/_10pxh"
-                            android:layout_width="@dimen/_79pxh"
+                            android:layout_width="wrap_content"
                             android:scaleType="fitXY"
                             imageRes="@{@drawable/img_easterbunny1}"
                             tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
@@ -63,216 +63,432 @@
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
                             android:id="@+id/txtLetsmatchthe"
-                            android:layout_gravity="bottom|center"
+                            android:layout_gravity="center"
                             android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_20pxv"
-                            android:layout_marginEnd="@dimen/_15pxh"
-                            android:layout_marginStart="@dimen/_15pxh"
-                            android:layout_marginTop="@dimen/_20pxv"
+                            android:layout_marginBottom="@dimen/_17pxv"
+                            android:layout_marginEnd="@dimen/_26pxh"
+                            android:layout_marginStart="@dimen/_26pxh"
+                            android:layout_marginTop="@dimen/_17pxv"
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
-                            android:singleLine="true"
+                            android:singleLine="false"
                             android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
-                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_let_s_match_the"/>
+                            style="@style/txtABeeZeeitalic20"
+                            tools:textSize="@dimen/_10pxh"
+                            tools:text="@string/msg_eslestirmeyve"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <LinearLayout android:id="@+id/linearRowsquirrel"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_12pxh"
-                android:layout_marginTop="@dimen/_112pxv"
+            <LinearLayout android:id="@+id/linearRowphotowithouth"
+                android:layout_height="@dimen/_110pxh"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_9pxh"
+                android:layout_marginTop="@dimen/_1pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
-                <FrameLayout android:id="@+id/frameStacksquirrel"
-                    android:layout_height="@dimen/_100pxv"
-                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
-                    <ImageView android:id="@+id/imageSquirrel"
+                <FrameLayout android:id="@+id/frameStackclockwithouth"
+                    android:layout_height="@dimen/_129pxv"
+                    android:layout_width="@dimen/_150pxh"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView android:id="@+id/img_squirrel"
                         android:layout_gravity="center"
-                        android:layout_height="@dimen/_80pxh"
-                        android:layout_marginBottom="@dimen/_10pxv"
-                        android:layout_marginEnd="@dimen/_11pxh"
-                        android:layout_marginStart="@dimen/_9pxh"
-                        android:layout_marginTop="@dimen/_10pxv"
-                        android:layout_width="@dimen/_80pxh"
-                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_width="@dimen/_100pxh"
+                        android:scaleType="centerCrop"
+                        circular="@{true}"
                         imageRes="@{@drawable/img_squirrel}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_squirrel"/>
+
+                    <TextView
+                        android:id="@+id/txt1"
+                        style="@style/txtABeeZeeitalic20"
+                        android:layout_width="match_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:ellipsize="end"
+                        android:gravity="left|center"
+                        android:lineSpacingExtra="@dimen/_4pxh"
+                        android:singleLine="true"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        tools:text="@string/lbl_1"
+                        tools:textSize="@dimen/_50pxh" />
+
                 </FrameLayout>
-                <androidx.appcompat.widget.AppCompatButton
-                    android:ellipsize="end" android:gravity="center"
-                    android:id="@+id/btnOctopus"
-                    android:layout_height="@dimen/_100pxh"
-                    android:layout_marginStart="@dimen/_14pxh"
-                    android:layout_width="@dimen/_100pxh"
-                    android:letterSpacing="0.05"
-                    android:lineSpacingExtra="@dimen/_4pxh"
-                    android:paddingBottom="@dimen/_30pxv"
-                    android:paddingEnd="@dimen/_6pxh"
-                    android:paddingStart="@dimen/_7pxh"
-                    android:paddingTop="@dimen/_30pxv"
-                    android:singleLine="true"
-                    android:text="@string/lbl_octopus"
-                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_octopus"/>
-                <FrameLayout android:id="@+id/frameStacklion"
-                    android:layout_height="@dimen/_100pxv"
-                    android:layout_marginStart="@dimen/_13pxh"
-                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
-                    <ImageView android:id="@+id/imageLion"
+                <FrameLayout android:id="@+id/frameStackrectangle2074"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="wrap_content" style="@style/groupStylecornerRadius_3">
+                    <FrameLayout
+                        android:id="@+id/imageRectangle2074Threee"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_56pxh"
+                        android:layout_height="wrap_content" android:layout_width="wrap_content">
+                        <View
+                            android:id="@+id/viewEllipse77"
+                            android:layout_width="@dimen/_100pxh"
+                            android:layout_height="@dimen/_100pxv"
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104" />
+                    </FrameLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:hint="@string/lbl_esles"
+                        android:id="@+id/textInputLayMetinyazlacak1"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_50pxh"
+                        android:layout_gravity="left|center"
+                        android:textColorHint="@color/black_900" style="@style/txtSolid">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:ellipsize="end"
+                            android:id="@+id/etMetinyazlacak11"
+                            android:inputType="text"
+                            android:layout_height="@dimen/_100pxh"
+                            android:layout_width="@dimen/_50pxh"
+                            android:singleLine="true"
+                            android:text="@={engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.etMetinyazlacakValue}"
+                            android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <FrameLayout android:id="@+id/frameStackellipse77"
+                        android:layout_height="@dimen/_100pxv"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_90pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_width="wrap_content">
+
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtHadieletire"
+                            android:layout_gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="false"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            style="@style/txtBubblegumSansregular40"
+                            tools:textSize="@dimen/_10pxh"
+                            tools:text="@string/msg_aslan"/>
+                    </FrameLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowphoto"
+                android:layout_height="@dimen/_110pxh"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_9pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackphoto"
+                    android:layout_height="@dimen/_129pxv"
+                    android:layout_width="@dimen/_150pxh"
+                    android:layout_gravity="left|center"
+                    >
+
+                    <ImageView android:id="@+id/img_lion"
                         android:layout_gravity="center"
-                        android:layout_height="@dimen/_80pxh"
-                        android:layout_marginHorizontal="@dimen/_10pxh"
-                        android:layout_marginVertical="@dimen/_10pxv"
-                        android:layout_width="@dimen/_80pxh"
-                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_width="@dimen/_100pxh"
+                        android:scaleType="centerCrop"
+                        circular="@{true}"
                         imageRes="@{@drawable/img_lion}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_lion"/>
-                </FrameLayout>
-            </LinearLayout>
-            <LinearLayout android:id="@+id/linearRowchicken"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_12pxh"
-                android:layout_marginTop="@dimen/_11pxv"
-                android:layout_width="match_parent" android:orientation="horizontal">
-                <androidx.appcompat.widget.AppCompatButton
-                    android:ellipsize="end" android:gravity="center"
-                    android:id="@+id/btnChicken"
-                    android:layout_height="@dimen/_100pxh"
-                    android:layout_width="@dimen/_100pxh"
-                    android:letterSpacing="0.05"
-                    android:lineSpacingExtra="@dimen/_4pxh"
-                    android:paddingBottom="@dimen/_30pxv"
-                    android:paddingEnd="@dimen/_8pxh"
-                    android:paddingStart="@dimen/_9pxh"
-                    android:paddingTop="@dimen/_30pxv"
-                    android:singleLine="true"
-                    android:text="@string/lbl_chicken"
-                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_chicken"/>
-                <FrameLayout android:id="@+id/frameStackhen"
-                    android:layout_height="@dimen/_100pxv"
-                    android:layout_marginStart="@dimen/_13pxh"
-                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
-                    <ImageView android:id="@+id/imageHen"
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt2"
                         android:layout_gravity="center"
-                        android:layout_height="@dimen/_80pxh"
-                        android:layout_marginBottom="@dimen/_10pxv"
-                        android:layout_marginEnd="@dimen/_9pxh"
-                        android:layout_marginStart="@dimen/_11pxh"
-                        android:layout_marginTop="@dimen/_10pxv"
-                        android:layout_width="@dimen/_80pxh"
-                        android:scaleType="fitXY"
-                        imageRes="@{@drawable/img_hen}"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_hen"/>
+                        android:gravity="left|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_4pxh"
+                        android:singleLine="true"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        style="@style/txtABeeZeeitalic20"
+                        tools:textSize="@dimen/_50pxh"
+                        tools:text="@string/lbl_2"/>
+
                 </FrameLayout>
-                <androidx.appcompat.widget.AppCompatButton
-                    android:ellipsize="end" android:gravity="center"
-                    android:id="@+id/btnFox"
-                    android:layout_height="@dimen/_100pxh"
-                    android:layout_marginStart="@dimen/_14pxh"
-                    android:layout_width="@dimen/_100pxh"
-                    android:letterSpacing="0.05"
-                    android:lineSpacingExtra="@dimen/_4pxh"
-                    android:paddingHorizontal="@dimen/_30pxh"
-                    android:paddingVertical="@dimen/_30pxv"
-                    android:singleLine="true"
-                    android:text="@string/lbl_fox"
-                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_fox"/>
+                <FrameLayout android:id="@+id/frameStackrectagle2074"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="wrap_content" style="@style/groupStylecornerRadius_3">
+                    <FrameLayout
+                        android:id="@+id/imageRectangle2074Theee"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_56pxh"
+                        android:layout_height="wrap_content" android:layout_width="wrap_content">
+                        <View
+                            android:id="@+id/viewEllips7"
+                            android:layout_width="@dimen/_100pxh"
+                            android:layout_height="@dimen/_100pxv"
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104" />
+                    </FrameLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:hint="@string/lbl_esles"
+                        android:id="@+id/textInputLayMetinyazlcak"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_50pxh"
+                        android:layout_gravity="left|center"
+                        android:textColorHint="@color/black_900" style="@style/txtSolid">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:ellipsize="end"
+                            android:id="@+id/etMetinyazlacak"
+                            android:inputType="text"
+                            android:layout_height="@dimen/_100pxh"
+                            android:layout_width="@dimen/_50pxh"
+                            android:singleLine="true"
+                            android:text="@={engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.etMetinyazlacakValue}"
+                            android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <FrameLayout android:id="@+id/frameStackellipse7"
+                        android:layout_height="@dimen/_100pxv"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_90pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_width="wrap_content">
+
+                        <TextView
+                            android:id="@+id/txtHadieletir"
+                            style="@style/txtBubblegumSansregular40"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="false"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            tools:text="@string/msg_tilki"
+                            tools:textSize="@dimen/_10pxh" />
+                    </FrameLayout>
+
+
+
+                </FrameLayout>
             </LinearLayout>
-            <LinearLayout android:id="@+id/linearRowfoxOne"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_12pxh"
-                android:layout_marginTop="@dimen/_11pxv"
+            <LinearLayout android:id="@+id/linearRowclockwithouth"
+                android:layout_height="@dimen/_110pxh"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_9pxh"
+                android:layout_marginTop="@dimen/_1pxv"
                 android:layout_width="match_parent" android:orientation="horizontal">
-                <FrameLayout android:id="@+id/frameStackfoxOne"
-                    android:layout_height="@dimen/_100pxv"
-                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
-                    <ImageView android:id="@+id/imageFoxOne"
-                        android:layout_gravity="end"
-                        android:layout_height="@dimen/_80pxh"
-                        android:layout_marginBottom="@dimen/_10pxv"
-                        android:layout_marginStart="@dimen/_10pxh"
-                        android:layout_marginTop="@dimen/_10pxv"
-                        android:layout_width="@dimen/_80pxh"
-                        android:scaleType="fitXY"
+                <FrameLayout android:id="@+id/frameStackclockwithouthd"
+                    android:layout_height="@dimen/_129pxv"
+                    android:layout_width="@dimen/_150pxh"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView android:id="@+id/img_fox"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_width="@dimen/_100pxh"
+                        android:scaleType="centerCrop"
+                        circular="@{true}"
                         imageRes="@{@drawable/img_fox}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_fox"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt3"
+                        android:layout_gravity="center"
+                        android:gravity="left|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_4pxh"
+                        android:singleLine="true"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        style="@style/txtABeeZeeitalic20"
+                        tools:textSize="@dimen/_50pxh"
+                        tools:text="@string/lbl_3"/>
+
                 </FrameLayout>
-                <androidx.appcompat.widget.AppCompatButton
-                    android:ellipsize="end" android:gravity="center"
-                    android:id="@+id/btnLionOne"
-                    android:layout_height="@dimen/_100pxh"
-                    android:layout_marginStart="@dimen/_14pxh"
-                    android:layout_width="@dimen/_100pxh"
-                    android:letterSpacing="0.05"
-                    android:lineSpacingExtra="@dimen/_4pxh"
-                    android:paddingBottom="@dimen/_30pxv"
-                    android:paddingEnd="@dimen/_26pxh"
-                    android:paddingStart="@dimen/_27pxh"
-                    android:paddingTop="@dimen/_30pxv"
-                    android:singleLine="true"
-                    android:text="@string/lbl_lion"
-                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_lion"/>
-                <androidx.appcompat.widget.AppCompatButton
-                    android:ellipsize="end" android:gravity="center"
-                    android:id="@+id/btnFrog"
-                    android:layout_height="@dimen/_100pxh"
-                    android:layout_marginStart="@dimen/_13pxh"
-                    android:layout_width="@dimen/_100pxh"
-                    android:letterSpacing="0.05"
-                    android:lineSpacingExtra="@dimen/_4pxh"
-                    android:paddingBottom="@dimen/_30pxv"
-                    android:paddingEnd="@dimen/_23pxh"
-                    android:paddingStart="@dimen/_25pxh"
-                    android:paddingTop="@dimen/_30pxv"
-                    android:singleLine="true"
-                    android:text="@string/lbl_frog"
-                    android:textAllCaps="false" style="@style/btnSolid" tools:text="@string/lbl_frog"/>
-            </LinearLayout>
-            <LinearLayout android:id="@+id/linearRowprice"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_12pxh"
-                android:layout_marginTop="@dimen/_11pxv"
-                android:layout_width="match_parent" android:orientation="horizontal">
-                <TextView android:ellipsize="end"
-                    android:id="@+id/txtPrice"
+                <FrameLayout android:id="@+id/frameStackrectangl2074"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.33"
-                    android:layout_width="0dp"
-                    android:letterSpacing="0.05"
-                    android:lineSpacingExtra="@dimen/_4pxh"
-                    android:paddingBottom="@dimen/_30pxv"
-                    android:paddingStart="@dimen/_3pxh"
-                    android:paddingTop="@dimen/_30pxv"
-                    android:singleLine="true"
-                    android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtPrice}"
-                    style="@style/txtSolid_2" tools:text="@string/lbl_squirrel"/>
-                <FrameLayout android:id="@+id/frameStackfrogOne"
-                    android:layout_height="@dimen/_100pxv"
-                    android:layout_marginStart="@dimen/_13pxh"
-                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
-                    <ImageView android:id="@+id/imageFrogOne"
-                        android:layout_gravity="center"
-                        android:layout_height="@dimen/_80pxh"
-                        android:layout_marginHorizontal="@dimen/_10pxh"
-                        android:layout_marginVertical="@dimen/_10pxv"
-                        android:layout_width="@dimen/_80pxh"
-                        android:scaleType="fitXY"
-                        imageRes="@{@drawable/img_frog}"
-                        tools:ignore="ContentDescription" tools:src="@drawable/img_frog"/>
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="wrap_content" style="@style/groupStylecornerRadius_3">
+                    <FrameLayout
+                        android:id="@+id/imageRectangle2074Three"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_56pxh"
+                        android:layout_height="wrap_content" android:layout_width="wrap_content">
+                        <View
+                            android:id="@+id/viewEllipe77"
+                            android:layout_width="@dimen/_100pxh"
+                            android:layout_height="@dimen/_100pxv"
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104" />
+                    </FrameLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:hint="@string/lbl_esles"
+                        android:id="@+id/textInputLayMetinyalacak1"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_50pxh"
+                        android:layout_gravity="left|center"
+                        android:textColorHint="@color/black_900" style="@style/txtSolid">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:ellipsize="end"
+                            android:id="@+id/etMetinyazlacak1"
+                            android:inputType="text"
+                            android:layout_height="@dimen/_100pxh"
+                            android:layout_width="@dimen/_50pxh"
+                            android:singleLine="true"
+                            android:text="@={engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.etMetinyazlacakValue}"
+                            android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <FrameLayout android:id="@+id/frameStackellipse"
+                        android:layout_height="@dimen/_100pxv"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_90pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_width="wrap_content">
+
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/txtHadieleti"
+                            android:layout_gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="false"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            style="@style/txtBubblegumSansregular40"
+                            tools:textSize="@dimen/_10pxh"
+                            tools:text="@string/msg_ahtapot"/>
+                    </FrameLayout>
+
+
+
                 </FrameLayout>
-                <FrameLayout android:id="@+id/frameStackoctopusOne"
-                    android:layout_height="@dimen/_100pxv"
-                    android:layout_marginStart="@dimen/_13pxh"
-                    android:layout_width="@dimen/_100pxh" style="@style/groupStylelight_blue_100">
-                    <ImageView android:id="@+id/imageOctopusOne"
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowclockwithouthb"
+                android:layout_height="@dimen/_110pxh"
+                android:layout_marginEnd="@dimen/_1pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <FrameLayout android:id="@+id/frameStackclockwithouthb"
+                    android:layout_height="@dimen/_129pxv"
+                    android:layout_width="@dimen/_150pxh"
+                    android:layout_gravity="center"
+                    >
+
+                    <ImageView android:id="@+id/img_octopus"
                         android:layout_gravity="center"
-                        android:layout_height="@dimen/_80pxh"
-                        android:layout_marginHorizontal="@dimen/_10pxh"
-                        android:layout_marginVertical="@dimen/_10pxv"
-                        android:layout_width="@dimen/_80pxh"
-                        android:scaleType="fitXY"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_width="@dimen/_100pxh"
+                        android:scaleType="centerCrop"
+                        circular="@{true}"
                         imageRes="@{@drawable/img_octopus}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_octopus"/>
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txt4"
+                        android:layout_gravity="center"
+                        android:gravity="left|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_4pxh"
+                        android:singleLine="true"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        style="@style/txtABeeZeeitalic20"
+                        tools:textSize="@dimen/_50pxh"
+                        tools:text="@string/lbl_4"/>
+
+                </FrameLayout>
+                <FrameLayout android:id="@+id/frameStackrectangle207"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_30pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="wrap_content" style="@style/groupStylecornerRadius_3">
+                    <FrameLayout
+                        android:id="@+id/imageRectangle2074Thre"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_56pxh"
+                        android:layout_height="wrap_content" android:layout_width="wrap_content">
+                        <View
+                            android:id="@+id/viewEllipse7"
+                            android:layout_width="@dimen/_100pxh"
+                            android:layout_height="@dimen/_100pxv"
+                            android:background="@drawable/rectangle_bg_blue_100_radius_104" />
+                    </FrameLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:hint="@string/lbl_esles"
+                        android:id="@+id/textInputLayMetinyazlacak"
+                        android:layout_height="@dimen/_100pxh"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_1pxv"
+                        android:layout_width="@dimen/_50pxh"
+                        android:layout_gravity="left|center"
+                        android:textColorHint="@color/black_900" style="@style/txtSolid">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:ellipsize="end"
+                            android:id="@+id/etMetinyazlcak"
+                            android:inputType="text"
+                            android:layout_height="@dimen/_100pxh"
+                            android:layout_width="@dimen/_50pxh"
+                            android:singleLine="true"
+                            android:text="@={engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.etMetinyazlacakValue}"
+                            android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+                    <FrameLayout android:id="@+id/frameStackellipse77w"
+                        android:layout_height="@dimen/_100pxv"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="@dimen/_90pxh"
+                        android:layout_marginBottom="@dimen/_1pxv"
+                        android:layout_width="wrap_content">
+
+                        <TextView android:ellipsize="end"
+                            android:gravity="top|start"
+                            android:id="@+id/yesil"
+                            android:layout_gravity="left|center"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_width="match_parent"
+                            android:lineSpacingExtra="@dimen/_4pxh"
+                            android:singleLine="false"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            style="@style/txtBubblegumSansregular40"
+                            tools:textSize="@dimen/_10pxh"
+                            tools:text="@string/msg_sincap"/>
+                    </FrameLayout>
+
+
+
                 </FrameLayout>
             </LinearLayout>
+
+
         </LinearLayout>
     </FrameLayout>
+
 </layout>

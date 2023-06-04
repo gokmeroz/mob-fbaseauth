@@ -24,7 +24,7 @@ class EnggunleregzersizActivity :
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listrec136Adapter = Listrec136Adapter(viewModel.listrec136List.value?:mutableListOf())
-    binding.recyclerListrec136.adapter = listrec136Adapter
+   // binding.recyclerListrec136.adapter = listrec136Adapter
     listrec136Adapter.setOnItemClickListener(
     object : Listrec136Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrec136RowModel) {
@@ -36,7 +36,7 @@ class EnggunleregzersizActivity :
       listrec136Adapter.updateData(it)
     }
     val listrec130Adapter = Listrec130Adapter(viewModel.listrec130List.value?:mutableListOf())
-    binding.recyclerListrec130.adapter = listrec130Adapter
+   // binding.recyclerListrec130.adapter = listrec130Adapter
     listrec130Adapter.setOnItemClickListener(
     object : Listrec130Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrec130RowModel) {
@@ -48,7 +48,7 @@ class EnggunleregzersizActivity :
       listrec130Adapter.updateData(it)
     }
     val weAdapter = WeAdapter(viewModel.weList.value?:mutableListOf())
-    binding.recyclerWe.adapter = weAdapter
+   // binding.recyclerWe.adapter = weAdapter
     weAdapter.setOnItemClickListener(
     object : WeAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : WeRowModel) {

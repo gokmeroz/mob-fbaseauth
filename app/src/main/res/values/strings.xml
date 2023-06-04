@@ -20,6 +20,11 @@ ONE</string>
 <string name="msg_hadi_rendikle">Hadi öğrendiklerimizi pekiştirelim!</string>
     <string name="msg_arpma_i_lemler">Çarpma işlemlerinin cevaplarını yanına yaz!</string>
 <string name="lbl_6_g_n">6.GÜN</string>
+    <string name="lbl_2_g_n">2.GÜN</string>
+    <string name="lbl_4_g_n">4.GÜN</string>
+    <string name="lbl_7_g_n">7.GÜN</string>
+    <string name="lbl_5_g_n">5.GÜN</string>
+
 <string name="lbl_5_x_0">5 X 0 =</string>
 <string name="msg_sepette_bulunan">SEPETTE BULUNAN
  ELMA SAYISI</string>
@@ -33,6 +38,9 @@ ONE</string>
 <string name="lbl_5_x_6">5 X 6 =</string>
 <string name="lbl_5_x_5">5 X 5 =</string>
 <string name="lbl_5_x_4">5 X 4 =</string>
+    <string name="lbl_5_x_3">5 X 3 =</string>
+    <string name="lbl_5_x_2">5 X 2 =</string>
+    <string name="lbl_5_x_1">5 X 1 =</string>
     <string name="lbl_elindeki_alt_n">Elindeki altın:</string>
     <string name="lbl_d_l_n_z_se_n">DİLİNİZİ
 SEÇİN</string>
@@ -53,7 +61,15 @@ Sonbahar mevsimine hoş geldin!
 <string name="lbl_banana">BANANA</string>
 <string name="lbl_isim">isim</string>
 <string name="lbl_pazar">PAZAR</string>
-<string name="lbl_4_x_4">4 X 4 =</string>
+
+    <string name="lbl_4_x_3">4 X 3 =</string>
+    <string name="lbl_4_x_2">4 X 2 =</string>
+    <string name="lbl_4_x_1">4 X 1 =</string>
+    <string name="lbl_4_x_4">4 X 4 =</string>
+    <string name="lbl_4_x_7">4 X 7 =</string>
+    <string name="lbl_4_x_8">4 X 8 =</string>
+    <string name="lbl_4_x_9">4 X 9 =</string>
+
     <string name="lbl_4_x_6">4 X 6 =</string>
 <string name="lbl_4_x_5">4 X 5 =</string>
     <string name="lbl_4_x_0">4 X 0 =</string>
@@ -73,6 +89,22 @@ Bu mevsimde günler daha uzun ve havalar daha sıcak. Sıcak havalarda serinleme
 <string name="lbl_fox">FOX</string>
 <string name="lbl_s_ncap">SİNCAP</string>
 <string name="lbl_december">DECEMBER</string>
+    <string name="lbl_esles">....</string>
+
+    <string name="lbl_saatkac">Saat kaç? :</string>
+    <string name="lbl_time">What time is it?:</string>
+    <string name="lbl_gun">Bu kaçıncı gün?:</string>
+    <string name="lbl_day">What day is it?:</string>
+
+
+    <string name="lbl_bosluk_bir">1.Boşluk:</string>
+    <string name="lbl_bosluk_iki">2.Boşluk:</string>
+    <string name="lbl_bosluk_uc">3.Boşluk:</string>
+    <string name="lbl_bosluk_dort">4.Boşluk:</string>
+    <string name="lbl_bosluk_one">First blank:</string>
+    <string name="lbl_bosluk_two">Second blank:</string>
+    <string name="lbl_bosluk_three">Third blank:</string>
+    <string name="lbl_bosluk_four">Fourth blank:</string>
 <string name="msg_merhaba_ben_mob">MERHABA BEN MOB!
 
     ÖĞRENME SÜRECİNDE YANINDA OLACAK EN İYİ ARKADAŞINIM.BIRLIKTE SAATLERİ, MEVSİMLERİ, GÜNLERİ  VE DAHA BIRÇOK BİLGİYİ ÖĞRENECEĞİZ.
@@ -156,6 +188,9 @@ Bu mevsimde kar yağar ve dışarıda yapacak birçok aktivite vardır. Kızak k
 <string name="msg_your_total_gold">Your total gold:</string>
 <string name="lbl_day_6">DAY 6</string>
     <string name="lbl_day_2">DAY 2</string>
+    <string name="lbl_day_4">DAY 4</string>
+    <string name="lbl_day_5">DAY 5</string>
+    <string name="lbl_day_7">DAY 7</string>
 <string name="lbl_day_3">DAY 3</string>
 <string name="lbl_behind">...BEHIND...</string>
 <string name="lbl_day_1">DAY 1</string>
@@ -215,12 +250,20 @@ Hadi başlayalım!</string>
 sayıyı ters çevirerek 
 aşağıya yaz!</string>
 <string name="lbl_z_m">ÜZÜM</string>
-<string name="lbl_6_x_6">6 X 6 =</string>
+    <string name="lbl_6_x_9">6 X 9 =</string>
+    <string name="lbl_6_x_8">6 X 8 =</string>
+    <string name="lbl_6_x_7">6 X 7 =</string>
+
+    <string name="lbl_6_x_6">6 X 6 =</string>
 <string name="lbl_thirty_three">THIRTY
 THREE</string>
 <string name="lbl_6_x_5">6 X 5 =</string>
     <string name="lbl_orange">ORANGE</string>
     <string name="lbl_6_x_4">6 X 4 =</string>
+    <string name="lbl_6_x_3">6 X 3 =</string>
+    <string name="lbl_6_x_2">6 X 2 =</string>
+    <string name="lbl_6_x_1">6 X 1 =</string>
+
     <string name="lbl_name2">name</string>
 <string name="msg_bo_luklar_tama">Boşlukları tamamlayalım!</string>
 <string name="lbl">...............</string>
@@ -229,6 +272,9 @@ THREE</string>
 <string name="msg_tebrikler_tekr">Tebrikler!
 Tekrar bi gözden geçirelim!</string>
 <string name="lbl_1">1</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_3">3</string>
+
     <string name="msg_write_the_answe">Write the answers to the multiplication problems next to them!</string>
 <string name="lbl_near">...NEAR...</string>
     <string name="lbl_4">4</string>
@@ -236,10 +282,13 @@ Tekrar bi gözden geçirelim!</string>
     <string name="msg_hello_this_se">Hello!
 This section will help you learn on, near, under and behind positions. These positions will help you determine where you need to go at all times. 
 Let\u2019s get started!</string>
-<string name="lbl_login">Login</string>
+<string name="lbl_login">Logın</string>
 <string name="lbl_july">JULY</string>
     <string name="lbl_7_x_0">7 X 0 =</string>
 <string name="lbl_7_x_7">7 X 7 =</string>
+    <string name="lbl_7_x_1">7 X 1 =</string>
+    <string name="lbl_7_x_2">7 X 2 =</string>
+    <string name="lbl_7_x_3">7 X 3 =</string>
 <string name="lbl_7_x_6">7 X 6 =</string>
 <string name="lbl_7_x_5">7 X 5 =</string>
 <string name="lbl_lion">LION</string>
@@ -298,7 +347,13 @@ HADİ TEKRAR DENEYELİM!</string>
     <string name="lbl_n_san">NİSAN</string>
 <string name="lbl_8_x_4">8 X 4 =</string>
 <string name="msg_let_s_have_some">Let\u2019s have some fun!</string>
+    <string name="lbl_8_x_1">8 X 1 =</string>
+    <string name="lbl_8_x_2">8 X 2 =</string>
+    <string name="lbl_8_x_3">8 X 3 =</string>
     <string name="lbl_8_x_6">8 X 6 =</string>
+    <string name="lbl_8_x_7">8 X 7 =</string>
+    <string name="lbl_8_x_8">8 X 8 =</string>
+    <string name="lbl_8_x_9">8 X 9 =</string>
 <string name="lbl_8_x_5">8 X 5 =</string>
 <string name="lbl_y_z">YÜZ</string>
 <string name="lbl_chicken">CHICKEN</string>
@@ -326,6 +381,12 @@ Let\u2019s get started!</string>
 4.If you give the correct answer, you can move on to the next level. 
 Let\u2019s get started!</string>
 <string name="lbl_1_x_6">1 X 6 =</string>
+    <string name="lbl_1_x_1">1 X 1 =</string>
+    <string name="lbl_1_x_2">1 X 2 =</string>
+    <string name="lbl_1_x_3">1 X 3 =</string>
+    <string name="lbl_1_x_9">1 X 9 =</string>
+    <string name="lbl_1_x_8">1 X 8 =</string>
+    <string name="lbl_1_x_7">1 X 7 =</string>
 <string name="msg_hello_this_se2">Hello! 
 This section will help you learn about the seasons. Seasons are natural changes that occur at different times of the year. You will have fun learning about the seasons with this application. 
 Let\u2019s get started!</string>
@@ -348,9 +409,35 @@ LET\u2019S TRY AGAIN!</string>
 <string name="lbl_octopus">OCTOPUS</string>
 <string name="lbl_cuma">CUMA</string>
 <string name="msg_hadi_e_le_tirel">Hadi eşleştirelim!</string>
-<string name="lbl_9_x_5">9 X 5 =</string>
+    <string name="msg_eslestir">Boşluklara ilgili görselin numarasını yazalım!</string>
+    <string name="msg_eslestirrenk">Görselleri renkleriyle eşleştirelim!</string>
+    <string name="msg_eslestirmeyve">Görselleri isimleriyle eşleştirelim!</string>
+
+
+    <string name="msg_pembe">PEMBE</string>
+    <string name="msg_yesil">YEŞİL</string>
+    <string name="msg_turuncu">TURUNCU</string>
+    <string name="msg_sari">SARI</string>
+    <string name="msg_muz">MUZ</string>
+    <string name="msg_ananas">ANANAS</string>
+    <string name="msg_seftali">ŞEFTALİ</string>
+    <string name="msg_uzum">ÜZÜM</string>
+    <string name="msg_sincap">SİNCAP</string>
+    <string name="msg_aslan">ASLAN</string>
+    <string name="msg_tilki">TİLKİ</string>
+    <string name="msg_ahtapot">AHTAPOT</string>
+
+
+
+
+
+    <string name="lbl_9_x_5">9 X 5 =</string>
 <string name="lbl_9_x_4">9 X 4 =</string>
+    <string name="lbl_9_x_3">9 X 3 =</string>
+    <string name="lbl_9_x_2">9 X 2 =</string>
+    <string name="lbl_9_x_1">9 X 1 =</string>
     <string name="lbl_9_x_0">9 X 0 =</string>
+
 <string name="msg_renmek_istedi">Öğrenmek istediğin mevsimin üstüne tıkla</string>
 <string name="lbl_strawberry">STRAWBERRY</string>
 <string name="msg_let_s_start_by">"Let's start by learning what multiplication is"</string>
@@ -383,6 +470,9 @@ HUNDRED</string>
 <string name="msg_if_there_are_3">If there are 3 apples in each basket and there are 4 baskets, how many apples are there in total?</string>
 <string name="lbl_3_x_9">3 X 9 =</string>
 <string name="lbl_3_x_8">3 X 8 =</string>
+    <string name="lbl_3_x_3">3 X 3 =</string>
+    <string name="lbl_3_x_2">3 X 2 =</string>
+    <string name="lbl_3_x_1">3 X 1 =</string>
     <string name="lbl_3_x_0">3 X 0 =</string>
 <string name="lbl_ek_m">EKİM</string>
 <string name="lbl_oynayalim">OYNAYALIM</string>
@@ -470,7 +560,11 @@ Let\u2019s learn!</string>
 <string name="lbl_2_x_7">2 X 7 =</string>
     <string name="lbl_2_x_8">2 X 8 =</string>
     <string name="lbl_2_x_4">2 X 4 =</string>
-<string name="lbl_2_x_0">2 X 0 =</string>
+    <string name="lbl_2_x_3">2 X 3 =</string>
+    <string name="lbl_2_x_2">2 X 2 =</string>
+    <string name="lbl_2_x_1">2 X 1 =</string>
+
+    <string name="lbl_2_x_0">2 X 0 =</string>
 <string name="lbl_hadi_renelim">Hadi öğrenelim!</string>
 <string name="lbl_mayis">MAYIS</string>
 <string name="msg_please_enter_valid_pa">Please enter valid password</string>

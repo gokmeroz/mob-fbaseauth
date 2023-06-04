@@ -29,9 +29,9 @@
                         android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
                         <ImageView android:id="@+id/imageEasterbunnyOne"
                             android:layout_gravity="start"
-                            android:layout_height="@dimen/_81pxh"
+                            android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/_10pxh"
-                            android:layout_width="@dimen/_79pxh"
+                            android:layout_width="wrap_content"
                             android:scaleType="fitXY"
                             imageRes="@{@drawable/img_easterbunny1}"
                             tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
@@ -74,7 +74,7 @@
                             android:singleLine="true"
                             android:text="@{oyunVM.oyunModel.txtHadielenelim}"
                             style="@style/txtABeeZeeitalic20" tools:text="@string/lbl_hadi_e_lenelim"
-                            tools:textSize="@dimen/_17pxh" />
+                            tools:textSize="@dimen/_15pxh" />
 
                     </FrameLayout>
                 </LinearLayout>
@@ -524,9 +524,7 @@
 
                         <ImageView
                             android:id="@+id/a34"
-                            imageRes="@{@drawable/img_steps2}"
-                            android:layout_width="@dimen/_60pxh"
-                            android:layout_height="@dimen/_40pxh"
+                            imageRes="@{@drawable/listening}"
                             android:layout_gravity="top|center"
                             android:layout_marginStart="@dimen/_36pxh"
                             android:layout_marginTop="@dimen/_3pxv"
@@ -534,21 +532,9 @@
                             android:layout_marginBottom="@dimen/_4pxv"
                             android:scaleType="fitXY"
                             tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_steps2" />
-
-                        <ImageView
-                            android:id="@+id/a344"
-                            imageRes="@{@drawable/img_arrow6}"
-                            android:layout_width="@dimen/_73pxh"
-                            android:layout_height="@dimen/_20pxh"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/_36pxh"
-                            android:layout_marginTop="@dimen/_3pxv"
-                            android:layout_marginEnd="@dimen/_40pxh"
-                            android:layout_marginBottom="@dimen/_4pxv"
-                            android:scaleType="fitXY"
-                            tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_arrow6" />
+                            tools:src="@drawable/listening"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_width="@dimen/_100pxh"/>
                     </FrameLayout>
                 </LinearLayout>
 

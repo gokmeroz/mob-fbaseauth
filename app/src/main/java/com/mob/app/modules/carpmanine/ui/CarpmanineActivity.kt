@@ -1,5 +1,8 @@
 package com.mob.app.modules.carpmanine.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import com.mob.app.R
@@ -8,6 +11,7 @@ import com.mob.app.databinding.ActivityCarpmanineBinding
 import com.mob.app.modules.carpmanine.`data`.model.CarpmanineRowModel
 import com.mob.app.modules.carpmanine.`data`.viewmodel.CarpmanineVM
 import com.mob.app.modules.dogruyanit.ui.DogruyanitActivity
+import com.mob.app.modules.engcarpmaseven.ui.EngcarpmasevenActivity
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
@@ -20,7 +24,7 @@ class CarpmanineActivity : BaseActivity<ActivityCarpmanineBinding>(R.layout.acti
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val carpmanineAdapter = CarpmanineAdapter(viewModel.carpmanineList.value?:mutableListOf())
-    binding.recyclerCarpmanine.adapter = carpmanineAdapter
+    //binding.recyclerCarpmanine.adapter = carpmanineAdapter
     carpmanineAdapter.setOnItemClickListener(
     object : CarpmanineAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : CarpmanineRowModel) {
@@ -53,5 +57,10 @@ class CarpmanineActivity : BaseActivity<ActivityCarpmanineBinding>(R.layout.acti
   companion object {
     const val TAG: String = "CARPMANINE_ACTIVITY"
 
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, CarpmanineActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
   }
 }

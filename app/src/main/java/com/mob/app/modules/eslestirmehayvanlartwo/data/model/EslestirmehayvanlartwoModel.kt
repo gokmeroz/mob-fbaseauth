@@ -11,6 +11,8 @@ data class EslestirmehayvanlartwoModel(
   var txtHadieletirel: String? =
       MyApp.getInstance().resources.getString(R.string.msg_hadi_e_le_tirel)
   ,
+  var etMetinyazlacakValue: String? = null
+,
   /**
    * TODO Replace with dynamic value
    */

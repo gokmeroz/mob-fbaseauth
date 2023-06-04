@@ -25,7 +25,7 @@
                     android:layout_width="match_parent" android:orientation="horizontal">
                     <FrameLayout
                         android:id="@+id/frameStackeasterbunnyone"
-                        android:layout_height="@dimen/_81pxv"
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
                         <ImageView android:id="@+id/imageEasterbunnyOne"
                             android:layout_gravity="start"
@@ -73,7 +73,9 @@
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="true"
                             android:text="@{positionsaltVM.positionsaltModel.txtTopmasann}"
-                            style="@style/txtABeeZeeitalic20" tools:text="@string/lbl_top_masan_n"/>
+                            style="@style/txtABeeZeeitalic20"
+                            tools:textSize="@dimen/_15pxh"
+                            tools:text="@string/lbl_top_masan_n"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
@@ -85,8 +87,8 @@
                 android:layout_marginTop="@dimen/_155pxv"
                 android:layout_width="@dimen/_268pxh"
                 android:scaleType="fitXY"
-                android:src="@drawable/img_group58"
-                tools:ignore="ContentDescription" tools:src="@drawable/img_group58"/>
+                android:src="@drawable/img_positionalt"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_positionalt"/>
             <FrameLayout android:id="@+id/frameStackellipse785"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="@dimen/_68pxv"

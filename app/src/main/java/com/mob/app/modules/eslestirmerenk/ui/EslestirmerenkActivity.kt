@@ -22,7 +22,7 @@ class EslestirmerenkActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val eslestirmerenkAdapter =
     EslestirmerenkAdapter(viewModel.eslestirmerenkList.value?:mutableListOf())
-    binding.recyclerEslestirmerenk.adapter = eslestirmerenkAdapter
+  //  binding.recyclerEslestirmerenk.adapter = eslestirmerenkAdapter
     eslestirmerenkAdapter.setOnItemClickListener(
     object : EslestirmerenkAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : EslestirmerenkRowModel) {

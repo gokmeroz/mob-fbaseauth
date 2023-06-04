@@ -25,7 +25,7 @@ class CarpmasevenActivity : BaseActivity<ActivityCarpmasevenBinding>(R.layout.ac
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val carpmasevenAdapter =
     CarpmasevenAdapter(viewModel.carpmasevenList.value?:mutableListOf())
-    binding.recyclerCarpmaseven.adapter = carpmasevenAdapter
+  //  binding.recyclerCarpmaseven.adapter = carpmasevenAdapter
     carpmasevenAdapter.setOnItemClickListener(
     object : CarpmasevenAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : CarpmasevenRowModel) {

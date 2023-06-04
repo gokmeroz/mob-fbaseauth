@@ -2,7 +2,9 @@ package com.mob.app.modules.saatvideo.ui
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.VideoView
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
@@ -22,6 +24,11 @@ class SaatvideoActivity : BaseActivity<ActivitySaatvideoBinding>(R.layout.activi
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.saatvideoVM = viewModel
+
+    val videoView = findViewById<VideoView>(R.id.viewsaatvideo) // VideoView'ı layout dosyanızda tanımladığınız id ile değiştirin
+    val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.saatvideo)
+    videoView.setVideoURI(videoUri)
+    videoView.start()
   }
 
   override fun setUpClicks(): Unit {

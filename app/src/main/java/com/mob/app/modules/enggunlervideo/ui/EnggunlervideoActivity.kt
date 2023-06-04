@@ -2,7 +2,9 @@ package com.mob.app.modules.enggunlervideo.ui
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.VideoView
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
@@ -19,6 +21,11 @@ class EnggunlervideoActivity :
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.enggunlervideoVM = viewModel
+
+    val videoView = findViewById<VideoView>(R.id.viewenggunlervideo) // VideoView'ı layout dosyanızda tanımladığınız id ile değiştirin
+    val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.enggunlervideo)
+    videoView.setVideoURI(videoUri)
+    videoView.start()
   }
 
   override fun setUpClicks(): Unit {

@@ -74,7 +74,7 @@
                             android:singleLine="true"
                             android:text="@{ogrenmeVM.ogrenmeModel.txtHadirenelim}"
                             style="@style/txtABeeZeeitalic20" tools:text="@string/lbl_hadi_renelim"
-                            tools:textSize="@dimen/_17pxh" />
+                            tools:textSize="@dimen/_15pxh" />
 
                     </FrameLayout>
                 </LinearLayout>
@@ -527,9 +527,7 @@
 
                         <ImageView
                             android:id="@+id/a34"
-                            imageRes="@{@drawable/img_steps2}"
-                            android:layout_width="@dimen/_60pxh"
-                            android:layout_height="@dimen/_40pxh"
+                            imageRes="@{@drawable/listening}"
                             android:layout_gravity="top|center"
                             android:layout_marginStart="@dimen/_36pxh"
                             android:layout_marginTop="@dimen/_3pxv"
@@ -537,21 +535,11 @@
                             android:layout_marginBottom="@dimen/_4pxv"
                             android:scaleType="fitXY"
                             tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_steps2" />
+                            tools:src="@drawable/listening"
+                            android:layout_height="@dimen/_60pxh"
+                            android:layout_width="@dimen/_100pxh"/>
 
-                        <ImageView
-                            android:id="@+id/a344"
-                            imageRes="@{@drawable/img_arrow6}"
-                            android:layout_width="@dimen/_73pxh"
-                            android:layout_height="@dimen/_20pxh"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/_36pxh"
-                            android:layout_marginTop="@dimen/_3pxv"
-                            android:layout_marginEnd="@dimen/_40pxh"
-                            android:layout_marginBottom="@dimen/_4pxv"
-                            android:scaleType="fitXY"
-                            tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_arrow6" />
+
                     </FrameLayout>
                 </LinearLayout>
 

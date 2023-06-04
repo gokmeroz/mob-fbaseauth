@@ -2,7 +2,9 @@ package com.mob.app.modules.aylarvideo.ui
 
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.VideoView
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
@@ -22,6 +24,10 @@ class AylarvideoActivity : BaseActivity<ActivityAylarvideoBinding>(R.layout.acti
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.aylarvideoVM = viewModel
+    val videoView = findViewById<VideoView>(R.id.viewaylarvideo)
+    val videoUri = Uri.parse("android.resource://" + packageName + "/" + R.raw.aylarvideo)
+    videoView.setVideoURI(videoUri)
+    videoView.start()
   }
 
   override fun setUpClicks(): Unit {

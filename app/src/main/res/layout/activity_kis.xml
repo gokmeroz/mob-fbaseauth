@@ -9,57 +9,64 @@
         <LinearLayout android:id="@+id/linearColumnrr"
             android:layout_gravity="center"
             android:layout_height="match_parent"
-            android:layout_marginBottom="@dimen/_40pxv"
+            android:layout_marginBottom="@dimen/_4pxv"
             android:layout_marginEnd="@dimen/_6pxh"
             android:layout_marginStart="@dimen/_5pxh"
-            android:layout_marginTop="@dimen/_40pxv"
+            android:layout_marginTop="@dimen/_4pxv"
             android:layout_width="match_parent" android:orientation="vertical">
-            <FrameLayout android:id="@+id/frameStackhouseone"
-                android:layout_gravity="start"
-                android:layout_height="@dimen/_390pxv" android:layout_width="@dimen/_379pxh">
-                <FrameLayout android:id="@+id/frameStackrr"
-                    android:layout_gravity="bottom|start"
-                    android:layout_height="@dimen/_248pxv"
-                    android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_379pxh">
-                    <View
-                        android:background="@drawable/rectangle_bg_blue_100_radius_189_5"
-                        android:id="@+id/viewRr"
-                        android:layout_gravity="start"
-                        android:layout_height="@dimen/_248pxv" android:layout_width="@dimen/_379pxh"/>
-                    <TextView android:gravity="top|center"
-                        android:id="@+id/txtDescription"
-                        android:layout_gravity="bottom|center"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="@dimen/_14pxv"
-                        android:layout_marginEnd="@dimen/_46pxh"
-                        android:layout_marginStart="@dimen/_46pxh"
-                        android:layout_marginTop="@dimen/_14pxv"
-                        android:layout_width="match_parent"
-                        android:lineSpacingExtra="@dimen/_1pxh"
-                        android:text="@{kisVM.kisModel.txtDescription}"
-                        style="@style/txtABeeZeeitalic20" tools:text="@string/msg_merhaba_k_m"/>
-                </FrameLayout>
-                <ImageView android:id="@+id/imageHouseOne"
-                    android:layout_gravity="top|start"
+            <FrameLayout
+                android:id="@+id/frameStackhouseone"
+                android:layout_width="@dimen/_379pxh"
+                android:layout_height="151dp"
+                android:layout_gravity="start">
+                <ImageView
+                    android:id="@+id/imageHouseOne"
+                    imageRes="@{@drawable/img_house1}"
+                    android:layout_width="@dimen/_142pxh"
                     android:layout_height="@dimen/_140pxh"
-                    android:layout_marginBottom="@dimen/_10pxv"
-                    android:layout_marginEnd="@dimen/_16pxh"
+                    android:layout_gravity="top|start"
                     android:layout_marginStart="@dimen/_16pxh"
                     android:layout_marginTop="@dimen/_7pxv"
-                    android:layout_width="@dimen/_142pxh"
-                    android:scaleType="fitXY"
-                    imageRes="@{@drawable/img_house1}"
-                    tools:ignore="ContentDescription" tools:src="@drawable/img_house1"/>
-                <ImageView android:id="@+id/imageSnowmanOne"
-                    android:layout_gravity="top|end"
-                    android:layout_height="@dimen/_138pxh"
+                    android:layout_marginEnd="@dimen/_16pxh"
                     android:layout_marginBottom="@dimen/_10pxv"
-                    android:layout_marginEnd="@dimen/_22pxh"
-                    android:layout_marginStart="@dimen/_22pxh"
-                    android:layout_width="@dimen/_123pxh"
                     android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_house1" />
+                <ImageView
+                    android:id="@+id/imageSnowmanOne"
                     imageRes="@{@drawable/img_snowman1}"
-                    tools:ignore="ContentDescription" tools:src="@drawable/img_snowman1"/>
+                    android:layout_width="@dimen/_123pxh"
+                    android:layout_height="@dimen/_138pxh"
+                    android:layout_gravity="top|end"
+                    android:layout_marginStart="@dimen/_22pxh"
+                    android:layout_marginEnd="@dimen/_22pxh"
+                    android:layout_marginBottom="@dimen/_10pxv"
+                    android:scaleType="fitXY"
+                    tools:ignore="ContentDescription"
+                    tools:src="@drawable/img_snowman1" />
+            </FrameLayout>
+            <FrameLayout android:id="@+id/frameStackrr"
+                android:layout_gravity="bottom|start"
+                android:layout_height="@dimen/_248pxv"
+                android:layout_marginTop="@dimen/_1pxv" android:layout_width="@dimen/_379pxh">
+                <View
+                    android:background="@drawable/rectangle_bg_blue_100_radius_189_5"
+                    android:id="@+id/viewRr"
+                    android:layout_gravity="start"
+                    android:layout_height="@dimen/_248pxv" android:layout_width="@dimen/_379pxh"/>
+                <TextView android:gravity="top|center"
+                    android:id="@+id/txtDescription"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_14pxv"
+                    android:layout_marginEnd="@dimen/_46pxh"
+                    android:layout_marginStart="@dimen/_46pxh"
+                    android:layout_marginTop="@dimen/_14pxv"
+                    android:layout_width="match_parent"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:text="@{kisVM.kisModel.txtDescription}"
+                    style="@style/txtABeeZeeitalic20" tools:text="@string/msg_merhaba_k_m"
+                    tools:textSize="@dimen/_15pxh"/>
             </FrameLayout>
             <LinearLayout android:id="@+id/linearRowpp"
                 android:layout_height="wrap_content"
@@ -88,7 +95,7 @@
                         android:layout_marginTop="@dimen/_17pxv" android:layout_width="@dimen/_38pxh"/>
                     <ImageView android:gravity="start"
                         android:id="@+id/imageEasterbunnyOne"
-                        android:layout_height="@dimen/_224pxh"
+                        android:layout_height="220px"
                         android:layout_width="match_parent"
                         android:scaleType="fitXY"
                         imageRes="@{@drawable/img_easterbunny1}"
@@ -123,3 +130,4 @@
         </LinearLayout>
     </FrameLayout>
 </layout>
+

@@ -63,7 +63,7 @@
                             android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
                         <TextView android:gravity="top|center"
                             android:id="@+id/txtAadakivideo"
-                            android:layout_gravity="bottom|center"
+                            android:layout_gravity="center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_8pxv"
                             android:layout_marginEnd="@dimen/_30pxh"
@@ -72,18 +72,26 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_1pxh"
                             android:text="@{aylarvideoVM.aylarvideoModel.txtAadakivideo}"
-                            style="@style/txtABeeZeeitalic19_1" tools:text="@string/msg_a_a_daki_video"/>
+                            style="@style/txtABeeZeeitalic19_1"
+                            tools:textSize="@dimen/_15pxh"
+                            tools:text="@string/msg_a_a_daki_video"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <View android:background="@color/blue_100"
+            <VideoView
                 android:id="@+id/viewaylarvideo"
-                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/_320pxv"
+                android:layout_marginBottom="0dp"
                 android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_100pxv"
                 android:layout_marginStart="@dimen/_14pxh"
-                android:layout_marginTop="@dimen/_90pxv"
-                android:layout_width="match_parent" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
             <LinearLayout android:gravity="start"
                 android:id="@+id/linearRowhadirendikle"
                 android:layout_height="wrap_content"

@@ -1,5 +1,8 @@
 package com.mob.app.modules.carpmaeight.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import com.mob.app.R
@@ -9,12 +12,13 @@ import com.mob.app.modules.carpmaeight.`data`.model.Listrectangle2085RowModel
 import com.mob.app.modules.carpmaeight.`data`.model.Listrectangle2086RowModel
 import com.mob.app.modules.carpmaeight.`data`.viewmodel.CarpmaeightVM
 import com.mob.app.modules.dogruyanit.ui.DogruyanitActivity
+import com.mob.app.modules.engcarpmaseven.ui.EngcarpmasevenActivity
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
 
 class CarpmaeightActivity : BaseActivity<ActivityCarpmaeightBinding>(R.layout.activity_carpmaeight)
-    {
+{
   private val viewModel: CarpmaeightVM by viewModels<CarpmaeightVM>()
 
   private val REQUEST_CODE_DOGRUYANIT_ACTIVITY: Int = 745
@@ -22,27 +26,27 @@ class CarpmaeightActivity : BaseActivity<ActivityCarpmaeightBinding>(R.layout.ac
   override fun onInitialized(): Unit {
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listrectangle2073Adapter =
-    Listrectangle2073Adapter(viewModel.listrectangle2073List.value?:mutableListOf())
-    binding.recyclerListrectangle2073.adapter = listrectangle2073Adapter
+      Listrectangle2073Adapter(viewModel.listrectangle2073List.value?:mutableListOf())
+    //binding.recyclerListrectangle2073.adapter = listrectangle2073Adapter
     listrectangle2073Adapter.setOnItemClickListener(
-    object : Listrectangle2073Adapter.OnItemClickListener {
-      override fun onItemClick(view:View, position:Int, item : Listrectangle2085RowModel) {
-        onClickRecyclerListrectangle2073(view, position, item)
+      object : Listrectangle2073Adapter.OnItemClickListener {
+        override fun onItemClick(view:View, position:Int, item : Listrectangle2085RowModel) {
+          onClickRecyclerListrectangle2073(view, position, item)
+        }
       }
-    }
     )
     viewModel.listrectangle2073List.observe(this) {
       listrectangle2073Adapter.updateData(it)
     }
     val listrectangle2069Adapter =
-    Listrectangle2069Adapter(viewModel.listrectangle2069List.value?:mutableListOf())
-    binding.recyclerListrectangle2069.adapter = listrectangle2069Adapter
+      Listrectangle2069Adapter(viewModel.listrectangle2069List.value?:mutableListOf())
+    //binding.recyclerListrectangle2069.adapter = listrectangle2069Adapter
     listrectangle2069Adapter.setOnItemClickListener(
-    object : Listrectangle2069Adapter.OnItemClickListener {
-      override fun onItemClick(view:View, position:Int, item : Listrectangle2086RowModel) {
-        onClickRecyclerListrectangle2069(view, position, item)
+      object : Listrectangle2069Adapter.OnItemClickListener {
+        override fun onItemClick(view:View, position:Int, item : Listrectangle2086RowModel) {
+          onClickRecyclerListrectangle2069(view, position, item)
+        }
       }
-    }
     )
     viewModel.listrectangle2069List.observe(this) {
       listrectangle2069Adapter.updateData(it)
@@ -78,5 +82,10 @@ class CarpmaeightActivity : BaseActivity<ActivityCarpmaeightBinding>(R.layout.ac
   companion object {
     const val TAG: String = "CARPMAEIGHT_ACTIVITY"
 
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, CarpmaeightActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
   }
 }

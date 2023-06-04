@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
     <data>
-        <variable name="engseasonsecimVM" type="com.mob.app.modules.engseasonsecim.data.viewmodel.EngseasonsecimVM"/>
+        <variable name="engseasonsecimVM"
+            type="com.mob.app.modules.engseasonsecim.data.viewmodel.EngseasonsecimVM"/>
     </data>
     <FrameLayout android:id="@+id/frameEngSeasonSecim"
         android:layout_height="match_parent"
@@ -26,7 +28,10 @@
                     <FrameLayout
                         android:id="@+id/frameStackeasterbunnyone"
                         android:layout_height="@dimen/_81pxv"
-                        android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
+                        android:layout_marginTop="@dimen/_11pxv"
+
+                        android:layout_width="@dimen/_84pxh">
+
                         <ImageView android:id="@+id/imageEasterbunnyOne"
                             android:layout_gravity="start"
                             android:layout_height="@dimen/_81pxh"
@@ -42,24 +47,36 @@
                             android:layout_height="@dimen/_10pxh"
                             android:layout_marginBottom="@dimen/_35pxv"
                             android:layout_marginStart="@dimen/_10pxh"
-                            android:layout_marginTop="@dimen/_35pxv" android:layout_width="@dimen/_10pxh"/>
+                            android:layout_marginTop="@dimen/_35pxv"
+
+                            android:layout_width="@dimen/_10pxh"/>
+
                     </FrameLayout>
                     <View
                         android:background="@drawable/rectangle_bg_blue_100_radius_7"
+
                         android:id="@+id/viewEllipse780"
                         android:layout_height="@dimen/_14pxh"
                         android:layout_marginBottom="@dimen/_41pxv"
                         android:layout_marginStart="@dimen/_3pxh"
-                        android:layout_marginTop="@dimen/_37pxv" android:layout_width="@dimen/_14pxh"/>
+                        android:layout_marginTop="@dimen/_37pxv"
+
+                        android:layout_width="@dimen/_14pxh"/>
+
                     <FrameLayout android:id="@+id/frameStackellipse779"
                         android:layout_height="@dimen/_68pxv"
                         android:layout_marginBottom="@dimen/_24pxv"
-                        android:layout_marginStart="@dimen/_3pxh" android:layout_width="@dimen/_208pxh">
+                        android:layout_marginStart="@dimen/_3pxh"
+
+                        android:layout_width="@dimen/_208pxh">
+
                         <View
                             android:background="@drawable/rectangle_bg_blue_100_radius_104"
                             android:id="@+id/viewEllipse779"
                             android:layout_gravity="start"
-                            android:layout_height="@dimen/_68pxv" android:layout_width="@dimen/_208pxh"/>
+                            android:layout_height="@dimen/_68pxv"
+
+                            android:layout_width="@dimen/_208pxh"/>
                         <TextView android:gravity="top|start"
                             android:id="@+id/txtClickonthese"
                             android:layout_gravity="end"
@@ -75,16 +92,46 @@
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <androidx.recyclerview.widget.RecyclerView
-                android:gravity="end"
-                android:id="@+id/recyclerEngseasonsecim"
+            <LinearLayout android:id="@+id/linearRowSeasonone"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
                 android:layout_marginStart="@dimen/_10pxh"
-                android:layout_marginTop="@dimen/_119pxv"
-                android:layout_width="match_parent"
-                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="2" itemSpace="@{@dimen/_7pxh}"
-                tools:itemCount="4" tools:listitem="@layout/row_engseasonsecim"/>
-        </LinearLayout>
+                android:layout_marginTop="@dimen/_92pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/spring"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_ilkbahar}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_ilkbahar"/>
+                <ImageView android:id="@+id/summer"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_yaz}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_yaz"/>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/linearRowSeasontwo"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_50pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/fall"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_sonbahar}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_sonbahar"/>
+                <ImageView android:id="@+id/winter"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_kis}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_kis"/>
+            </LinearLayout></LinearLayout>
     </FrameLayout>
 </layout>

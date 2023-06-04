@@ -71,20 +71,50 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_1pxh"
                             android:text="@{seasonsecimVM.seasonsecimModel.txtRenmekistedi}"
-                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_renmek_istedi"/>
+                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_renmek_istedi"
+                            tools:textSize="@dimen/_15pxh"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <androidx.recyclerview.widget.RecyclerView
-                android:gravity="end"
-                android:id="@+id/recyclerSeasonsecim"
+            <LinearLayout android:id="@+id/linearRowSeasonone"
                 android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
                 android:layout_marginStart="@dimen/_10pxh"
-                android:layout_marginTop="@dimen/_119pxv"
-                android:layout_width="match_parent"
-                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="2" itemSpace="@{@dimen/_7pxh}"
-                tools:itemCount="4" tools:listitem="@layout/row_seasonsecim"/>
-        </LinearLayout>
+                android:layout_marginTop="@dimen/_92pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/ilkbahar"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_ilkbahar}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_ilkbahar"/>
+                <ImageView android:id="@+id/yaz"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_yaz}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_yaz"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowSeasontwo"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_50pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/sonbahar"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_sonbahar}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_sonbahar"/>
+                <ImageView android:id="@+id/kis"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_kis}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_kis"/>
+            </LinearLayout></LinearLayout>
     </FrameLayout>
 </layout>

@@ -22,7 +22,7 @@ class EslestirmesayilarActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val gridnumberblocksoneAdapter =
     GridnumberblocksoneAdapter(viewModel.gridnumberblocksoneList.value?:mutableListOf())
-    binding.recyclerGridnumberblocksone.adapter = gridnumberblocksoneAdapter
+  //  binding.recyclerGridnumberblocksone.adapter = gridnumberblocksoneAdapter
     gridnumberblocksoneAdapter.setOnItemClickListener(
     object : GridnumberblocksoneAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Gridnumberblocksone3RowModel) {

@@ -16,6 +16,8 @@ data class EslestirmesayilartwoModel(
    */
   var txtKIRKYED: String? = MyApp.getInstance().resources.getString(R.string.lbl_kirk_yed)
   ,
+  var etMetinyazlacakValue: String? = null
+,
   /**
    * TODO Replace with dynamic value
    */

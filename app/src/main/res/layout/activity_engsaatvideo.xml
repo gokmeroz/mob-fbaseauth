@@ -23,7 +23,8 @@
                 android:layout_width="match_parent" app:contentInsetStart="0dp">
                 <LinearLayout android:id="@+id/linearRowthrow"
                     android:layout_height="wrap_content"
-                    android:layout_width="match_parent" android:orientation="horizontal">
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
                     <FrameLayout android:id="@+id/frameStackthrow"
                         android:layout_height="@dimen/_81pxv"
                         android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
@@ -34,7 +35,8 @@
                             android:layout_width="@dimen/_79pxh"
                             android:scaleType="fitXY"
                             imageRes="@{@drawable/img_easterbunny1}"
-                            tools:ignore="ContentDescription" tools:src="@drawable/img_easterbunny1"/>
+                            tools:ignore="ContentDescription"
+                            tools:src="@drawable/img_easterbunny1"/>
                         <View
                             android:background="@drawable/rectangle_bg_blue_100_radius_5"
                             android:id="@+id/viewTo"
@@ -76,14 +78,20 @@
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <View android:background="@color/blue_100"
+            <VideoView
                 android:id="@+id/viewengsaatvideo"
-                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/_320pxv"
+                android:layout_marginBottom="0dp"
                 android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_100pxv"
                 android:layout_marginStart="@dimen/_14pxh"
-                android:layout_marginTop="@dimen/_90pxv"
-                android:layout_width="match_parent"/>
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
 
             <LinearLayout android:id="@+id/linearThrough"
                 android:layout_height="wrap_content"

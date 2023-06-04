@@ -16,6 +16,8 @@ data class EngsaategzersizModel(
    */
   var txt0230: String? = MyApp.getInstance().resources.getString(R.string.lbl_02_30)
   ,
+  var etMetinyazlacakValue: String? = null
+  ,
   /**
    * TODO Replace with dynamic value
    */

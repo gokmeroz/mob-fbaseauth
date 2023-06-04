@@ -75,14 +75,20 @@
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <View android:background="@color/blue_100"
+            <VideoView
                 android:id="@+id/viewenggunlervideo"
-                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
                 android:layout_height="@dimen/_320pxv"
+                android:layout_marginBottom="0dp"
                 android:layout_marginEnd="@dimen/_14pxh"
+                android:layout_marginTop="@dimen/_100pxv"
                 android:layout_marginStart="@dimen/_14pxh"
-                android:layout_marginTop="@dimen/_90pxv"
-                android:layout_width="match_parent"/>
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
             <LinearLayout android:id="@+id/linearThose"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_163pxv"

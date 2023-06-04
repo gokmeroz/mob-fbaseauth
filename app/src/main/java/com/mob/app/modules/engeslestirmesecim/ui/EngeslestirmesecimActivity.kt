@@ -9,11 +9,20 @@ import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
 import com.mob.app.databinding.ActivityEngeslestirmesecimBinding
 import com.mob.app.modules.engeslestirmehayvanlar.ui.EngeslestirmehayvanlarActivity
+import com.mob.app.modules.engeslestirmehayvanlartwo.ui.EngeslestirmehayvanlartwoActivity
 import com.mob.app.modules.engeslestirmemeyve.ui.EngeslestirmemeyveActivity
+import com.mob.app.modules.engeslestirmemeyvetwo.ui.EngeslestirmemeyvetwoActivity
 import com.mob.app.modules.engeslestirmerenk.ui.EngeslestirmerenkActivity
+import com.mob.app.modules.engeslestirmerenktwo.ui.EngeslestirmerenktwoActivity
 import com.mob.app.modules.engeslestirmesayilar.ui.EngeslestirmesayilarActivity
+import com.mob.app.modules.engeslestirmesayilartwo.ui.EngeslestirmesayilartwoActivity
 import com.mob.app.modules.engeslestirmesecim.`data`.model.GridnumberblocksoneRowModel
 import com.mob.app.modules.engeslestirmesecim.`data`.viewmodel.EngeslestirmesecimVM
+import com.mob.app.modules.eslestirmehayvanlar.ui.EslestirmehayvanlarActivity
+import com.mob.app.modules.eslestirmemeyve.ui.EslestirmemeyveActivity
+import com.mob.app.modules.eslestirmerenk.ui.EslestirmerenkActivity
+import com.mob.app.modules.eslestirmerenktwo.ui.EslestirmerenktwoActivity
+import com.mob.app.modules.eslestirmesayilar.ui.EslestirmesayilarActivity
 import com.mob.app.modules.playing.ui.PlayingActivity
 import kotlin.Int
 import kotlin.String
@@ -29,7 +38,7 @@ class EngeslestirmesecimActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val gridnumberblocksoneAdapter =
     GridnumberblocksoneAdapter(viewModel.gridnumberblocksoneList.value?:mutableListOf())
-    binding.recyclerGridnumberblocksone.adapter = gridnumberblocksoneAdapter
+    //binding.recyclerGridnumberblocksone.adapter = gridnumberblocksoneAdapter
     gridnumberblocksoneAdapter.setOnItemClickListener(
     object : GridnumberblocksoneAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : GridnumberblocksoneRowModel) {
@@ -44,9 +53,21 @@ class EngeslestirmesecimActivity :
   }
 
   override fun setUpClicks(): Unit {
-    binding.frameStackellipse780.setOnClickListener {
-      val destIntent = PlayingActivity.getIntent(this, null)
-      startActivityForResult(destIntent, REQUEST_CODE_PLAYING_ACTIVITY)
+    binding.sayilareng.setOnClickListener {
+      val destIntent = EngeslestirmesayilartwoActivity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.hayvanlareng.setOnClickListener {
+      val destIntent = EngeslestirmehayvanlartwoActivity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.renklereng.setOnClickListener {
+      val destIntent = EngeslestirmerenktwoActivity.getIntent(this, null)
+      startActivity(destIntent)
+    }
+    binding.meyvelereng.setOnClickListener {
+      val destIntent = EngeslestirmemeyvetwoActivity.getIntent(this, null)
+      startActivity(destIntent)
     }
   }
 

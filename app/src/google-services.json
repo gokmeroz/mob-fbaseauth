@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "911011544109",
+    "project_id": "mobb-ac00e",
+    "storage_bucket": "mobb-ac00e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:911011544109:android:d383dbfb18630a0cd74ca4",
+        "android_client_info": {
+          "package_name": "com.mob.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "911011544109-65g78skjjutq3r6mhhve5qk01um73gmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuiFPzwNto9KRaxRFGLk4VSm5XmVQQSOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "911011544109-65g78skjjutq3r6mhhve5qk01um73gmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,6 +11,8 @@ data class EngeslestirmehayvanlartwoModel(
   var txtLetsmatchthe: String? =
       MyApp.getInstance().resources.getString(R.string.msg_let_s_match_the)
   ,
+  var etMetinyazlacakValue: String? = null,
+
   /**
    * TODO Replace with dynamic value
    */

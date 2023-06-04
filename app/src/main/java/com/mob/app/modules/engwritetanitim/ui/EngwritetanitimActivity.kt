@@ -1,11 +1,15 @@
 package com.mob.app.modules.engwritetanitim.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
 import com.mob.app.databinding.ActivityEngwritetanitimBinding
 import com.mob.app.modules.engwrite.ui.EngwriteActivity
 import com.mob.app.modules.engwritetanitim.`data`.viewmodel.EngwritetanitimVM
+import com.mob.app.modules.writetanitim.ui.WritetanitimActivity
 import kotlin.Int
 import kotlin.String
 import kotlin.Unit
@@ -30,6 +34,12 @@ class EngwritetanitimActivity :
 
   companion object {
     const val TAG: String = "ENGWRITETANITIM_ACTIVITY"
+
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, EngwritetanitimActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
 
   }
 }

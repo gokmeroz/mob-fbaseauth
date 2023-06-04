@@ -29,7 +29,7 @@ class EngpositionsplayintwoActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listbasketballoneAdapter =
     ListbasketballoneAdapter(viewModel.listbasketballoneList.value?:mutableListOf())
-    binding.recyclerListbasketballone.adapter = listbasketballoneAdapter
+    //binding.recyclerListbasketballone.adapter = listbasketballoneAdapter
     listbasketballoneAdapter.setOnItemClickListener(
     object : ListbasketballoneAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listbasketballone1RowModel) {

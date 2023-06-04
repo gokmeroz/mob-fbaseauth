@@ -17,6 +17,7 @@ import com.mob.app.modules.engsaattanitim.ui.EngsaattanitimActivity
 import com.mob.app.modules.engsayidizileritanitim.ui.EngsayidizileritanitimActivity
 import com.mob.app.modules.engseasonstanitim.ui.EngseasonstanitimActivity
 import com.mob.app.modules.engterssayitanitim.ui.EngterssayitanitimActivity
+import com.mob.app.modules.engwritetanitim.ui.EngwritetanitimActivity
 import com.mob.app.modules.learning.`data`.model.LearningRowModel
 import com.mob.app.modules.learning.`data`.viewmodel.LearningVM
 import com.mob.app.modules.playing.ui.PlayingActivity
@@ -111,7 +112,7 @@ class LearningActivity : BaseActivity<ActivityLearningBinding>(R.layout.activity
       startActivity(destIntent)
     }
     binding.tersSayiLearning.setOnClickListener {
-      val destIntent = EngterssayitanitimActivity.getIntent(this, null)
+      val destIntent = EngwritetanitimActivity.getIntent(this, null)
       startActivity(destIntent)
     }
   }

@@ -110,33 +110,33 @@
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_100pxv" android:layout_width="@dimen/_150pxh">
 
-                        <ImageView
-                            android:id="@+id/imageRectangle2074Threeee"
-                            android:layout_width="@dimen/_150pxh"
-                            android:layout_height="@dimen/_100pxv"
-                            android:layout_gravity="start"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_rectangle2037"
-                            tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_rectangle2037" />
 
-                        <TextView
-                            android:id="@+id/txt0230"
-                            style="@style/txtFiraSansregular40"
-                            android:layout_width="118dp"
-                            android:layout_height="52dp"
-                            android:layout_gravity="top|center"
-                            android:layout_marginStart="@dimen/_35pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_marginEnd="@dimen/_29pxh"
-                            android:layout_marginBottom="@dimen/_1pxv"
-                            android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:lineSpacingExtra="@dimen/_9pxh"
-                            android:singleLine="true"
-                            android:text="@{saategzersizVM.saategzersizModel.txt0230}"
-                            tools:text="@string/lbl_02_30" />
+
+
+
+
+
                     </FrameLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:hint="@string/lbl_saatkac"
+                        android:id="@+id/textInputLayMetinyazlacak1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_14pxh"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_30pxv"
+                        android:layout_width="match_parent"
+                        android:textColorHint="@color/black_900" style="@style/txtSolid">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:ellipsize="end"
+                            android:id="@+id/etMetinyazlacak11"
+                            android:inputType="text"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:singleLine="true"
+                            android:text="@={saategzersizVM.saategzersizModel.etMetinyazlacakValue}"
+                            android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
                 </FrameLayout>
             </LinearLayout>
             <LinearLayout android:id="@+id/linearRowclockwithouth2"
@@ -171,33 +171,27 @@
                         android:id="@+id/imageRectangle20742"
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_100pxv" android:layout_width="@dimen/_150pxh">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_saatkac"
+                            android:id="@+id/textInputLayMetinyazlacak"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={saategzersizVM.saategzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
 
-                        <ImageView
-                            android:id="@+id/imageRectangle2074T22"
-                            android:layout_width="@dimen/_150pxh"
-                            android:layout_height="@dimen/_100pxv"
-                            android:layout_gravity="start"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_rectangle2037"
-                            tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_rectangle2037" />
 
-                        <TextView
-                            android:id="@+id/txt1115"
-                            style="@style/txtFiraSansregular40"
-                            android:layout_width="118dp"
-                            android:layout_height="52dp"
-                            android:layout_gravity="top|center"
-                            android:layout_marginStart="@dimen/_35pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_marginEnd="@dimen/_29pxh"
-                            android:layout_marginBottom="@dimen/_1pxv"
-                            android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:lineSpacingExtra="@dimen/_9pxh"
-                            android:singleLine="true"
-                            android:text="@{saategzersizVM.saategzersizModel.txt1115}"
-                            tools:text="@string/lbl_11_15" />
                     </FrameLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -234,32 +228,27 @@
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_100pxv" android:layout_width="@dimen/_150pxh">
 
-                        <ImageView
-                            android:id="@+id/imageRectangle2074Threeee3"
-                            android:layout_width="@dimen/_150pxh"
-                            android:layout_height="@dimen/_100pxv"
-                            android:layout_gravity="start"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_rectangle2037"
-                            tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_rectangle2037" />
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_saatkac"
+                            android:id="@+id/textInputLayMetinyazlacak2"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak22"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={saategzersizVM.saategzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
 
-                        <TextView
-                            android:id="@+id/txt0300"
-                            style="@style/txtFiraSansregular40"
-                            android:layout_width="118dp"
-                            android:layout_height="52dp"
-                            android:layout_gravity="top|center"
-                            android:layout_marginStart="@dimen/_35pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_marginEnd="@dimen/_29pxh"
-                            android:layout_marginBottom="@dimen/_1pxv"
-                            android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:lineSpacingExtra="@dimen/_9pxh"
-                            android:singleLine="true"
-                            android:text="@{saategzersizVM.saategzersizModel.txt0300}"
-                            tools:text="@string/lbl_03_00" />
+
                     </FrameLayout>
                 </FrameLayout>
             </LinearLayout>
@@ -296,32 +285,27 @@
                         android:layout_gravity="start"
                         android:layout_height="@dimen/_100pxv" android:layout_width="@dimen/_150pxh">
 
-                        <ImageView
-                            android:id="@+id/imageRectangle2074Threeee4"
-                            android:layout_width="@dimen/_150pxh"
-                            android:layout_height="@dimen/_100pxv"
-                            android:layout_gravity="start"
-                            android:scaleType="fitXY"
-                            android:src="@drawable/img_rectangle2037"
-                            tools:ignore="ContentDescription"
-                            tools:src="@drawable/img_rectangle2037" />
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_saatkac"
+                            android:id="@+id/textInputLayMetinyazlacak3"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/textInputLayMetinyazlacak4"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={saategzersizVM.saategzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
 
-                        <TextView
-                            android:id="@+id/txt0645"
-                            style="@style/txtFiraSansregular40"
-                            android:layout_width="118dp"
-                            android:layout_height="52dp"
-                            android:layout_gravity="top|center"
-                            android:layout_marginStart="@dimen/_35pxh"
-                            android:layout_marginTop="@dimen/_10pxv"
-                            android:layout_marginEnd="@dimen/_29pxh"
-                            android:layout_marginBottom="@dimen/_1pxv"
-                            android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:lineSpacingExtra="@dimen/_9pxh"
-                            android:singleLine="true"
-                            android:text="@{saategzersizVM.saategzersizModel.txt0645}"
-                            tools:text="@string/lbl_06_45" />
+
                     </FrameLayout>
                 </FrameLayout>
             </LinearLayout>

@@ -22,7 +22,7 @@ class EslestirmehayvanlarActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val gridlivestockoneAdapter =
     GridlivestockoneAdapter(viewModel.gridlivestockoneList.value?:mutableListOf())
-    binding.recyclerGridlivestockone.adapter = gridlivestockoneAdapter
+   // binding.recyclerGridlivestockone.adapter = gridlivestockoneAdapter
     gridlivestockoneAdapter.setOnItemClickListener(
     object : GridlivestockoneAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Gridlivestockone1RowModel) {

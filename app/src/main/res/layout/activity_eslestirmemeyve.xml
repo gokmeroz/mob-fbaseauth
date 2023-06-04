@@ -77,16 +77,129 @@
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <androidx.recyclerview.widget.RecyclerView
-                android:gravity="center_horizontal"
-                android:id="@+id/recyclerGridhealthyfoodone"
+            <LinearLayout
+                android:id="@+id/meyvelersatir1"
+                android:layout_marginTop="@dimen/_15pxh"
+                android:layout_gravity="center"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_11pxh"
-                android:layout_marginTop="@dimen/_112pxv"
-                android:layout_width="match_parent"
-                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
-                app:spanCount="3" itemSpace="@{@dimen/_14pxh}"
-                tools:itemCount="12" tools:listitem="@layout/row_gridhealthyfoodone1"/>
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <ImageView android:id="@+id/meyveler1"
+                    android:layout_marginEnd="@dimen/_10pxh"
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+                <ImageView android:id="@+id/meyveler2"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+
+                <ImageView android:id="@+id/meyveler3"
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/meyvelersatir2"
+                android:layout_marginTop="@dimen/_15pxh"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <ImageView android:id="@+id/meyveler4"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+                <ImageView android:id="@+id/meyveler5"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+
+                <ImageView android:id="@+id/meyveler6"
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/meyvelersatir3"
+                android:layout_marginTop="@dimen/_15pxh"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <ImageView android:id="@+id/meyveler7"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+                <ImageView android:id="@+id/meyveler8"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+
+                <ImageView android:id="@+id/meyveler9"
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/meyvelersatir4"
+                android:layout_marginTop="@dimen/_15pxh"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+                <ImageView android:id="@+id/meyveler10"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+                <ImageView android:id="@+id/meyveler11"
+                    android:layout_marginEnd="@dimen/_10pxh"
+
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+
+                <ImageView android:id="@+id/meyveler12"
+                    android:layout_height="@dimen/_110pxh"
+                    android:layout_width="@dimen/_110pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_meyvelersecim}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_meyvelersecim"/>
+            </LinearLayout>
         </LinearLayout>
     </FrameLayout>
 </layout>

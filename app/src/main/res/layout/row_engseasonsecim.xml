@@ -11,7 +11,7 @@
             android:layout_height="@dimen/_150pxh"
             android:layout_width="@dimen/_150pxh"
             android:scaleType="fitXY"
-            imageRes="@{@drawable/img_48865861}"
-            tools:ignore="ContentDescription" tools:src="@drawable/img_48865861"/>
+            imageRes="@{@drawable/img_ilkbahar}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_ilkbahar"/>
     </FrameLayout>
 </layout>

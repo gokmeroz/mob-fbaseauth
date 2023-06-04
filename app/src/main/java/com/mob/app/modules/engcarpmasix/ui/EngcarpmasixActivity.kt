@@ -1,10 +1,14 @@
 package com.mob.app.modules.engcarpmasix.ui
 
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
 import android.view.View
 import androidx.activity.viewModels
 import com.mob.app.R
 import com.mob.app.appcomponents.base.BaseActivity
 import com.mob.app.databinding.ActivityEngcarpmasixBinding
+import com.mob.app.modules.engcarpmaseven.ui.EngcarpmasevenActivity
 import com.mob.app.modules.engcarpmasix.`data`.model.Listrectangle2071RowModel
 import com.mob.app.modules.engcarpmasix.`data`.model.Listrectangle2076RowModel
 import com.mob.app.modules.engcarpmasix.`data`.viewmodel.EngcarpmasixVM
@@ -23,7 +27,7 @@ class EngcarpmasixActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listrectangle2073Adapter =
     Listrectangle2073Adapter(viewModel.listrectangle2073List.value?:mutableListOf())
-    binding.recyclerListrectangle2073.adapter = listrectangle2073Adapter
+   // binding.recyclerListrectangle2073.adapter = listrectangle2073Adapter
     listrectangle2073Adapter.setOnItemClickListener(
     object : Listrectangle2073Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2076RowModel) {
@@ -36,7 +40,7 @@ class EngcarpmasixActivity :
     }
     val listrectangle2069Adapter =
     Listrectangle2069Adapter(viewModel.listrectangle2069List.value?:mutableListOf())
-    binding.recyclerListrectangle2069.adapter = listrectangle2069Adapter
+    //binding.recyclerListrectangle2069.adapter = listrectangle2069Adapter
     listrectangle2069Adapter.setOnItemClickListener(
     object : Listrectangle2069Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2071RowModel) {
@@ -77,6 +81,11 @@ class EngcarpmasixActivity :
 
   companion object {
     const val TAG: String = "ENGCARPMASIX_ACTIVITY"
+    fun getIntent(context: Context, bundle: Bundle?): Intent {
+      val destIntent = Intent(context, EngcarpmasixActivity::class.java)
+      destIntent.putExtra("bundle", bundle)
+      return destIntent
+    }
 
   }
 }

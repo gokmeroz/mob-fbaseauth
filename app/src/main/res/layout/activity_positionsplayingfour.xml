@@ -71,26 +71,57 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_1pxh"
                             android:text="@{positionsplayingfourVM.positionsplayingfourModel.txtHangisindetop}"
-                            style="@style/txtABeeZeeitalic20" tools:text="@string/msg_hangisinde_top4"/>
+                            style="@style/txtABeeZeeitalic20"
+                            tools:textSize="@dimen/_15pxh"
+                            tools:text="@string/msg_hangisinde_top4"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
-            <androidx.recyclerview.widget.RecyclerView
-                android:gravity="center_horizontal"
-                android:id="@+id/recyclerListbasketballone"
+            <LinearLayout android:id="@+id/linearRowPlayingOne"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/_21pxh"
-                android:layout_marginStart="@dimen/_21pxh"
-                android:layout_marginTop="@dimen/_119pxv"
-                android:layout_width="match_parent"
-                android:orientation="vertical"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                itemSpace="@{@dimen/_7pxh}" tools:itemCount="2" tools:listitem="@layout/row_listbasketballone5"/>
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_92pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/optionone"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_positionsplayingone}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_positionsplayingone"/>
+                <ImageView android:id="@+id/optiontwo"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_positionsplayingtwo}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_positionsplayingtwo"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearRowPlayingTwo"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_50pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/optionthree"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_positionsplayingthree}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_positionsplayingthree"/>
+                <ImageView android:id="@+id/optionfour"
+                    android:layout_height="@dimen/_150pxh"
+                    android:layout_marginStart="@dimen/_14pxh"
+                    android:layout_width="@dimen/_150pxh"
+                    android:scaleType="fitXY"
+                    imageRes="@{@drawable/img_positionsplayingfour}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_positionsplayingfour"/>
+            </LinearLayout>
             <LinearLayout android:gravity="center_vertical"
                 android:id="@+id/linearRowkontroledelim"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_1pxh"
-                android:layout_marginTop="@dimen/_170pxv"
+                android:layout_marginTop="@dimen/_100pxv"
                 android:layout_width="match_parent"
                 android:orientation="horizontal" style="@style/groupStylelight_blue_100cornerRadius">
                 <TextView android:ellipsize="end"

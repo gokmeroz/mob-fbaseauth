@@ -29,7 +29,7 @@
                         android:layout_marginTop="@dimen/_11pxv" android:layout_width="@dimen/_84pxh">
                         <ImageView android:id="@+id/imageBunnyege"
                             android:layout_gravity="start"
-                            android:layout_height="@dimen/_81pxh"
+                            android:layout_height="wrap_content"
                             android:layout_marginEnd="@dimen/_10pxh"
                             android:layout_width="@dimen/_79pxh"
                             android:scaleType="fitXY"
@@ -71,57 +71,40 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_1pxh"
                             android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtLetslistthe}"
-                            style="@style/txtABeeZeeitalic19_1" tools:text="@string/msg_let_s_list_the"/>
+                            style="@style/txtABeeZeeitalic19_1"
+                            tools:textSize="@dimen/_15pxh"
+                            tools:text="@string/msg_let_s_list_the"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
             <LinearLayout android:gravity="center_horizontal"
-                android:id="@+id/linearColumnrec136"
+                android:id="@+id/linearColumnrectangle2062"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_3pxh"
                 android:layout_marginStart="@dimen/_3pxh"
-                android:layout_marginTop="@dimen/_9pxv"
+                android:layout_marginTop="@dimen/_1pxv"
                 android:layout_width="match_parent"
                 android:orientation="vertical" style="@style/groupStylelight_blue_100">
-                <androidx.recyclerview.widget.RecyclerView
-                    android:gravity="center_horizontal"
-                    android:id="@+id/recyclerListrec136"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_12pxh"
-                    android:layout_marginStart="@dimen/_8pxh"
-                    android:layout_marginTop="@dimen/_15pxv"
-                    android:layout_width="match_parent"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    itemSpace="@{@dimen/_24pxh}" tools:itemCount="2" tools:listitem="@layout/row_listrec136"/>
-                <androidx.recyclerview.widget.RecyclerView
-                    android:gravity="center_horizontal"
-                    android:id="@+id/recyclerListrec130"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_12pxh"
-                    android:layout_marginStart="@dimen/_8pxh"
-                    android:layout_marginTop="@dimen/_24pxv"
-                    android:layout_width="match_parent"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    itemSpace="@{@dimen/_24pxh}" tools:itemCount="3" tools:listitem="@layout/row_listrec130"/>
                 <LinearLayout android:gravity="start"
-                    android:id="@+id/linearRowrec127"
+                    android:id="@+id/linearRowrectangle2078"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="@dimen/_46pxv"
                     android:layout_marginEnd="@dimen/_12pxh"
                     android:layout_marginStart="@dimen/_8pxh"
-                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_marginTop="@dimen/_1pxv"
                     android:layout_width="match_parent" android:orientation="horizontal">
                     <LinearLayout android:gravity="start"
-                        android:id="@+id/linearColumnrec127"
+                        android:id="@+id/linearColumnrectangle2078"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.53"
                         android:layout_width="0dp" android:orientation="vertical">
-                        <FrameLayout android:id="@+id/frameStackrec127"
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799"
                             android:layout_height="@dimen/_50pxv"
-                            android:layout_marginEnd="@dimen/_10pxh" android:layout_width="@dimen/_150pxh">
-                            <ImageView android:id="@+id/imageRec127"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799"
                                 android:layout_gravity="start"
                                 android:layout_height="@dimen/_50pxh"
                                 android:layout_width="@dimen/_150pxh"
@@ -129,24 +112,28 @@
                                 android:src="@drawable/img_clockl_amber_a100"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
                             <TextView android:ellipsize="end"
-                                android:id="@+id/txtWeekdayFour"
-                                android:layout_gravity="top|start"
+                                android:id="@+id/txtPriceOnee"
+                                android:layout_gravity="top|center"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="@dimen/_11pxv"
-                                android:layout_marginEnd="@dimen/_40pxh"
-                                android:layout_marginStart="@dimen/_40pxh"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
                                 android:layout_marginTop="@dimen/_11pxv"
                                 android:layout_width="wrap_content"
                                 android:lineSpacingExtra="@dimen/_4pxh"
                                 android:singleLine="true"
-                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtWeekdayFour}"
-                                style="@style/txtBubblegumSansregular20_6" tools:text="@string/lbl_friday"/>
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceOne}"
+                                style="@style/txtBubblegumSansregular20"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_sunday"/>
                         </FrameLayout>
-                        <FrameLayout android:id="@+id/frameStackrec126"
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799a"
                             android:layout_height="@dimen/_50pxv"
                             android:layout_marginEnd="@dimen/_10pxh"
                             android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
-                            <ImageView android:id="@+id/imageRec126"
+                            <ImageView
+                                android:id="@+id/imageRectangle20799a"
                                 android:layout_gravity="start"
                                 android:layout_height="@dimen/_50pxh"
                                 android:layout_width="@dimen/_150pxh"
@@ -154,33 +141,363 @@
                                 android:src="@drawable/img_clockl_amber_a100"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
                             <TextView android:ellipsize="end"
-                                android:gravity="top|start"
-                                android:id="@+id/txtWeekdayFive"
-                                android:layout_gravity="bottom|center"
+                                android:id="@+id/txtPriceOneea"
+                                android:layout_gravity="top|center"
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="@dimen/_11pxv"
-                                android:layout_marginEnd="@dimen/_29pxh"
-                                android:layout_marginStart="@dimen/_29pxh"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
                                 android:layout_marginTop="@dimen/_11pxv"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:lineSpacingExtra="@dimen/_4pxh"
                                 android:singleLine="true"
-                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtWeekdayFive}"
-                                style="@style/txtBubblegumSansregular20_2" tools:text="@string/lbl_saturday"/>
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceTwo}"
+                                style="@style/txtBubblegumSansregular20_2"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_monday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799b"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799b"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneeb"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceThree}"
+                                style="@style/txtBubblegumSansregular20_3"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_tuesday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799c"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799c"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneec"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceFour}"
+                                style="@style/txtBubblegumSansregular20_4"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_wednesday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799d"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799d"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneed"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceFive}"
+                                style="@style/txtBubblegumSansregular20_5"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_thursday"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079e"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079e"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOner"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceSix}"
+                                style="@style/txtBubblegumSansregular20_6"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_friday"/>
+                        </FrameLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOne"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{enggunleregzersizVM.enggunleregzersizModel.txtPriceSeven}"
+                                style="@style/txtBubblegumSansregular20_2"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_saturday"/>
                         </FrameLayout>
                     </LinearLayout>
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/recyclerWe"
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumnrectangle2078z"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.47"
-                        android:layout_width="0dp"
-                        android:orientation="vertical"
-                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                        itemSpace="@{@dimen/_24pxh}"
-                        style="@style/groupStylecornerRadius"
-                        tools:itemCount="2" tools:listitem="@layout/row_we"/>
+                        android:layout_weight="0.53"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799z"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak15"
+                                android:layout_height="@dimen/_50pxv"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak16"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.etMetinyazlacakValue}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                                </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799ax"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak4145"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak1446"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.etMetinyazlacakValue}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                           </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799bd"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                           
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak415"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak16444"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.etMetinyazlacakValue}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799cr"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak15e4"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak146"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.etMetinyazlacakValue}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle20799df"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak1354"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak1644"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.etMetinyazlacakValue}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>     </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079eh"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak151"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak161"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.etMetinyazlacakValue}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>          </FrameLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/frameStackrectangle2079u"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:hint="@string/lbl_day"
+                                android:id="@+id/textInputLayMetinyazlacak154"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/_14pxh"
+                                android:layout_marginStart="@dimen/_14pxh"
+                                android:layout_marginTop="@dimen/_1pxv"
+                                android:layout_width="match_parent"
+                                android:textColorHint="@color/black_900" style="@style/txtSolid">
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:ellipsize="end"
+                                    android:id="@+id/etMetinyazlacak1116"
+                                    android:inputType="text"
+                                    android:layout_height="wrap_content"
+                                    android:layout_width="match_parent"
+                                    android:singleLine="true"
+                                    android:text="@={enggunleregzersizVM.enggunleregzersizModel.txtPriceFour}"
+                                    android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                            </com.google.android.material.textfield.TextInputLayout>             </FrameLayout>
+                    </LinearLayout>
+
+
                 </LinearLayout>
             </LinearLayout>
+
+
             <LinearLayout android:gravity="center_vertical"
                 android:id="@+id/linearVisit"
                 android:layout_height="wrap_content"
@@ -204,7 +521,7 @@
                     android:layout_marginBottom="@dimen/_24pxv"
                     android:layout_marginEnd="@dimen/_120pxh"
                     android:layout_marginStart="@dimen/_10pxh"
-                    android:layout_marginTop="@dimen/_24pxv"
+                    android:layout_marginTop="@dimen/_34pxv"
                     android:layout_width="@dimen/_7pxh"
                     android:scaleType="fitXY"
                     android:src="@drawable/img_arrowright"

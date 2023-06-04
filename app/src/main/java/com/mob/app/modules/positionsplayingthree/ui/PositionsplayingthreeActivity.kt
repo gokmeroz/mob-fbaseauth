@@ -29,11 +29,11 @@ class PositionsplayingthreeActivity :
   }
 
   override fun setUpClicks(): Unit {
-    binding.frameStackgroupfiftyfive.setOnClickListener {
+    binding.optionone.setOnClickListener {
       val destIntent = PositionsplayingfourActivity.getIntent(this, null)
       startActivityForResult(destIntent, REQUEST_CODE_POSITIONSPLAYINGFOUR_ACTIVITY)
     }
-    binding.frameStackbasketballthree.setOnClickListener {
+    binding.optiontwo.setOnClickListener {
       this@PositionsplayingthreeActivity.alert(MyApp.getInstance().getString(R.string.msg_hadi_tekrar_deneyeli_m),
       MyApp.getInstance().getString(R.string.msg_maalesef_hatal_yan_t_ve_te_de)) {
         neutralButton {
@@ -43,14 +43,14 @@ class PositionsplayingthreeActivity :
     binding.linearRowkontroledelim.setOnClickListener {
       Toast.makeText(this@PositionsplayingthreeActivity,MyApp.getInstance().getString(R.string.msg_devam_etmek_i_in_bir_se_i),Toast.LENGTH_LONG).show()
     }
-    binding.linearColumnbasketballfour.setOnClickListener {
+    binding.optionfour.setOnClickListener {
       this@PositionsplayingthreeActivity.alert(MyApp.getInstance().getString(R.string.msg_hadi_tekrar_deneyeli_m),
       MyApp.getInstance().getString(R.string.msg_maalesef_hatal_yan_t_ve_te_de)) {
         neutralButton {
         }
       }
     }
-    binding.frameStackbasketballone.setOnClickListener {
+    binding.optionthree.setOnClickListener {
       this@PositionsplayingthreeActivity.alert(MyApp.getInstance().getString(R.string.msg_hadi_tekrar_deneyeli_m),
       MyApp.getInstance().getString(R.string.msg_maalesef_hatal_yan_t_ve_te_de)) {
         neutralButton {

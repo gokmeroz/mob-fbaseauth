@@ -28,7 +28,7 @@ class GunleregzersizActivity :
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listrectangle2062Adapter =
     Listrectangle2062Adapter(viewModel.listrectangle2062List.value?:mutableListOf())
-    binding.recyclerListrectangle2062.adapter = listrectangle2062Adapter
+   // binding.recyclerListrectangle2062.adapter = listrectangle2062Adapter
     listrectangle2062Adapter.setOnItemClickListener(
     object : Listrectangle2062Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2062RowModel) {
@@ -41,7 +41,7 @@ class GunleregzersizActivity :
     }
     val listrectangle2075Adapter =
     Listrectangle2075Adapter(viewModel.listrectangle2075List.value?:mutableListOf())
-    binding.recyclerListrectangle2075.adapter = listrectangle2075Adapter
+   // binding.recyclerListrectangle2075.adapter = listrectangle2075Adapter
     listrectangle2075Adapter.setOnItemClickListener(
     object : Listrectangle2075Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2075RowModel) {
@@ -54,7 +54,7 @@ class GunleregzersizActivity :
     }
     val listrectangle2080FiveAdapter =
     Listrectangle2080FiveAdapter(viewModel.listrectangle2080FiveList.value?:mutableListOf())
-    binding.recyclerListrectangle2080Five.adapter = listrectangle2080FiveAdapter
+   // binding.recyclerListrectangle2080Five.adapter = listrectangle2080FiveAdapter
     listrectangle2080FiveAdapter.setOnItemClickListener(
     object : Listrectangle2080FiveAdapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item :

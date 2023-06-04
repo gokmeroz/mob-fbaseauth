@@ -72,7 +72,9 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_1pxh"
                             android:text="@{gunleregzersizVM.gunleregzersizModel.txtHaftanngnler}"
-                            style="@style/txtABeeZeeitalic19_1" tools:text="@string/msg_haftan_n_g_nler"/>
+                            style="@style/txtABeeZeeitalic19_1"
+                            tools:textSize="@dimen/_15pxh"
+                            tools:text="@string/msg_haftan_n_g_nler"/>
                     </FrameLayout>
                 </LinearLayout>
             </androidx.appcompat.widget.Toolbar>
@@ -81,31 +83,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="@dimen/_3pxh"
                 android:layout_marginStart="@dimen/_3pxh"
-                android:layout_marginTop="@dimen/_9pxv"
+                android:layout_marginTop="@dimen/_1pxv"
                 android:layout_width="match_parent"
                 android:orientation="vertical" style="@style/groupStylelight_blue_100">
-                <androidx.recyclerview.widget.RecyclerView
-                    android:gravity="center_horizontal"
-                    android:id="@+id/recyclerListrectangle2062"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_12pxh"
-                    android:layout_marginStart="@dimen/_8pxh"
-                    android:layout_marginTop="@dimen/_15pxv"
-                    android:layout_width="match_parent"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    itemSpace="@{@dimen/_24pxh}" tools:itemCount="2" tools:listitem="@layout/row_listrectangle2062"/>
-                <androidx.recyclerview.widget.RecyclerView
-                    android:gravity="center_horizontal"
-                    android:id="@+id/recyclerListrectangle2075"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="@dimen/_12pxh"
-                    android:layout_marginStart="@dimen/_8pxh"
-                    android:layout_marginTop="@dimen/_24pxv"
-                    android:layout_width="match_parent"
-                    android:orientation="vertical"
-                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                    itemSpace="@{@dimen/_24pxh}" tools:itemCount="3" tools:listitem="@layout/row_listrectangle2075"/>
                 <LinearLayout android:gravity="start"
                     android:id="@+id/linearRowrectangle2078"
                     android:layout_height="wrap_content"
@@ -120,11 +100,12 @@
                         android:layout_weight="0.53"
                         android:layout_width="0dp" android:orientation="vertical">
                         <FrameLayout
-                            android:id="@+id/frameStackrectangle2078"
+                            android:id="@+id/ptesi"
                             android:layout_height="@dimen/_50pxv"
-                            android:layout_marginEnd="@dimen/_10pxh" android:layout_width="@dimen/_150pxh">
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
                             <ImageView
-                                android:id="@+id/imageRectangle2078"
+                                android:id="@+id/imageRectangle20799"
                                 android:layout_gravity="start"
                                 android:layout_height="@dimen/_50pxh"
                                 android:layout_width="@dimen/_150pxh"
@@ -132,22 +113,170 @@
                                 android:src="@drawable/img_clockl_amber_a100"
                                 tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
                             <TextView android:ellipsize="end"
-                                android:gravity="top|start"
-                                android:id="@+id/txtCUMARTES"
+                                android:id="@+id/txtPriceOnee"
                                 android:layout_gravity="top|center"
                                 android:layout_height="wrap_content"
-                                android:layout_marginBottom="@dimen/_10pxv"
-                                android:layout_marginEnd="@dimen/_25pxh"
-                                android:layout_marginStart="@dimen/_25pxh"
-                                android:layout_marginTop="@dimen/_9pxv"
-                                android:layout_width="match_parent"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
                                 android:lineSpacingExtra="@dimen/_4pxh"
                                 android:singleLine="true"
-                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtCUMARTES}"
-                                style="@style/txtBubblegumSansregular20_6" tools:text="@string/lbl_cumartes"/>
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceBir}"
+                                style="@style/txtBubblegumSansregular20"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_pazartes"/>
                         </FrameLayout>
                         <FrameLayout
-                            android:id="@+id/frameStackrectangle2079"
+                            android:id="@+id/sali"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799a"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneea"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceİki}"
+                                style="@style/txtBubblegumSansregular20_2"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_sali"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/carsamba"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799b"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneeb"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceUc}"
+                                style="@style/txtBubblegumSansregular20_3"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_ar_amba"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/persembe"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799c"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneec"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceFour}"
+                                style="@style/txtBubblegumSansregular20_4"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_per_embe"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/cuma"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle20799d"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOneed"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceFive}"
+                                style="@style/txtBubblegumSansregular20_5"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_cuma"/>
+                        </FrameLayout>
+                        <FrameLayout
+                            android:id="@+id/ctesi"
+                            android:layout_height="@dimen/_50pxv"
+                            android:layout_marginEnd="@dimen/_10pxh"
+                            android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
+                            <ImageView
+                                android:id="@+id/imageRectangle2079e"
+                                android:layout_gravity="start"
+                                android:layout_height="@dimen/_50pxh"
+                                android:layout_width="@dimen/_150pxh"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_clockl_amber_a100"
+                                tools:ignore="ContentDescription" tools:src="@drawable/img_clockl_amber_a100"/>
+                            <TextView android:ellipsize="end"
+                                android:id="@+id/txtPriceOner"
+                                android:layout_gravity="top|center"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="@dimen/_11pxv"
+                                android:layout_marginEnd="@dimen/_46pxh"
+                                android:layout_marginStart="@dimen/_46pxh"
+                                android:layout_marginTop="@dimen/_11pxv"
+                                android:layout_width="wrap_content"
+                                android:lineSpacingExtra="@dimen/_4pxh"
+                                android:singleLine="true"
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceSix}"
+                                style="@style/txtBubblegumSansregular20_6"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_cumartes"/>
+                        </FrameLayout>
+
+
+                        <FrameLayout
+                            android:id="@+id/pazar"
                             android:layout_height="@dimen/_50pxv"
                             android:layout_marginEnd="@dimen/_10pxh"
                             android:layout_marginTop="@dimen/_24pxv" android:layout_width="@dimen/_150pxh">
@@ -170,20 +299,156 @@
                                 android:layout_width="wrap_content"
                                 android:lineSpacingExtra="@dimen/_4pxh"
                                 android:singleLine="true"
-                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceOne}"
-                                style="@style/txtBubblegumSansregular20_2" tools:text="@string/lbl_pazar"/>
+                                android:text="@{gunleregzersizVM.gunleregzersizModel.txtPriceSeven}"
+                                style="@style/txtBubblegumSansregular20_2"
+                                tools:textSize="@dimen/_12pxh"
+                                tools:text="@string/lbl_pazar"/>
                         </FrameLayout>
                     </LinearLayout>
-                    <androidx.recyclerview.widget.RecyclerView
-                        android:id="@+id/recyclerListrectangle2080Five"
+                    <LinearLayout android:gravity="start"
+                        android:id="@+id/linearColumnrectangle2078z"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.47"
-                        android:layout_width="0dp"
-                        android:orientation="vertical"
-                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                        itemSpace="@{@dimen/_24pxh}"
-                        style="@style/groupStylecornerRadius"
-                        tools:itemCount="2" tools:listitem="@layout/row_listrectangle2080_five"/>
+                        android:layout_weight="0.53"
+                        android:layout_width="0dp" android:orientation="vertical">
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak111"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak112"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak113"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak114"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak115"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak116"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak117"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak118"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak118"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak119"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak119"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak120"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:hint="@string/lbl_gun"
+                            android:id="@+id/textInputLayMetinyazlacak121"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/_14pxh"
+                            android:layout_marginStart="@dimen/_14pxh"
+                            android:layout_marginTop="@dimen/_30pxv"
+                            android:layout_width="match_parent"
+                            android:textColorHint="@color/black_900" style="@style/txtSolid">
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:ellipsize="end"
+                                android:id="@+id/etMetinyazlacak122"
+                                android:inputType="text"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:singleLine="true"
+                                android:text="@={gunleregzersizVM.gunleregzersizModel.etMetinyazlacakValue}"
+                                android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
+                        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                    </LinearLayout>
+
+
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout android:gravity="center_vertical"

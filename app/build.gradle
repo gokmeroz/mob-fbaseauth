@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+
 }
 
 def koin_version = "2.1.6"
@@ -9,6 +11,8 @@ def lifecycleVersion = "2.2.0"
 def retrofitVersion = '2.9.0'
 def okhttpVersion = '4.9.0'
 def glideVersion = '4.11.0'
+
+
 
 
 android {
@@ -41,6 +45,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    namespace 'com.mob.app'
     buildFeatures {
         dataBinding true
     }
@@ -57,9 +62,13 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion"
     implementation "androidx.activity:activity-ktx:1.6.1"
     implementation "androidx.fragment:fragment-ktx:1.5.5"
-
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-auth:21.1.0'
     implementation 'com.google.android.material:material:1.7.0'
-
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+    implementation 'com.google.firebase:firebase-auth-ktx:22.0.0'
     implementation "io.insert-koin:koin-core:$koin_version"
     implementation "io.insert-koin:koin-core-ext:$koin_version"
     implementation "io.insert-koin:koin-androidx-scope:$koin_version"

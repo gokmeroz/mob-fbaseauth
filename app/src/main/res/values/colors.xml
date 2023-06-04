@@ -27,5 +27,10 @@
 <color name="pink_500">#f41585</color>
 <color name="yellow_100">#fffbd2</color>
 <color name="bluegray_902">#323941</color>
+
+
+    <color name="color_gray">#E0E0E0</color>
+    <color name="color_progress_none">#D32F2F</color>
+    <color name="color_progress_full">#03FA0E</color>
 <color name="bluegray_901">#292d32</color>
 </resources>

@@ -8,6 +8,7 @@ data class EslestirmemeyvetwoModel(
   /**
    * TODO Replace with dynamic value
    */
+  var etMetinyazlacakValue: String? = null,
   var txtHadieletirel: String? =
       MyApp.getInstance().resources.getString(R.string.msg_hadi_e_le_tirel)
 

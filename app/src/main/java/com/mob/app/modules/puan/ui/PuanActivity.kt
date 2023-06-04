@@ -17,8 +17,10 @@ class PuanActivity : BaseActivity<ActivityPuanBinding>(R.layout.activity_puan) {
   private val viewModel: PuanVM by viewModels<PuanVM>()
 
   private val REQUEST_CODE_SKORTABLO_ACTIVITY: Int = 210
+  var score:Int=0;
 
   override fun onInitialized(): Unit {
+    score=score+100
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     binding.puanVM = viewModel
   }

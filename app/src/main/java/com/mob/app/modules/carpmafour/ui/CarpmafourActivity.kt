@@ -25,7 +25,7 @@ class CarpmafourActivity : BaseActivity<ActivityCarpmafourBinding>(R.layout.acti
     viewModel.navArguments = intent.extras?.getBundle("bundle")
     val listrectangle2073Adapter =
     Listrectangle2073Adapter(viewModel.listrectangle2073List.value?:mutableListOf())
-    binding.recyclerListrectangle2073.adapter = listrectangle2073Adapter
+  //  binding.recyclerListrectangle2073.adapter = listrectangle2073Adapter
     listrectangle2073Adapter.setOnItemClickListener(
     object : Listrectangle2073Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2081RowModel) {
@@ -38,7 +38,7 @@ class CarpmafourActivity : BaseActivity<ActivityCarpmafourBinding>(R.layout.acti
     }
     val listrectangle2069Adapter =
     Listrectangle2069Adapter(viewModel.listrectangle2069List.value?:mutableListOf())
-    binding.recyclerListrectangle2069.adapter = listrectangle2069Adapter
+   // binding.recyclerListrectangle2069.adapter = listrectangle2069Adapter
     listrectangle2069Adapter.setOnItemClickListener(
     object : Listrectangle2069Adapter.OnItemClickListener {
       override fun onItemClick(view:View, position:Int, item : Listrectangle2082RowModel) {
