@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "911011544109",
-    "project_id": "mobb-ac00e",
-    "storage_bucket": "mobb-ac00e.appspot.com"
+    "project_number": "20861757083",
+    "project_id": "mobb-de11b",
+    "storage_bucket": "mobb-de11b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:911011544109:android:d383dbfb18630a0cd74ca4",
+        "mobilesdk_app_id": "1:20861757083:android:0c549a6f3e78340ae1883e",
         "android_client_info": {
           "package_name": "com.mob.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "911011544109-65g78skjjutq3r6mhhve5qk01um73gmi.apps.googleusercontent.com",
+          "client_id": "20861757083-fqgs21plub22r3ifdnk3o5osg0mhhbn5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCuiFPzwNto9KRaxRFGLk4VSm5XmVQQSOg"
+          "current_key": "AIzaSyCTTZ86eeDYqMCcDZYisxh4nf9DbOyRUYg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "911011544109-65g78skjjutq3r6mhhve5qk01um73gmi.apps.googleusercontent.com",
+              "client_id": "20861757083-fqgs21plub22r3ifdnk3o5osg0mhhbn5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

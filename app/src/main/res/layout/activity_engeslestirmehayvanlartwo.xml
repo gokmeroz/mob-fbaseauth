@@ -90,6 +90,21 @@
                     android:layout_width="@dimen/_150pxh"
                     android:layout_gravity="center"
                     >
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtmatchone"
+                        android:layout_gravity="center"
+                        android:gravity="left|center"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_17pxv"
+                        android:layout_marginEnd="@dimen/_26pxh"
+                        android:layout_marginStart="@dimen/_9pxh"
+                        android:layout_marginTop="@dimen/_17pxv"
+                        android:layout_width="match_parent"
+                        android:lineSpacingExtra="@dimen/_4pxh"
+                        android:singleLine="true"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchone}"
+                        style="@style/txtABeeZeeitalic20"
+                        tools:textSize="@dimen/_50pxh" />
 
                     <ImageView android:id="@+id/img_squirrel"
                         android:layout_gravity="center"
@@ -99,23 +114,6 @@
                         circular="@{true}"
                         imageRes="@{@drawable/img_squirrel}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_squirrel"/>
-
-                    <TextView
-                        android:id="@+id/txt1"
-                        style="@style/txtABeeZeeitalic20"
-                        android:layout_width="match_parent"
-                        android:layout_height="43dp"
-                        android:layout_marginStart="@dimen/_1pxh"
-                        android:layout_marginTop="@dimen/_17pxv"
-                        android:layout_marginEnd="@dimen/_26pxh"
-                        android:layout_marginBottom="@dimen/_17pxv"
-                        android:ellipsize="end"
-                        android:gravity="left|center"
-                        android:lineSpacingExtra="@dimen/_4pxh"
-                        android:singleLine="true"
-                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
-                        tools:text="@string/lbl_1"
-                        tools:textSize="@dimen/_50pxh" />
 
                 </FrameLayout>
                 <FrameLayout android:id="@+id/frameStackrectangle2074"
@@ -164,7 +162,7 @@
 
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
-                            android:id="@+id/txtHadieletire"
+                            android:id="@+id/txtmatchlion"
                             android:layout_gravity="left|center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_1pxv"
@@ -172,7 +170,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchlion}"
                             style="@style/txtBubblegumSansregular40"
                             tools:textSize="@dimen/_10pxh"
                             tools:text="@string/msg_aslan"/>
@@ -200,7 +198,7 @@
                         imageRes="@{@drawable/img_lion}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_lion"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txt2"
+                        android:id="@+id/txtmatchtwo"
                         android:layout_gravity="center"
                         android:gravity="left|center"
                         android:layout_height="wrap_content"
@@ -211,7 +209,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchtwo}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_2"/>
@@ -251,7 +249,7 @@
                             android:layout_height="@dimen/_100pxh"
                             android:layout_width="@dimen/_50pxh"
                             android:singleLine="true"
-                            android:text="@={engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.etMetinyazlacakValue}"
+                            android:text="@={engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchfox}"
                             android:textColor="@color/black_900" android:textSize="@dimen/_8pxh"/>
                     </com.google.android.material.textfield.TextInputLayout>
                     <FrameLayout android:id="@+id/frameStackellipse7"
@@ -262,7 +260,7 @@
                         android:layout_width="wrap_content">
 
                         <TextView
-                            android:id="@+id/txtHadieletir"
+                            android:id="@+id/txtmatchfox"
                             style="@style/txtBubblegumSansregular40"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -273,7 +271,7 @@
                             android:gravity="top|start"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchfox}"
                             tools:text="@string/msg_tilki"
                             tools:textSize="@dimen/_10pxh" />
                     </FrameLayout>
@@ -303,7 +301,7 @@
                         imageRes="@{@drawable/img_fox}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_fox"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txt3"
+                        android:id="@+id/txtmatchthree"
                         android:layout_gravity="center"
                         android:gravity="left|center"
                         android:layout_height="wrap_content"
@@ -314,7 +312,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchthree}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_3"/>
@@ -366,7 +364,7 @@
 
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
-                            android:id="@+id/txtHadieleti"
+                            android:id="@+id/txtmatchoctopus"
                             android:layout_gravity="left|center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_1pxv"
@@ -374,7 +372,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchoctopus}"
                             style="@style/txtBubblegumSansregular40"
                             tools:textSize="@dimen/_10pxh"
                             tools:text="@string/msg_ahtapot"/>
@@ -405,7 +403,7 @@
                         imageRes="@{@drawable/img_octopus}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_octopus"/>
                     <TextView android:ellipsize="end"
-                        android:id="@+id/txt4"
+                        android:id="@+id/txtmatchfour"
                         android:layout_gravity="center"
                         android:gravity="left|center"
                         android:layout_height="wrap_content"
@@ -416,7 +414,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchfour}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_4"/>
@@ -466,20 +464,21 @@
                         android:layout_marginBottom="@dimen/_1pxv"
                         android:layout_width="wrap_content">
 
-                        <TextView android:ellipsize="end"
-                            android:gravity="top|start"
-                            android:id="@+id/yesil"
-                            android:layout_gravity="left|center"
-                            android:layout_height="wrap_content"
-                            android:layout_marginBottom="@dimen/_1pxv"
-                            android:layout_marginTop="@dimen/_1pxv"
+                        <TextView
+                            android:id="@+id/txtmatchsquirral"
+                            style="@style/txtBubblegumSansregular40"
                             android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left|center"
+                            android:layout_marginTop="@dimen/_1pxv"
+                            android:layout_marginBottom="@dimen/_1pxv"
+                            android:ellipsize="end"
+                            android:gravity="top|start"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtLetsmatchthe}"
-                            style="@style/txtBubblegumSansregular40"
-                            tools:textSize="@dimen/_10pxh"
-                            tools:text="@string/msg_sincap"/>
+                            android:text="@{engeslestirmehayvanlartwoVM.engeslestirmehayvanlartwoModel.txtmatchsquirral}"
+                            tools:text="@string/msg_sincap"
+                            tools:textSize="@dimen/_10pxh" />
                     </FrameLayout>
 
 

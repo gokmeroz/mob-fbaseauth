@@ -11,6 +11,18 @@ data class EngeslestirmesayilartwoModel(
   var txtLetsmatchthe: String? =
       MyApp.getInstance().resources.getString(R.string.msg_let_s_match_the)
   ,
+  var txtmatchone: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_1)
+  ,
+  var txtmatchtwo: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_2)
+  ,  var txtmatchthree: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_3)
+  ,  var txtmatchfour: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_4)
+  ,
+
+
   var etMetinyazlacakValue: String? = null,
 
   /**

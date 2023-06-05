@@ -111,7 +111,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtmatchone}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_1"/>
@@ -193,7 +193,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtmatchtwo}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_2"/>
@@ -276,7 +276,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtmatchthree}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_3"/>
@@ -321,7 +321,7 @@
                         android:layout_width="@dimen/_100pxh"
                         android:scaleType="centerCrop"
                         circular="@{true}"
-                        imageRes="@{@drawable/img_snowman1}"
+                        imageRes="@{@drawable/img_pumpkin1}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_pumpkin1"/>
 
                 </FrameLayout>
@@ -358,7 +358,7 @@
                         android:layout_width="match_parent"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmesayilartwoVM.engeslestirmesayilartwoModel.txtmatchfour}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_4"/>

@@ -13,6 +13,17 @@ data class EslestirmehayvanlartwoModel(
   ,
   var etMetinyazlacakValue: String? = null
 ,
+  var txtmatchone: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_1)
+  ,
+  var txtmatchtwo: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_2)
+  ,  var txtmatchthree: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_3)
+  ,  var txtmatchfour: String? =
+    MyApp.getInstance().resources.getString(R.string.lbl_4)
+  ,
+
   /**
    * TODO Replace with dynamic value
    */

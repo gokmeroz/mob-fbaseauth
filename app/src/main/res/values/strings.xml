@@ -60,7 +60,11 @@ Sonbahar mevsimine hoş geldin!
     <string name="lbl_password">Password</string>
 <string name="lbl_banana">BANANA</string>
 <string name="lbl_isim">isim</string>
-<string name="lbl_pazar">PAZAR</string>
+    <string name="lbl_sifredogru">Şifrenizi doğrulayın</string>
+    <string name="lbl_passwordcon">Confirm your password</string>
+
+
+    <string name="lbl_pazar">PAZAR</string>
 
     <string name="lbl_4_x_3">4 X 3 =</string>
     <string name="lbl_4_x_2">4 X 2 =</string>
@@ -79,7 +83,9 @@ Sonbahar mevsimine hoş geldin!
 <string name="lbl_13">+1</string>
 <string name="lbl_10">10</string>
 <string name="lbl_sign_up">Sign up</string>
-<string name="lbl_turuncu">TURUNCU</string>
+    <string name="lbl_sign_up2">Sıgn up</string>
+
+    <string name="lbl_turuncu">TURUNCU</string>
 <string name="lbl_sim">İsim</string>
 <string name="lbl_ubat">ŞUBAT</string>
 <string name="msg_4_sepette_topla">4 sepette toplam 12 elma bulunurmuş.</string>
@@ -224,7 +230,7 @@ Bu bölümde analog saat okumayı öğreneceğiz. Saatler günlük yaşantımız
 Hadi öğrenelim!</string>
 <string name="msg_merhaba_bu_b6">Merhaba! 
 Bu bölümde ayları öğreneceğiz. 
-1 yılda 3 ay ilkbahar, 3 ay yaz, 3 yaz sonbahar, 3 ay kış olmak üzere toplam 12 ay vardır.
+1 yılda 3 ay ilkbahar, 3 ay yaz, 3 ay sonbahar, 3 ay kış olmak üzere toplam 12 ay vardır.
 Peki bunlar nedir?
 Hadi öğrenelim!</string>
 <string name="msg_merhaba_bu_b5">Merhaba! 
@@ -395,7 +401,9 @@ Let\u2019s get started!</string>
     <string name="lbl_1_x_0">1 X 0 =</string>
     <string name="msg_yukar_da_sorula">Yukarıda sorulan soru 3x4 çarpma işlemidir. Hadi görsel olarak bakalım!</string>
 <string name="lbl_pink">PINK</string>
-<string name="msg_unfortunately_y">UNFORTUNATELY YOU GAVE THE WRONG ANSWER :(
+    <string name="lbl_yellow">YELLOW</string>
+
+    <string name="msg_unfortunately_y">UNFORTUNATELY YOU GAVE THE WRONG ANSWER :(
 
 LET\u2019S TRY AGAIN!</string>
 <string name="lbl_mob">MOB</string>
@@ -403,7 +411,7 @@ LET\u2019S TRY AGAIN!</string>
 <string name="msg_in_front_of">...IN FRONT OF...</string>
 <string name="msg_which_season_do">Which season does the following images belong to?</string>
 <string name="lbl_3_x_3_9">3 X 3 = 9</string>
-<string name="lbl_email2">email</string>
+<string name="lbl_email2">Email</string>
 <string name="lbl_l_mon">LİMON</string>
 <string name="msg_press_the_start">Press the start button, listen to the audio, and then write in the box below</string>
 <string name="lbl_octopus">OCTOPUS</string>
@@ -556,7 +564,9 @@ Let\u2019s learn!</string>
 <string name="lbl_2_x_9">2 X 9 =</string>
 <string name="lbl_2_x_5">2 X 5 =</string>
 <string name="lbl_2_x_6">2 X 6 =</string>
-<string name="msg_arpma_i_lemini">Çarpma işleminin ne olduğunu öğrenmekle başlayalım</string>
+
+
+    <string name="msg_arpma_i_lemini">Çarpma işleminin ne olduğunu öğrenmekle başlayalım</string>
 <string name="lbl_2_x_7">2 X 7 =</string>
     <string name="lbl_2_x_8">2 X 8 =</string>
     <string name="lbl_2_x_4">2 X 4 =</string>

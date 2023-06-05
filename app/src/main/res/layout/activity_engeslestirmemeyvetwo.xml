@@ -103,7 +103,7 @@
                         tools:src="@drawable/img_grapes" />
 
                     <TextView
-                        android:id="@+id/txt1"
+                        android:id="@+id/txtmatchone"
                         style="@style/txtABeeZeeitalic20"
                         android:layout_width="match_parent"
                         android:layout_height="43dp"
@@ -115,7 +115,7 @@
                         android:gravity="left|center"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchone}"
                         tools:text="@string/lbl_1"
                         tools:textSize="@dimen/_50pxh" />
 
@@ -167,7 +167,7 @@
 
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
-                            android:id="@+id/txtHadieletire"
+                            android:id="@+id/txtmatchbanana"
                             android:layout_gravity="left|center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_1pxv"
@@ -175,7 +175,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchbanana}"
                             style="@style/txtBubblegumSansregular40"
                             tools:textSize="@dimen/_10pxh"
                             tools:text="@string/msg_muz"/>
@@ -206,7 +206,7 @@
                         imageRes="@{@drawable/img_pineapple}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_pineapple"/>
                     <TextView
-                        android:id="@+id/txt2"
+                        android:id="@+id/txtmatchtwo"
                         style="@style/txtABeeZeeitalic20"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -218,7 +218,7 @@
                         android:gravity="left|center"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchtwo}"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_2"/>
 
@@ -269,7 +269,7 @@
 
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
-                            android:id="@+id/txtHadieletir"
+                            android:id="@+id/txtmatchpeach"
                             android:layout_gravity="left|center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_1pxv"
@@ -277,7 +277,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchpeach}"
                             style="@style/txtBubblegumSansregular40"
                             tools:textSize="@dimen/_10pxh"
                             tools:text="@string/msg_seftali"/>
@@ -308,7 +308,7 @@
                         imageRes="@{@drawable/img_peach}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_peach"/>
                     <TextView
-                        android:id="@+id/txt3"
+                        android:id="@+id/txtmatchthree"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_1pxh"
@@ -319,7 +319,7 @@
                         android:gravity="left|center"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchthree}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_3"/>
@@ -371,7 +371,7 @@
 
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
-                            android:id="@+id/txtHadieleti"
+                            android:id="@+id/txtmatchgrape"
                             android:layout_gravity="left|center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_1pxv"
@@ -379,7 +379,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchgrape}"
                             style="@style/txtBubblegumSansregular40"
                             tools:textSize="@dimen/_10pxh"
                             tools:text="@string/msg_uzum"/>
@@ -410,7 +410,7 @@
                         imageRes="@{@drawable/img_banana}"
                         tools:ignore="ContentDescription" tools:src="@drawable/img_banana"/>
                     <TextView
-                        android:id="@+id/txt4"
+                        android:id="@+id/txtmatchfour"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="@dimen/_1pxh"
@@ -421,7 +421,7 @@
                         android:gravity="left|center"
                         android:lineSpacingExtra="@dimen/_4pxh"
                         android:singleLine="true"
-                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                        android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchfour}"
                         style="@style/txtABeeZeeitalic20"
                         tools:textSize="@dimen/_50pxh"
                         tools:text="@string/lbl_4"/>
@@ -473,7 +473,7 @@
 
                         <TextView android:ellipsize="end"
                             android:gravity="top|start"
-                            android:id="@+id/yesil"
+                            android:id="@+id/txtmatchbanan"
                             android:layout_gravity="left|center"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="@dimen/_1pxv"
@@ -481,7 +481,7 @@
                             android:layout_width="match_parent"
                             android:lineSpacingExtra="@dimen/_4pxh"
                             android:singleLine="false"
-                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtLetsmatchthe}"
+                            android:text="@{engeslestirmemeyvetwoVM.engeslestirmemeyvetwoModel.txtmatchbanana}"
                             style="@style/txtBubblegumSansregular40"
                             tools:textSize="@dimen/_10pxh"
                             tools:text="@string/msg_ananas"/>

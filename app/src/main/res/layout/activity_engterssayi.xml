@@ -14,9 +14,11 @@
             android:layout_marginStart="@dimen/_21pxh"
             android:layout_marginTop="@dimen/_35pxv"
             android:layout_width="match_parent" android:orientation="vertical">
-            <View android:background="@color/blue_100"
+            <TextView android:background="@color/blue_100"
+                android:textSize="@dimen/_176pxh"
                 android:id="@+id/sayigosterici"
                 android:layout_gravity="center_horizontal"
+                android:gravity="center"
                 android:layout_height="@dimen/_320pxh"
                 android:layout_marginEnd="@dimen/_14pxh"
                 android:layout_marginStart="@dimen/_14pxh" android:layout_width="@dimen/_320pxh"/>
